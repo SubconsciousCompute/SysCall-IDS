@@ -1,0 +1,1499 @@
+strace: Process 23165 attached
+1605899929.861145 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1
+1605899931.780161 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.780386 getuid32()            = 10487
+1605899931.780432 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=30218924, ...}, 0) = 0
+1605899931.780516 fstatat64(AT_FDCWD, "/data/app/com.vebbox.phonelock-p0IafFJ5awSOlYbTFSf_Aw==/base.apk", {st_mode=S_IFREG|0644, st_size=3008333, ...}, 0) = 0
+1605899931.780634 ioctl(8, BINDER_WRITE_READ, 0xffc9dab8) = 0
+1605899931.780689 ioctl(8, BINDER_WRITE_READ, 0xffc9dab8) = 0
+1605899931.783257 getuid32()            = 10487
+1605899931.783407 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=30218924, ...}, 0) = 0
+1605899931.783504 fstatat64(AT_FDCWD, "/data/app/com.vebbox.phonelock-p0IafFJ5awSOlYbTFSf_Aw==/base.apk", {st_mode=S_IFREG|0644, st_size=3008333, ...}, 0) = 0
+1605899931.783691 ioctl(8, BINDER_WRITE_READ, 0xffc9d9d8) = 0
+1605899931.783846 ioctl(8, BINDER_WRITE_READ, 0xffc9d9d8) = 0
+1605899931.784000 getuid32()            = 10487
+1605899931.784112 getuid32()            = 10487
+1605899931.784145 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899931.784206 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899931.784239 ioctl(31, ASHMEM_GET_SIZE, 0) = 84
+1605899931.784273 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899931.784317 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899931.784350 ioctl(31, ASHMEM_PIN, 0xffc9db80) = 0
+1605899931.784405 ioctl(8, BINDER_WRITE_READ, 0xffc9da58) = 0
+1605899931.784487 ioctl(8, BINDER_WRITE_READ, 0xffc9da58) = 0
+1605899931.786321 ioctl(8, BINDER_WRITE_READ, 0xffc9d4f8) = 0
+1605899931.786413 ioctl(8, BINDER_WRITE_READ, 0xffc9d4f8) = 0
+1605899931.787682 ioctl(8, BINDER_WRITE_READ, 0xffc9c4d8) = 0
+1605899931.787752 ioctl(8, BINDER_WRITE_READ, 0xffc9c4d8) = 0
+1605899931.789541 ioctl(8, BINDER_WRITE_READ, 0xffc9c838) = 0
+1605899931.789630 ioctl(8, BINDER_WRITE_READ, 0xffc9c838) = 0
+1605899931.790281 ioctl(8, BINDER_WRITE_READ, 0xffc9d548) = 0
+1605899931.790363 ioctl(8, BINDER_WRITE_READ, 0xffc9d548) = 0
+1605899931.790820 getuid32()            = 10487
+1605899931.790968 ioctl(8, BINDER_WRITE_READ, 0xffc9d508) = 0
+1605899931.791099 ioctl(8, BINDER_WRITE_READ, 0xffc9d508) = 0
+1605899931.791442 getuid32()            = 10487
+1605899931.791541 ioctl(8, BINDER_WRITE_READ, 0xffc9d408) = 0
+1605899931.791692 ioctl(8, BINDER_WRITE_READ, 0xffc9d408) = 0
+1605899931.791788 ioctl(8, BINDER_WRITE_READ, 0xffc9d518) = 0
+1605899931.791905 ioctl(8, BINDER_WRITE_READ, 0xffc9d518) = 0
+1605899931.791978 ioctl(8, BINDER_WRITE_READ, 0xffc9d498) = 0
+1605899931.792132 ioctl(8, BINDER_WRITE_READ, 0xffc9d498) = 0
+1605899931.792255 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0%\0\0\0", 30, 28888281) = 30
+1605899931.792356 pread64(24, "res/layout/transient_notificatio"..., 37, 28888311) = 37
+1605899931.792422 mmap2(NULL, 3766, PROT_READ, MAP_SHARED, 24, 0x1b8c000) = 0xe97ce000
+1605899931.792531 munmap(0xe97ce000, 3766) = 0
+1605899931.793157 ioctl(8, BINDER_WRITE_READ, 0xffc9d558) = 0
+1605899931.795380 ioctl(8, BINDER_WRITE_READ, 0xffc9d558) = 0
+1605899931.795571 ioctl(8, BINDER_WRITE_READ, 0xffc9c988) = 0
+1605899931.797337 ioctl(8, BINDER_WRITE_READ, 0xffc9c988) = 0
+1605899931.797940 ioctl(8, BINDER_WRITE_READ, 0xffc9c988) = 0
+1605899931.798376 ioctl(8, BINDER_WRITE_READ, 0xffc9c988) = 0
+1605899931.799451 faccessat(AT_FDCWD, "/data/user/0/com.vebbox.phonelock", F_OK) = 0
+1605899931.799654 faccessat(AT_FDCWD, "/data/user/0/com.vebbox.phonelock/shared_prefs", F_OK) = 0
+1605899931.799876 ioctl(8, BINDER_WRITE_READ, 0xffc9d3f8) = 0
+1605899931.800094 ioctl(8, BINDER_WRITE_READ, 0xffc9d3f8) = 0
+1605899931.800579 getuid32()            = 10487
+1605899931.800965 getuid32()            = 10487
+1605899931.801163 ioctl(8, BINDER_WRITE_READ, 0xffc9d4b8) = 0
+1605899931.801418 ioctl(8, BINDER_WRITE_READ, 0xffc9d4b8) = 0
+1605899931.801636 faccessat(AT_FDCWD, "/data/user/0/com.vebbox.phonelock/shared_prefs", F_OK) = 0
+1605899931.801818 getuid32()            = 10487
+1605899931.801981 getuid32()            = 10487
+1605899931.802184 ioctl(8, BINDER_WRITE_READ, 0xffc9d4b8) = 0
+1605899931.802373 ioctl(8, BINDER_WRITE_READ, 0xffc9d4b8) = 0
+1605899931.802967 ioctl(8, BINDER_WRITE_READ, 0xffc9d558) = 0
+1605899931.803207 ioctl(8, BINDER_WRITE_READ, 0xffc9d558) = 0
+1605899931.803768 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 28714506) = 30
+1605899931.803978 pread64(24, "res/interpolator/linear_out_slow"..., 39, 28714536) = 39
+1605899931.804234 mmap2(NULL, 1828, PROT_READ, MAP_SHARED, 24, 0x1b62000) = 0xe97ce000
+1605899931.804502 munmap(0xe97ce000, 1828) = 0
+1605899931.804805 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0'\0\0\0", 30, 28710049) = 30
+1605899931.805031 pread64(24, "res/interpolator/fast_out_linear"..., 39, 28710079) = 39
+1605899931.805332 mmap2(NULL, 1467, PROT_READ, MAP_SHARED, 24, 0x1b61000) = 0xe97ce000
+1605899931.805558 munmap(0xe97ce000, 1467) = 0
+1605899931.805895 ioctl(8, BINDER_WRITE_READ, 0xffc9c9d8) = 0
+1605899931.806181 ioctl(8, BINDER_WRITE_READ, 0xffc9c9d8) = 0
+1605899931.806514 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\34\0\0\0", 30, 28852163) = 30
+1605899931.806776 pread64(24, "res/layout/screen_simple.xml", 28, 28852193) = 28
+1605899931.807160 mmap2(NULL, 4542, PROT_READ, MAP_SHARED, 24, 0x1b83000) = 0xe8023000
+1605899931.807455 munmap(0xe8023000, 4542) = 0
+1605899931.807688 mprotect(0x73609000, 4096, PROT_READ|PROT_WRITE) = 0
+1605899931.808082 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\27\0\0\0", 30, 28922499) = 30
+1605899931.808295 pread64(24, "res/transition/fade.xml", 23, 28922529) = 23
+1605899931.808440 mmap2(NULL, 822, PROT_READ, MAP_SHARED, 24, 0x1b95000) = 0xe97ce000
+1605899931.808617 munmap(0xe97ce000, 822) = 0
+1605899931.808812 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\27\0\0\0", 30, 28922694) = 30
+1605899931.808984 pread64(24, "res/transition/move.xml", 23, 28922724) = 23
+1605899931.809129 mmap2(NULL, 1121, PROT_READ, MAP_SHARED, 24, 0x1b95000) = 0xe97ce000
+1605899931.809374 munmap(0xe97ce000, 1121) = 0
+1605899931.809636 pread64(30, "PK\3\4\0\0\0\0\10\0\0\0\0\0\33\303\242q\215\1\0\0@\3\0\0 \0\0\0", 30, 2224894) = 30
+1605899931.809836 pread64(30, "res/layout/abc_screen_simple.xml", 32, 2224924) = 32
+1605899931.810026 mmap2(NULL, 1225, PROT_READ, MAP_SHARED, 30, 0x21f000) = 0xe97ce000
+1605899931.810192 munmap(0xe97ce000, 1225) = 0
+1605899931.810473 pread64(30, "PK\3\4\0\0\0\0\10\0\0\0\0\0\316\253d~)\1\0\0$\2\0\0)\0\0\0", 30, 2224526) = 30
+1605899931.810656 pread64(30, "res/layout/abc_screen_content_in"..., 41, 2224556) = 41
+1605899931.810815 mmap2(NULL, 766, PROT_READ, MAP_SHARED, 30, 0x21f000) = 0xe97ce000
+1605899931.810960 munmap(0xe97ce000, 766) = 0
+1605899931.811358 mprotect(0x7360a000, 4096, PROT_READ|PROT_WRITE) = 0
+1605899931.811585 pread64(30, "PK\3\4\0\0\0\0\10\0\0\0\0\0Z[#\314>\n\0\0008F\0\0\34\0\0\0", 30, 2232213) = 30
+1605899931.811753 pread64(30, "res/layout/activity_main.xml", 28, 2232243) = 28
+1605899931.811977 mmap2(NULL, 6669, PROT_READ, MAP_SHARED, 30, 0x220000) = 0xe8023000
+1605899931.812749 munmap(0xe8023000, 6669) = 0
+1605899931.813847 getuid32()            = 10487
+1605899931.814748 writev(3, [{iov_base="\0}Z\233\26\270_;\223\2010", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="zygote\0", iov_len=7}, {iov_base="Deoptimizing void android.suppor"..., iov_len=154}], 4) = 173
+1605899931.817127 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899931.838522 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899931.842536 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899931.842911 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899931.846633 ioctl(8, BINDER_WRITE_READ, 0xffc9b688) = 0
+1605899931.846810 ioctl(8, BINDER_WRITE_READ, 0xffc9b688) = 0
+1605899931.854848 futex(0xe6a15180, FUTEX_WAIT, 1, NULL) = -1 EAGAIN (Try again)
+1605899931.855312 futex(0xdfbc0340, FUTEX_CMP_REQUEUE, 0, 2147483647, 0xdfbc0320, 1) = 1
+1605899931.855879 futex(0xdfbc0320, FUTEX_WAKE, 1) = 1
+1605899931.857360 ioctl(8, BINDER_WRITE_READ, 0xffc9d538) = 0
+1605899931.857721 ioctl(8, BINDER_WRITE_READ, 0xffc9d538) = 0
+1605899931.858094 ioctl(8, BINDER_WRITE_READ, 0xffc9d438) = 0
+1605899931.858624 ioctl(8, BINDER_WRITE_READ, 0xffc9dab8) = 0
+1605899931.859104 ioctl(8, BINDER_WRITE_READ, 0xffc9da98) = 0
+1605899931.859753 ioctl(8, BINDER_WRITE_READ, 0xffc9db98) = 0
+1605899931.860641 ioctl(8, BINDER_WRITE_READ, 0xffc9db98) = 0
+1605899931.860966 ioctl(8, BINDER_WRITE_READ, 0xffc9d548) = 0
+1605899931.861711 getuid32()            = 10487
+1605899931.862028 getuid32()            = 10487
+1605899931.862395 writev(3, [{iov_base="\2}Z\233\26\270_)d`3", iov_len=11}, {iov_base="Fu\0\0", iov_len=4}, {iov_base="\3\3\0\0\0\0\0\2!\0\0\0com.vebbox.phonelock"..., iov_len=65}], 3) = 80
+1605899931.862909 ioctl(8, BINDER_WRITE_READ, 0xffc9db88) = 0
+1605899931.863281 ioctl(8, BINDER_WRITE_READ, 0xffc9db88) = 0
+1605899931.863796 ioctl(8, BINDER_WRITE_READ, 0xffc9da08) = 0
+1605899931.864474 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.864735 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.865090 futex(0xdcfb2d70, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.865313 futex(0xdcfb2d74, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899931.865604 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.865958 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.866309 futex(0xdcfb2d70, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.866683 futex(0xdcfb2d74, FUTEX_WAIT_BITSET_PRIVATE, 6, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899931.866907 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.867488 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.869558 futex(0xdcfb2d70, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.870492 futex(0xdcfb2d74, FUTEX_WAIT_BITSET_PRIVATE, 10, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899931.871000 recvfrom(35, 0xffc9d1b8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899931.871381 ioctl(8, BINDER_WRITE_READ, 0xffc9d8c8) = 0
+1605899931.871934 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.872369 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.872699 ioctl(8, BINDER_WRITE_READ, 0xffc9da78) = 0
+1605899931.873547 ioctl(8, BINDER_WRITE_READ, 0xffc9da78) = 0
+1605899931.873805 dup(40)               = 44
+1605899931.873986 fcntl64(44, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+1605899931.874170 close(40)             = 0
+1605899931.874371 epoll_ctl(26, EPOLL_CTL_ADD, 44, {EPOLLIN, {u32=44, u64=44}}) = 0
+1605899931.874602 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899931.874910 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899931.875136 ioctl(8, BINDER_WRITE_READ, 0xffc9db88) = 0
+1605899931.875466 ioctl(8, BINDER_WRITE_READ, 0xffc9db88) = 0
+1605899931.875785 getuid32()            = 10487
+1605899931.876088 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.876320 getuid32()            = 10487
+1605899931.876869 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 1
+1605899931.877124 recvfrom(35, "nysv\0\0\0\0\246X\350\371\334\232\0\0\242\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899931.877638 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899931.877945 getuid32()            = 10487
+1605899931.878212 ioctl(8, BINDER_WRITE_READ, 0xffc9d608) = 0
+1605899931.878566 ioctl(8, BINDER_WRITE_READ, 0xffc9d608) = 0
+1605899931.878946 ioctl(8, BINDER_WRITE_READ, 0xffc9d618) = 0
+1605899931.879622 ioctl(8, BINDER_WRITE_READ, 0xffc9d618) = 0
+1605899931.879884 ioctl(8, BINDER_WRITE_READ, 0xffc9dbe8) = 0
+1605899931.881146 getuid32()            = 10487
+1605899931.882899 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.886440 ioctl(8, BINDER_WRITE_READ, 0xffc9db58) = 0
+1605899931.887258 ioctl(8, BINDER_WRITE_READ, 0xffc9db58) = 0
+1605899931.887794 ioctl(8, BINDER_WRITE_READ, 0xffc9da98) = 0
+1605899931.888438 ioctl(8, BINDER_WRITE_READ, 0xffc9da98) = 0
+1605899931.888910 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.889423 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.889810 futex(0xdcfb2e10, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.890190 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899931.891043 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.891579 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.892231 futex(0xdcfb2e10, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.892571 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 6, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899931.892842 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.893451 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.893685 futex(0xdcfb2e10, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.894135 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 10, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899931.894507 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.894814 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.895055 madvise(0xda8ff000, 4096, MADV_DONTNEED) = 0
+1605899931.895392 ioctl(8, BINDER_WRITE_READ, 0xffc9db08) = 0
+1605899931.896380 ioctl(8, BINDER_WRITE_READ, 0xffc9db08) = 0
+1605899931.896713 dup(40)               = 47
+1605899931.897212 fcntl64(47, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+1605899931.897473 close(40)             = 0
+1605899931.897753 epoll_ctl(26, EPOLL_CTL_ADD, 47, {EPOLLIN, {u32=47, u64=47}}) = 0
+1605899931.898423 ioctl(8, BINDER_WRITE_READ, 0xffc9da88) = 0
+1605899931.899035 ioctl(8, BINDER_WRITE_READ, 0xffc9da88) = 0
+1605899931.899910 getuid32()            = 10487
+1605899931.900693 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.901505 ioctl(8, BINDER_WRITE_READ, 0xffc9d5d8) = 0
+1605899931.903407 ioctl(8, BINDER_WRITE_READ, 0xffc9d5d8) = 0
+1605899931.903851 getuid32()            = 10487
+1605899931.904478 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.904791 getuid32()            = 10487
+1605899931.905182 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.905602 getuid32()            = 10487
+1605899931.905856 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.906207 getuid32()            = 10487
+1605899931.906583 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.906827 getuid32()            = 10487
+1605899931.907167 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.907534 getuid32()            = 10487
+1605899931.907824 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.908092 getuid32()            = 10487
+1605899931.908369 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.908614 getuid32()            = 10487
+1605899931.908838 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.909073 getuid32()            = 10487
+1605899931.909297 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.909531 getuid32()            = 10487
+1605899931.910031 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.910031 getuid32()            = 10487
+1605899931.910031 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.910032 getuid32()            = 10487
+1605899931.910032 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.910032 getuid32()            = 10487
+1605899931.910032 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.910032 getuid32()            = 10487
+1605899931.914516 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.914838 getuid32()            = 10487
+1605899931.915233 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.915431 getuid32()            = 10487
+1605899931.915748 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.916405 getuid32()            = 10487
+1605899931.916746 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.917493 getuid32()            = 10487
+1605899931.917908 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.918401 getuid32()            = 10487
+1605899931.918988 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.919663 getuid32()            = 10487
+1605899931.920355 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.920511 getuid32()            = 10487
+1605899931.920886 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.921237 getuid32()            = 10487
+1605899931.921614 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.923115 getuid32()            = 10487
+1605899931.926158 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.927914 getuid32()            = 10487
+1605899931.928240 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.928663 getuid32()            = 10487
+1605899931.928863 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.929469 getuid32()            = 10487
+1605899931.929726 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.930023 getuid32()            = 10487
+1605899931.930415 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.930609 getuid32()            = 10487
+1605899931.930873 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.931077 getuid32()            = 10487
+1605899931.931437 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.931612 getuid32()            = 10487
+1605899931.931998 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.932317 getuid32()            = 10487
+1605899931.932669 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.933158 getuid32()            = 10487
+1605899931.933667 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.934279 getuid32()            = 10487
+1605899931.934812 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.935375 getuid32()            = 10487
+1605899931.935982 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.936784 getuid32()            = 10487
+1605899931.937260 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.937791 getuid32()            = 10487
+1605899931.938226 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.938937 getuid32()            = 10487
+1605899931.939376 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.940069 getuid32()            = 10487
+1605899931.942194 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.947992 getuid32()            = 10487
+1605899931.948175 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.948278 getuid32()            = 10487
+1605899931.948332 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.948404 getuid32()            = 10487
+1605899931.948457 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.948540 getuid32()            = 10487
+1605899931.948710 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.948791 getuid32()            = 10487
+1605899931.948863 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.948952 getuid32()            = 10487
+1605899931.949224 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.949311 getuid32()            = 10487
+1605899931.949382 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.949451 getuid32()            = 10487
+1605899931.949524 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.949591 getuid32()            = 10487
+1605899931.949682 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.949783 getuid32()            = 10487
+1605899931.950009 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.950108 getuid32()            = 10487
+1605899931.950184 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.950245 getuid32()            = 10487
+1605899931.950555 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.950829 getuid32()            = 10487
+1605899931.950917 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.951022 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.951143 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.951233 futex(0xdcfb2d74, FUTEX_WAIT_BITSET_PRIVATE, 14, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899931.951358 getuid32()            = 10487
+1605899931.951507 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899931.951612 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899931.951709 recvfrom(47, 0xcc511010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899931.951781 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.952438 recvfrom(35, 0xffc9c808, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899931.952502 ioctl(8, BINDER_WRITE_READ, 0xffc9cf18) = 0
+1605899931.954039 futex(0xe6aec728, FUTEX_WAKE, 1) = 1
+1605899931.954147 futex(0xe6ad9fd0, FUTEX_WAKE, 1) = 1
+1605899931.957664 openat(AT_FDCWD, "/sys/devices/system/cpu", O_RDONLY|O_LARGEFILE|O_DIRECTORY|O_CLOEXEC) = 40
+1605899931.958217 getdents64(40, /* 18 entries */, 4140) = 528
+1605899931.958658 getdents64(40, /* 0 entries */, 4140) = 0
+1605899931.959028 close(40)             = 0
+1605899931.959443 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 40
+1605899931.965521 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899931.965584 ioctl(40, ASHMEM_SET_NAME, 0xffc9ce90) = 0
+1605899931.965631 ioctl(40, _IOC(_IOC_WRITE, 0x77, 0x3, 0x4), 0x2000) = 0
+1605899931.965682 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE, 40, 0) = 0xe8023000
+1605899931.965784 close(40)             = 0
+1605899931.965867 mmap2(NULL, 1069056, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xcba7b000
+1605899931.966063 madvise(0xcba7b000, 1069056, MADV_MERGEABLE) = 0
+1605899931.966133 mprotect(0xcba7b000, 4096, PROT_NONE) = 0
+1605899931.966200 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xcba7b000, 4096, "thread stack guard page") = 0
+1605899931.966418 mmap2(NULL, 20480, PROT_NONE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0xe7dfc000
+1605899931.966580 madvise(0xe7dfc000, 20480, MADV_MERGEABLE) = 0
+1605899931.966862 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xe7dfc000, 20480, "bionic TLS guard page") = 0
+1605899931.967014 mprotect(0xe7dfd000, 12288, PROT_READ|PROT_WRITE) = 0
+1605899931.967206 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xe7dfd000, 12288, "bionic TLS") = 0
+1605899931.967286 clone(child_stack=0xcbb7f960, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0xcbb7f978, tls=0xffc9d110, child_tidptr=0xcbb7f978) = 23310
+1605899931.967580 ioctl(8, BINDER_WRITE_READ, 0xffc9d4e8) = 0
+1605899931.967740 ioctl(8, BINDER_WRITE_READ, 0xffc9d4e8) = 0
+1605899931.968399 ioctl(8, BINDER_WRITE_READ, 0xffc9d658) = 0
+1605899931.968606 ioctl(8, BINDER_WRITE_READ, 0xffc9d658) = 0
+1605899931.968863 ioctl(8, BINDER_WRITE_READ, 0xffc9d648) = 0
+1605899931.968958 ioctl(8, BINDER_WRITE_READ, 0xffc9d648) = 0
+1605899931.969803 ioctl(8, BINDER_WRITE_READ, 0xffc9d658) = 0
+1605899931.969975 ioctl(8, BINDER_WRITE_READ, 0xffc9d658) = 0
+1605899931.970098 ioctl(8, BINDER_WRITE_READ, 0xffc9d648) = 0
+1605899931.970206 ioctl(8, BINDER_WRITE_READ, 0xffc9d648) = 0
+1605899931.972651 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899931.972786 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899931.972901 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899931.973056 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899931.975306 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.975451 futex(0xdcfb2d74, FUTEX_WAIT_BITSET_PRIVATE, 18, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899931.975598 ioctl(8, BINDER_WRITE_READ, 0xffc9d9a8) = 0
+1605899931.975737 ioctl(8, BINDER_WRITE_READ, 0xffc9d9a8) = 0
+1605899931.980348 ioctl(8, BINDER_WRITE_READ, 0xffc9d7d8) = 0
+1605899931.980473 ioctl(8, BINDER_WRITE_READ, 0xffc9d7d8) = 0
+1605899931.980848 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.980982 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.981591 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899931.981805 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899931.981997 getuid32()            = 10487
+1605899931.982361 ioctl(8, BINDER_WRITE_READ, 0xffc9cea8) = 0
+1605899931.982942 getuid32()            = 10487
+1605899931.983173 ioctl(8, BINDER_WRITE_READ, 0xffc9cf28) = 0
+1605899931.983408 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899931.983522 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899931.983619 ioctl(8, BINDER_WRITE_READ, 0xffc9d978) = 0
+1605899931.983722 ioctl(8, BINDER_WRITE_READ, 0xffc9d978) = 0
+1605899932.021126 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.021208 ioctl(8, BINDER_WRITE_READ, 0xffc9d938) = 0
+1605899932.021268 ioctl(8, BINDER_WRITE_READ, 0xffc9d938) = 0
+1605899932.022197 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899932.022385 futex(0xe6aefde0, FUTEX_WAKE, 1) = 0
+1605899932.024115 getuid32()            = 10487
+1605899932.024205 ioctl(8, BINDER_WRITE_READ, 0xffc9d938) = 0
+1605899932.024399 ioctl(8, BINDER_WRITE_READ, 0xffc9d8c8) = 0
+1605899932.024479 ioctl(8, BINDER_WRITE_READ, 0xffc9d8c8) = 0
+1605899932.024845 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 14, NULL, 0xffffffff) = 0
+1605899932.058209 ioctl(8, BINDER_WRITE_READ, 0xffc9d9a8) = 0
+1605899932.058451 ioctl(8, BINDER_WRITE_READ, 0xffc9d9a8) = 0
+1605899932.135437 ioctl(8, BINDER_WRITE_READ, 0xffc9d7d8) = 0
+1605899932.135534 ioctl(8, BINDER_WRITE_READ, 0xffc9d7d8) = 0
+1605899932.135825 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.135961 ioctl(8, BINDER_WRITE_READ, 0xffc9d978) = 0
+1605899932.136100 ioctl(8, BINDER_WRITE_READ, 0xffc9d978) = 0
+1605899932.141082 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.141161 ioctl(8, BINDER_WRITE_READ, 0xffc9d938) = 0
+1605899932.141216 ioctl(8, BINDER_WRITE_READ, 0xffc9d938) = 0
+1605899932.141676 getuid32()            = 10487
+1605899932.141799 ioctl(8, BINDER_WRITE_READ, 0xffc9cf88) = 0
+1605899932.141998 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.142170 getuid32()            = 10487
+1605899932.142447 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=35, u64=35}}, {EPOLLIN, {u32=44, u64=44}}], 16, 0, NULL, 8) = 3
+1605899932.142532 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.142636 recvfrom(35, "nysv\0\0\0\0\322\27\341\376\334\232\0\0\247\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.142988 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.143634 recvfrom(44, "\1\0\0\0\0\0\0\0\3634\0\0\0\0\0\0@9\265\364\334\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.144193 getuid32()            = 10487
+1605899932.144318 writev(3, [{iov_base="\3}Z\234\26\270_\27\330\227\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=212}], 4) = 251
+1605899932.144557 sendto(44, "\3\0\0\0\220j\230\346\3634\0\0\0\377\377\377", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.144815 recvfrom(44, "\1\0\0\0\0\0\0\0\3654\0\0\0\0\0\0\0\247\27\0\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.145556 getuid32()            = 10487
+1605899932.145600 writev(3, [{iov_base="\3}Z\234\26\270_\376\n\243\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.146002 getuid32()            = 10487
+1605899932.146135 writev(3, [{iov_base="\3}Z\234\26\270_0\315\256\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.146278 getuid32()            = 10487
+1605899932.146357 writev(3, [{iov_base="\3}Z\234\26\270__\306\267\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.146479 getuid32()            = 10487
+1605899932.146551 writev(3, [{iov_base="\3}Z\234\26\270_\354\333\272\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.146719 getuid32()            = 10487
+1605899932.146781 writev(3, [{iov_base="\3}Z\234\26\270_\243\226\276\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.146901 getuid32()            = 10487
+1605899932.146970 writev(3, [{iov_base="\3}Z\234\26\270_\261S\301\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.147159 sendto(44, "\3\0\0\0\273\243b\346\3654\0\0\1O\212\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.147589 recvfrom(44, "\1\0\0\0\0\0\0\0\3674\0\0\0\0\0\0\0\30\336\t\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.147887 getuid32()            = 10487
+1605899932.147971 writev(3, [{iov_base="\3}Z\234\26\270_\251\311\316\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=215}], 4) = 254
+1605899932.148079 sendto(44, "\3\0\0\0\220j\230\346\3674\0\0\0\255Y\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.148213 recvfrom(44, "\1\0\0\0\0\0\0\0\3714\0\0\0\0\0\0\300\336\v\n\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.148311 getuid32()            = 10487
+1605899932.148337 writev(3, [{iov_base="\3}Z\234\26\270_+\345\326\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=216}], 4) = 255
+1605899932.148394 getuid32()            = 10487
+1605899932.148420 writev(3, [{iov_base="\3}Z\234\26\270_\3150\330\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=216}], 4) = 255
+1605899932.148476 getuid32()            = 10487
+1605899932.148501 writev(3, [{iov_base="\3}Z\234\26\270_\233o\331\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=216}], 4) = 255
+1605899932.148555 getuid32()            = 10487
+1605899932.148580 writev(3, [{iov_base="\3}Z\234\26\270_]\245\332\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=216}], 4) = 255
+1605899932.148643 getuid32()            = 10487
+1605899932.148669 writev(3, [{iov_base="\3}Z\234\26\270_\354\375\333\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=216}], 4) = 255
+1605899932.148721 getuid32()            = 10487
+1605899932.148747 writev(3, [{iov_base="\3}Z\234\26\270_\212.\335\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=216}], 4) = 255
+1605899932.148842 getuid32()            = 10487
+1605899932.148869 writev(3, [{iov_base="\3}Z\234\26\270_y\1\337\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=216}], 4) = 255
+1605899932.148922 getuid32()            = 10487
+1605899932.148947 writev(3, [{iov_base="\3}Z\234\26\270_\230?\340\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=216}], 4) = 255
+1605899932.149000 getuid32()            = 10487
+1605899932.149026 writev(3, [{iov_base="\3}Z\234\26\270_yr\341\10", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=216}], 4) = 255
+1605899932.149074 sendto(44, "\3\0\0\0\243\"\311\344\3714\0\0\0|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.149180 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.149233 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 18, NULL, 0xffffffff) = 0
+1605899932.167353 getuid32()            = 10487
+1605899932.167499 epoll_pwait(26, [{EPOLLIN, {u32=44, u64=44}}], 16, 0, NULL, 8) = 1
+1605899932.168357 recvfrom(44, "\1\0\0\0\0\0\0\0\3734\0\0\0\0\0\0@c*\n\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.168981 getuid32()            = 10487
+1605899932.169301 writev(3, [{iov_base="\3}Z\234\26\270_\264\5\22\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=219}], 4) = 258
+1605899932.170036 sendto(44, "\3\0\0\0\0\0\0\0\3734\0\0\0\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.170792 recvfrom(44, "\1\0\0\0\0\0\0\0\3754\0\0\0\0\0\0@c*\n\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.171163 getuid32()            = 10487
+1605899932.171258 writev(3, [{iov_base="\3}Z\234\26\270_.&0\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.171729 getuid32()            = 10487
+1605899932.172874 writev(3, [{iov_base="\3}Z\234\26\270_\230\4<\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.173452 getuid32()            = 10487
+1605899932.173815 writev(3, [{iov_base="\3}Z\234\26\270_'>V\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.174012 getuid32()            = 10487
+1605899932.174190 writev(3, [{iov_base="\3}Z\234\26\270_\370\270^\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.174373 getuid32()            = 10487
+1605899932.174434 writev(3, [{iov_base="\3}Z\234\26\270_\334\200d\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.174602 getuid32()            = 10487
+1605899932.174754 writev(3, [{iov_base="\3}Z\234\26\270_|\363g\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.175206 getuid32()            = 10487
+1605899932.175262 writev(3, [{iov_base="\3}Z\234\26\270_\3125q\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.175609 getuid32()            = 10487
+1605899932.175697 writev(3, [{iov_base="\3}Z\234\26\270_\255\1t\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.176234 getuid32()            = 10487
+1605899932.176341 writev(3, [{iov_base="\3}Z\234\26\270_cp{\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.176499 sendto(44, "\3\0\0\0\243\"\311\344\3754\0\0\0|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.176980 recvfrom(44, "\1\0\0\0\0\0\0\0\3774\0\0\0\0\0\0\200\322j\v\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.177108 getuid32()            = 10487
+1605899932.177159 writev(3, [{iov_base="\3}Z\234\26\270_\2/\216\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=219}], 4) = 258
+1605899932.177372 sendto(44, "\3\0\0\0\0\0\0\0\3774\0\0\0\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.177740 recvfrom(44, "\1\0\0\0\0\0\0\0\0015\0\0\0\0\0\0@\242\325\v\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.178349 getuid32()            = 10487
+1605899932.178441 writev(3, [{iov_base="\3}Z\234\26\270_\16(\240\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.178710 getuid32()            = 10487
+1605899932.178803 writev(3, [{iov_base="\3}Z\234\26\270_\247\251\246\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.179236 getuid32()            = 10487
+1605899932.179301 writev(3, [{iov_base="\3}Z\234\26\270_\214\300\254\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.179504 getuid32()            = 10487
+1605899932.179568 writev(3, [{iov_base="\3}Z\234\26\270_nk\261\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.179659 getuid32()            = 10487
+1605899932.179718 writev(3, [{iov_base="\3}Z\234\26\270_v:\265\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.179943 getuid32()            = 10487
+1605899932.180366 writev(3, [{iov_base="\3}Z\234\26\270_\16{\271\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.180594 getuid32()            = 10487
+1605899932.180664 writev(3, [{iov_base="\3}Z\234\26\270_\330\212\302\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.180951 getuid32()            = 10487
+1605899932.181025 writev(3, [{iov_base="\3}Z\234\26\270_\214l\307\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.181274 getuid32()            = 10487
+1605899932.181336 writev(3, [{iov_base="\3}Z\234\26\270_\341;\314\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.181404 sendto(44, "\3\0\0\0\243\"\311\344\0015\0\0\0|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.181860 recvfrom(44, "\1\0\0\0\0\0\0\0\0035\0\0\0\0\0\0@\242\325\v\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.182043 getuid32()            = 10487
+1605899932.182215 writev(3, [{iov_base="\3}Z\234\26\270_9\211\331\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=212}], 4) = 251
+1605899932.182304 sendto(44, "\3\0\0\0\0\0\0\0\0035\0\0\0\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.182570 recvfrom(44, "\1\0\0\0\0\0\0\0\0055\0\0\0\0\0\0@\253\22\f\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.182642 getuid32()            = 10487
+1605899932.182675 writev(3, [{iov_base="\3}Z\234\26\270_\300\274\342\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.183162 getuid32()            = 10487
+1605899932.183230 writev(3, [{iov_base="\3}Z\234\26\270_\221\202\347\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.183402 getuid32()            = 10487
+1605899932.184186 writev(3, [{iov_base="\3}Z\234\26\270_\260D\356\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.184419 getuid32()            = 10487
+1605899932.184649 writev(3, [{iov_base="\3}Z\234\26\270_\324\301\375\n", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.184749 getuid32()            = 10487
+1605899932.184777 writev(3, [{iov_base="\3}Z\234\26\270_6\263\2\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.184837 getuid32()            = 10487
+1605899932.184864 writev(3, [{iov_base="\3}Z\234\26\270_\353A\4\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.184935 sendto(44, "\3\0\0\0\273\243b\346\0055\0\0\1O\212\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.185475 recvfrom(44, "\1\0\0\0\0\0\0\0\0075\0\0\0\0\0\0\200\355!\f\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.185561 getuid32()            = 10487
+1605899932.185594 writev(3, [{iov_base="\3}Z\234\26\270_\212E\17\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=219}], 4) = 258
+1605899932.185648 sendto(44, "\3\0\0\0\220j\230\346\0075\0\0\0\255Y\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.185837 recvfrom(44, "\1\0\0\0\0\0\0\0\t5\0\0\0\0\0\0@\264O\f\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.186210 getuid32()            = 10487
+1605899932.186338 writev(3, [{iov_base="\3}Z\234\26\270_Y\322\27\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.186444 getuid32()            = 10487
+1605899932.186664 writev(3, [{iov_base="\3}Z\234\26\270_G\272\34\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.186777 getuid32()            = 10487
+1605899932.186856 writev(3, [{iov_base="\3}Z\234\26\270_\304\314!\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.186980 getuid32()            = 10487
+1605899932.187023 writev(3, [{iov_base="\3}Z\234\26\270_\313\202$\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.187278 getuid32()            = 10487
+1605899932.187359 writev(3, [{iov_base="\3}Z\234\26\270_\272b)\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.187466 getuid32()            = 10487
+1605899932.187541 writev(3, [{iov_base="\3}Z\234\26\270_JJ,\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.187824 getuid32()            = 10487
+1605899932.188133 writev(3, [{iov_base="\3}Z\234\26\270_\242\261/\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.188298 getuid32()            = 10487
+1605899932.188371 writev(3, [{iov_base="\3}Z\234\26\270_\302\3548\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.188556 getuid32()            = 10487
+1605899932.188658 writev(3, [{iov_base="\3}Z\234\26\270_\371\343<\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=220}], 4) = 259
+1605899932.188831 sendto(44, "\3\0\0\0\243\"\311\344\t5\0\0\0|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.189191 recvfrom(44, "\1\0\0\0\0\0\0\0\v5\0\0\0\0\0\0@\264O\f\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.189346 getuid32()            = 10487
+1605899932.189396 writev(3, [{iov_base="\3}Z\234\26\270_@xH\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=217}], 4) = 256
+1605899932.189744 sendto(44, "\3\0\0\0\0\0\0\0\v5\0\0\0\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.190106 recvfrom(44, "\1\0\0\0\0\0\0\0\r5\0\0\0\0\0\0@\275\214\f\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.190376 getuid32()            = 10487
+1605899932.190469 writev(3, [{iov_base="\3}Z\234\26\270_e\243X\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.190783 getuid32()            = 10487
+1605899932.190830 writev(3, [{iov_base="\3}Z\234\26\270_\331\341^\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.190955 getuid32()            = 10487
+1605899932.191847 writev(3, [{iov_base="\3}Z\234\26\270_n)a\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.192705 getuid32()            = 10487
+1605899932.192754 writev(3, [{iov_base="\3}Z\234\26\270_\355L{\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.192926 getuid32()            = 10487
+1605899932.192959 writev(3, [{iov_base="\3}Z\234\26\270_\245\202\177\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.193028 getuid32()            = 10487
+1605899932.193075 writev(3, [{iov_base="\3}Z\234\26\270_\203:\201\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.193676 getuid32()            = 10487
+1605899932.193754 writev(3, [{iov_base="\3}Z\234\26\270_>b\211\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.194073 getuid32()            = 10487
+1605899932.194142 writev(3, [{iov_base="\3}Z\234\26\270_f\37\217\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.194258 getuid32()            = 10487
+1605899932.194490 writev(3, [{iov_base="\3}Z\234\26\270_\246\350\223\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.194631 sendto(44, "\3\0\0\0\243\"\311\344\r5\0\0\0|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.194969 recvfrom(44, "\2\0\0\0\210\31\v\351\0215\0\0\300\23\n\351\200\377\233\f\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.195204 sendto(44, "\3\0\0\0\0\200tD\0215\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.195538 recvfrom(44, "\2\0\0\0\210\31\v\351\0235\0\0\300\23\n\351\300A\253\f\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.195825 sendto(44, "\3\0\0\0\0\200tD\0235\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.196410 recvfrom(44, "\1\0\0\0\0\0\0\0\0255\0\0\0\0\0\0\0\204\272\f\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.196651 getuid32()            = 10487
+1605899932.196707 writev(3, [{iov_base="\3}Z\234\26\270_\315y\270\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=217}], 4) = 256
+1605899932.196990 sendto(44, "\3\0\0\0\20\313\311\377\0255\0\0\0\20\n\351", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.197433 recvfrom(44, "\1\0\0\0\0\0\0\0\0275\0\0\0\0\0\0\0\215\367\f\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.197529 getuid32()            = 10487
+1605899932.197582 writev(3, [{iov_base="\3}Z\234\26\270_u\312\305\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.198499 getuid32()            = 10487
+1605899932.198596 writev(3, [{iov_base="\3}Z\234\26\270_\217w\313\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.199247 getuid32()            = 10487
+1605899932.199323 writev(3, [{iov_base="\3}Z\234\26\270_j\250\330\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.199597 getuid32()            = 10487
+1605899932.199665 writev(3, [{iov_base="\3}Z\234\26\270_\307\250\343\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.199840 getuid32()            = 10487
+1605899932.200183 writev(3, [{iov_base="\3}Z\234\26\270_#\23\351\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.200429 getuid32()            = 10487
+1605899932.200521 writev(3, [{iov_base="\3}Z\234\26\270_`\22\362\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.200843 getuid32()            = 10487
+1605899932.200949 writev(3, [{iov_base="\3}Z\234\26\270_\225q\370\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.201262 getuid32()            = 10487
+1605899932.201314 writev(3, [{iov_base="\3}Z\234\26\270_\230\306\376\v", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.201563 getuid32()            = 10487
+1605899932.201639 writev(3, [{iov_base="\3}Z\234\26\270_\306^\3\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.201897 sendto(44, "\3\0\0\0\243\"\311\344\0275\0\0\0|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.202104 recvfrom(44, "\2\0\0\0\210\31\v\351\0335\0\0\300\23\n\351@\317\6\r\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.202423 sendto(44, "\3\0\0\0\0@lD\0335\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.202739 recvfrom(44, "\2\0\0\0\210\31\v\351\0355\0\0\300\23\n\351\200\21\26\r\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.202894 sendto(44, "\3\0\0\0\0@lD\0355\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.203421 recvfrom(44, "\1\0\0\0\0\0\0\0\0375\0\0\0\0\0\0\200\21\26\r\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.203662 getuid32()            = 10487
+1605899932.203866 writev(3, [{iov_base="\3}Z\234\26\270_\"8\"\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=212}], 4) = 251
+1605899932.203962 sendto(44, "\3\0\0\0\20\313\311\377\0375\0\0\0\20\n\351", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.204425 recvfrom(44, "\1\0\0\0\0\0\0\0!5\0\0\0\0\0\0\300\\b\r\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.204516 getuid32()            = 10487
+1605899932.204583 writev(3, [{iov_base="\3}Z\234\26\270_\300k0\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.204714 getuid32()            = 10487
+1605899932.205375 writev(3, [{iov_base="\3}Z\234\26\270_\330z3\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.206262 getuid32()            = 10487
+1605899932.206393 writev(3, [{iov_base="\3}Z\234\26\270_\17\16E\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.207138 getuid32()            = 10487
+1605899932.207531 writev(3, [{iov_base="\3}Z\234\26\270_1sX\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.207870 getuid32()            = 10487
+1605899932.208471 writev(3, [{iov_base="\3}Z\234\26\270_\177\251c\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.209864 getuid32()            = 10487
+1605899932.209910 writev(3, [{iov_base="\3}Z\234\26\270_\316@\201\f", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 252
+1605899932.210665 sendto(44, "\3\0\0\0\273\243b\346!5\0\0\1O\212\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.211110 recvfrom(44, "\2\0\0\0\210\31\v\351#5\0\0\300\23\n\351\0\237q\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.211950 recvfrom(44, "\2\0\0\0\210\31\v\351%5\0\0\300\23\n\351@\341\200\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.212413 recvfrom(44, "\2\0\0\0\210\31\v\351'5\0\0\300\23\n\351@\341\200\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.212532 recvfrom(44, "\2\0\0\0\210\31\v\351)5\0\0\300\23\n\351\200#\220\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.212742 recvfrom(44, "\2\0\0\0\210\31\v\351+5\0\0\300\23\n\351\200#\220\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.213375 recvfrom(44, "\2\0\0\0\210\31\v\351-5\0\0\300\23\n\351\200#\220\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.213588 recvfrom(44, "\2\0\0\0\210\31\v\351/5\0\0\300\23\n\351\300e\237\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.214075 recvfrom(44, "\2\0\0\0\210\31\v\35115\0\0\300\23\n\351\300e\237\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.214319 recvfrom(44, "\2\0\0\0\210\31\v\35135\0\0\300\23\n\351\300e\237\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.214669 recvfrom(44, "\2\0\0\0\210\31\v\35155\0\0\300\23\n\351\0\250\256\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.214943 recvfrom(44, "\2\0\0\0\210\31\v\35175\0\0\300\23\n\351\0\250\256\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.215430 recvfrom(44, "\2\0\0\0\210\31\v\35195\0\0\300\23\n\351\0\250\256\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.215599 recvfrom(44, "\2\0\0\0\210\31\v\351;5\0\0\300\23\n\351@\352\275\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.216081 recvfrom(44, "\2\0\0\0\210\31\v\351=5\0\0\300\23\n\351@\352\275\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.216488 recvfrom(44, "\2\0\0\0\210\31\v\351?5\0\0\300\23\n\351\200,\315\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.217065 recvfrom(44, "\2\0\0\0\210\31\v\351A5\0\0\300\23\n\351\200,\315\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.217920 recvfrom(44, "\2\0\0\0\210\31\v\351C5\0\0\300\23\n\351\300n\334\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.218002 recvfrom(44, "\2\0\0\0\210\31\v\351E5\0\0\300\23\n\351\300n\334\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.218129 recvfrom(44, "\2\0\0\0\210\31\v\351G5\0\0\300\23\n\351\300n\334\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.218364 recvfrom(44, "\2\0\0\0\210\31\v\351I5\0\0\300\23\n\351\300n\334\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.218686 recvfrom(44, "\2\0\0\0\210\31\v\351M5\0\0\300\23\n\351\0\261\353\r\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.219210 sendto(44, "\3\0\0\0@.\353\22M5\0\0\1g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.219393 recvfrom(44, "\2\0\0\0\210\31\v\351O5\0\0\300\23\n\351@\363\372\r\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.219672 sendto(44, "\3\0\0\0h\224\334\22O5\0\0\1g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.219938 recvfrom(44, "\2\0\0\0\210\31\v\351Q5\0\0\300\23\n\351@\363\372\r\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.220081 recvfrom(44, "\2\0\0\0\210\31\v\351S5\0\0\300\23\n\351\2005\n\16\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.220317 recvfrom(44, "\2\0\0\0\210\31\v\351U5\0\0\300\23\n\351\2005\n\16\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.220403 recvfrom(44, "\2\0\0\0\210\31\v\351W5\0\0\300\23\n\351\300w\31\16\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.220645 recvfrom(44, "\2\0\0\0\210\31\v\351Y5\0\0\300\23\n\351\300w\31\16\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.220764 recvfrom(44, "\2\0\0\0\210\31\v\351[5\0\0\300\23\n\351\0\272(\16\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.220905 recvfrom(44, "\2\0\0\0\210\31\v\351]5\0\0\300\23\n\351\0\272(\16\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.221107 recvfrom(44, "\2\0\0\0\210\31\v\351_5\0\0\300\23\n\351\0\272(\16\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.221241 recvfrom(44, "\2\0\0\0\210\31\v\351a5\0\0\300\23\n\351@\3747\16\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.221379 recvfrom(44, "\2\0\0\0\210\31\v\351c5\0\0\300\23\n\351@\3747\16\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.221604 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.221740 getuid32()            = 10487
+1605899932.221947 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.222043 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.222305 getuid32()            = 10487
+1605899932.222359 writev(3, [{iov_base="\3}Z\234\26\270_{j>\r", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=298}], 4) = 337
+1605899932.222485 ioctl(8, BINDER_WRITE_READ, 0xffc9d2b8) = 0
+1605899932.222939 ioctl(8, BINDER_WRITE_READ, 0xffc9d2b8) = 0
+1605899932.223036 sendto(44, "\3\0\0\0\1\0\0\0#5\0\0\0.\353\22", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.223320 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.223415 recvfrom(35, 0xffc9ce68, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.223455 ioctl(8, BINDER_WRITE_READ, 0xffc9d578) = 0
+1605899932.223503 recvfrom(47, 0xcc511010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.223677 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.223716 futex(0xdcfb2d74, FUTEX_WAIT_BITSET_PRIVATE, 22, NULL, 0xffffffff) = 0
+1605899932.225295 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.225471 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.225531 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1605899932.240789 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.240837 futex(0xdcfb2d74, FUTEX_WAIT_BITSET_PRIVATE, 26, NULL, 0xffffffff) = 0
+1605899932.313072 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.313191 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.313355 futex(0xdcfb2d74, FUTEX_WAIT_BITSET_PRIVATE, 30, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.313756 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899932.313873 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899932.314897 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.315139 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.315753 futex(0xdcfb2e10, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.316278 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 22, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.317439 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.318151 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.318687 futex(0xdcfb2da0, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1605899932.322393 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.323267 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 26, NULL, 0xffffffff) = 0
+1605899932.326019 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.327426 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.329551 futex(0xdcfb2e10, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.331147 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 30, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.332912 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899932.333152 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899932.333359 getuid32()            = 10487
+1605899932.333549 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 1
+1605899932.333759 recvfrom(35, "nysv\0\0\0\0\16n\303\16\335\232\0\0\265\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.333954 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.334730 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.336252 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.337067 getuid32()            = 10487
+1605899932.337483 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.338201 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899932.338689 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899932.339607 ioctl(8, BINDER_WRITE_READ, 0xffc9db78) = 0
+1605899932.341506 ioctl(8, BINDER_WRITE_READ, 0xffc9db78) = 0
+1605899932.341959 getuid32()            = 10487
+1605899932.342444 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.342784 getuid32()            = 10487
+1605899932.343808 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.344550 getuid32()            = 10487
+1605899932.345324 ioctl(8, BINDER_WRITE_READ, 0xffc9d6c8) = 0
+1605899932.345946 getuid32()            = 10487
+1605899932.347259 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.347873 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.348798 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.349772 getuid32()            = 10487
+1605899932.350140 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.350495 getuid32()            = 10487
+1605899932.350899 getuid32()            = 10487
+1605899932.351412 ioctl(8, BINDER_WRITE_READ, 0xffc9dae8) = 0
+1605899932.352082 ioctl(8, BINDER_WRITE_READ, 0xffc9dae8) = 0
+1605899932.352552 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.353024 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.353564 ioctl(40, ASHMEM_GET_SIZE, 0) = 84
+1605899932.354370 fcntl64(40, F_DUPFD_CLOEXEC, 0) = 53
+1605899932.354926 close(40)             = 0
+1605899932.355447 dup(53)               = 40
+1605899932.355972 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.356543 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.357060 ioctl(40, ASHMEM_GET_SIZE, 0) = 84
+1605899932.357635 mmap2(NULL, 84, PROT_READ, MAP_SHARED, 40, 0) = 0xe8d63000
+1605899932.358061 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.358496 ioctl(40, ASHMEM_GET_SIZE, 0) = 84
+1605899932.359058 fstat64(53, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.359461 fstat64(53, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.361217 ioctl(53, ASHMEM_GET_SIZE, 0) = 84
+1605899932.362798 close(53)             = 0
+1605899932.363892 ioctl(8, BINDER_WRITE_READ, 0xffc9db98) = 0
+1605899932.364532 ioctl(8, BINDER_WRITE_READ, 0xffc9db98) = 0
+1605899932.365928 ioctl(8, BINDER_WRITE_READ, 0xffc9dbd8) = 0
+1605899932.367256 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899932.367625 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899932.368691 getuid32()            = 10487
+1605899932.368976 ioctl(8, BINDER_WRITE_READ, 0xffc9c1b8) = 0
+1605899932.369678 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899932.370023 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899932.370736 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899932.371097 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899932.371882 getuid32()            = 10487
+1605899932.372273 getuid32()            = 10487
+1605899932.372599 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.372954 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.373414 ioctl(31, ASHMEM_GET_SIZE, 0) = 84
+1605899932.373741 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.374094 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.374443 ioctl(31, ASHMEM_PIN, 0xffc9dac0) = 0
+1605899932.375725 ioctl(8, BINDER_WRITE_READ, 0xffc9d908) = 0
+1605899932.375996 ioctl(8, BINDER_WRITE_READ, 0xffc9d908) = 0
+1605899932.376931 getuid32()            = 10487
+1605899932.377713 ioctl(8, BINDER_WRITE_READ, 0xffc9da78) = 0
+1605899932.378753 getuid32()            = 10487
+1605899932.379883 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.380277 getuid32()            = 10487
+1605899932.381378 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.382047 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.382774 sendto(44, "\3\0\0\0\250GFp%5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.383249 sendto(44, "\3\0\0\0\250GFp'5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.383601 sendto(44, "\3\0\0\0\250GFp)5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.383955 sendto(44, "\3\0\0\0\250GFp+5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.384329 sendto(44, "\3\0\0\0\250GFp-5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.384666 sendto(44, "\3\0\0\0\250GFp/5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.385164 sendto(44, "\3\0\0\0\250GFp15\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.385455 sendto(44, "\3\0\0\0\250GFp35\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.385908 sendto(44, "\3\0\0\0\250GFp55\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.386564 sendto(44, "\3\0\0\0\250GFp75\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.386949 sendto(44, "\3\0\0\0\250GFp95\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.387273 sendto(44, "\3\0\0\0\250GFp;5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.387849 sendto(44, "\3\0\0\0\250GFp=5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.388375 sendto(44, "\3\0\0\0\250GFp?5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.389003 sendto(44, "\3\0\0\0\250GFpA5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.389385 sendto(44, "\3\0\0\0\250GFpC5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.390289 sendto(44, "\3\0\0\0\250GFpE5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.391143 sendto(44, "\3\0\0\0\250GFpG5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.391620 sendto(44, "\3\0\0\0\250GFpI5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.392361 sendto(44, "\3\0\0\0\250GFpQ5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.392869 sendto(44, "\3\0\0\0\250GFpS5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.393713 sendto(44, "\3\0\0\0\250GFpU5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.394130 sendto(44, "\3\0\0\0\250GFpW5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.394461 sendto(44, "\3\0\0\0\250GFpY5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.395833 sendto(44, "\3\0\0\0\250GFp[5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.397564 sendto(44, "\3\0\0\0\250GFp]5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.398460 sendto(44, "\3\0\0\0\250GFp_5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.399994 sendto(44, "\3\0\0\0\250GFpa5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.400401 sendto(44, "\3\0\0\0\250GFpc5\0\0\1GFp", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.400954 ioctl(8, BINDER_WRITE_READ, 0xffc9d328) = 0
+1605899932.401450 ioctl(8, BINDER_WRITE_READ, 0xffc9d328) = 0
+1605899932.401973 ioctl(8, BINDER_WRITE_READ, 0xffc9c328) = 0
+1605899932.402415 ioctl(8, BINDER_WRITE_READ, 0xffc9c328) = 0
+1605899932.402922 ioctl(8, BINDER_WRITE_READ, 0xffc9c348) = 0
+1605899932.403625 ioctl(8, BINDER_WRITE_READ, 0xffc9c348) = 0
+1605899932.404054 ioctl(8, BINDER_WRITE_READ, 0xffc9c348) = 0
+1605899932.404527 ioctl(8, BINDER_WRITE_READ, 0xffc9c348) = 0
+1605899932.404896 ioctl(8, BINDER_WRITE_READ, 0xffc9c378) = 0
+1605899932.405262 ioctl(8, BINDER_WRITE_READ, 0xffc9c378) = 0
+1605899932.405887 recvfrom(44, "\1\0\0\0\0\0\0\0e5\0\0\0\0\0\0@\3747\16\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.407055 sendto(44, "\3\0\0\0\0 \251\346e5\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.407579 recvfrom(44, "\1\0\0\0\0\0\0\0g5\0\0\0\0\0\0\0X \31\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.409562 pread64(30, "PK\3\4\0\0\0\0\10\0\0\0\0\0\367\321\2327\351\0\0\0\204\1\0\0'\0\0\0", 30, 2221144) = 30
+1605899932.410520 pread64(30, "res/layout/abc_expanded_menu_lay"..., 39, 2221174) = 39
+1605899932.411466 mmap2(NULL, 1414, PROT_READ, MAP_SHARED, 30, 0x21e000) = 0xe8cef000
+1605899932.412123 munmap(0xe8cef000, 1414) = 0
+1605899932.414205 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0\"\0\0\0", 30, 28476580) = 30
+1605899932.415246 pread64(24, "res/color/text_color_secondary.x"..., 34, 28476610) = 34
+1605899932.416892 mmap2(NULL, 1496, PROT_READ, MAP_SHARED, 24, 0x1b28000) = 0xe8cef000
+1605899932.422482 munmap(0xe8cef000, 1496) = 0
+1605899932.424554 ioctl(8, BINDER_WRITE_READ, 0xffc9b948) = 0
+1605899932.425140 ioctl(8, BINDER_WRITE_READ, 0xffc9b948) = 0
+1605899932.426004 getuid32()            = 10487
+1605899932.426956 getuid32()            = 10487
+1605899932.427236 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.428704 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.430718 ioctl(40, ASHMEM_GET_SIZE, 0) = 84
+1605899932.431670 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.432742 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.433507 ioctl(40, ASHMEM_PIN, 0xffc9c560) = 0
+1605899932.434085 ioctl(8, BINDER_WRITE_READ, 0xffc9c498) = 0
+1605899932.435481 sendto(44, "\3\0\0\0\273\243b\346g5\0\0\1O\212\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.435955 recvfrom(44, "\1\0\0\0\0\0\0\0i5\0\0\0\0\0\0\300'\213\31\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.436846 sendto(44, "\3\0\0\0\243\"\311\344i5\0\0\1|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.437203 recvfrom(44, "\1\0\0\0\0\0\0\0k5\0\0\0\0\0\0\300f6\33\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.437731 sendto(44, "\3\0\0\0\243\"\311\344k5\0\0\0|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.438397 recvfrom(44, "\1\0\0\0\0\0\0\0m5\0\0\0\0\0\0@\353T\33\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.438845 sendto(44, "\3\0\0\0\243\"\311\344m5\0\0\0|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.439480 recvfrom(44, "\1\0\0\0\220j\230\346m5\0\0\5\0\0\0@\353T\33\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.440445 sendto(44, "\3\0\0\0\243\"\311\344m5\0\0\1|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.441124 recvfrom(44, "\1\0\0\0\0\0\0\0o5\0\0\0\0\0\0\200-d\33\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.441552 sendto(44, "\3\0\0\0\243\"\311\344o5\0\0\0|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.442201 recvfrom(44, "\1\0\0\0\220j\230\346o5\0\0\5\0\0\0\200-d\33\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.442725 getuid32()            = 10487
+1605899932.443028 getuid32()            = 10487
+1605899932.444119 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.444459 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.444793 ioctl(40, ASHMEM_GET_SIZE, 0) = 84
+1605899932.445165 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.445861 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.446168 ioctl(40, ASHMEM_PIN, 0xffc9c480) = 0
+1605899932.446775 ioctl(8, BINDER_WRITE_READ, 0xffc9c3b8) = 0
+1605899932.447566 getuid32()            = 10487
+1605899932.448156 ioctl(8, BINDER_WRITE_READ, 0xffc9c258) = 0
+1605899932.449498 sendto(44, "\3\0\0\0\243\"\311\344o5\0\0\1|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.450184 recvfrom(44, "\1\0\0\0\0\0\0\0q5\0\0\0\0\0\0\0\262\202\33\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.450754 sendto(44, "\3\0\0\0\243\"\311\344q5\0\0\1|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.451350 recvfrom(44, "\1\0\0\0\0\0\0\0s5\0\0\0\0\0\0@\6\f\34\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.451884 sendto(44, "\3\0\0\0\243\"\311\344s5\0\0\0|\213\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.453199 recvfrom(44, "\2\0\0\0\210\31\v\351w5\0\0\300\23\n\351\300\212*\34\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.454060 ioctl(8, BINDER_WRITE_READ, 0xffc9d548) = 0
+1605899932.455050 ioctl(8, BINDER_WRITE_READ, 0xffc9d548) = 0
+1605899932.456154 sendto(44, "\3\0\0\0\0\0|Dw5\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.456853 recvfrom(44, "\2\0\0\0\210\31\v\351y5\0\0\300\23\n\351\0\3159\34\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.458623 recvfrom(44, "\2\0\0\0\210\31\v\351{5\0\0\300\23\n\351\0\3159\34\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.459170 recvfrom(44, "\2\0\0\0\210\31\v\351}5\0\0\300\23\n\351@\17I\34\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.461549 recvfrom(44, "\2\0\0\0\210\31\v\351\1775\0\0\300\23\n\351@\17I\34\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.464268 recvfrom(44, "\2\0\0\0\210\31\v\351\2015\0\0\300\23\n\351\200QX\34\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.465187 recvfrom(44, "\2\0\0\0\210\31\v\351\2035\0\0\300\23\n\351\200QX\34\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.466531 recvfrom(44, "\2\0\0\0\210\31\v\351\2055\0\0\300\23\n\351\300\223g\34\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.467198 recvfrom(44, "\2\0\0\0\210\31\v\351\2075\0\0\300\23\n\351\300\223g\34\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.467702 recvfrom(44, "\2\0\0\0\210\31\v\351\2115\0\0\300\23\n\351\0\326v\34\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.469046 sendto(44, "\3\0\0\0\0\0|Dy5\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.469541 sendto(44, "\3\0\0\0\0\0|D{5\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.470196 sendto(44, "\3\0\0\0\0\0|D}5\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.470610 sendto(44, "\3\0\0\0\0\0|D\1775\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.471461 sendto(44, "\3\0\0\0\0\0|D\2015\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.472314 sendto(44, "\3\0\0\0\0\0|D\2035\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.472856 sendto(44, "\3\0\0\0\0\0|D\2055\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.473257 sendto(44, "\3\0\0\0\0\0|D\2075\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.473961 sendto(44, "\3\0\0\0\0\0|D\2115\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.474746 recvfrom(44, "\2\0\0\0\210\31\v\351\2135\0\0\300\23\n\351\0\326v\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.475123 recvfrom(44, "\2\0\0\0\210\31\v\351\2155\0\0\300\23\n\351@\30\206\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.475528 recvfrom(44, "\2\0\0\0\210\31\v\351\2175\0\0\300\23\n\351@\30\206\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.476078 recvfrom(44, "\2\0\0\0\210\31\v\351\2215\0\0\300\23\n\351\200Z\225\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.477014 recvfrom(44, "\2\0\0\0\210\31\v\351\2235\0\0\300\23\n\351\200Z\225\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.477577 recvfrom(44, "\2\0\0\0\210\31\v\351\2255\0\0\300\23\n\351\200Z\225\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.478446 recvfrom(44, "\2\0\0\0\210\31\v\351\2275\0\0\300\23\n\351\300\234\244\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.479483 recvfrom(44, "\2\0\0\0\210\31\v\351\2315\0\0\300\23\n\351\300\234\244\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.480685 recvfrom(44, "\2\0\0\0\210\31\v\351\2335\0\0\300\23\n\351\300\234\244\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.481422 recvfrom(44, "\2\0\0\0\210\31\v\351\2355\0\0\300\23\n\351@!\303\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.482000 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.482764 recvfrom(35, 0xffc9ce68, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.483249 ioctl(8, BINDER_WRITE_READ, 0xffc9d578) = 0
+1605899932.483845 recvfrom(47, 0xcc511010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.484904 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899932.485375 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899932.485964 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899932.486346 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899932.488167 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899932.488653 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899932.490359 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899932.490876 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899932.493729 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899932.494038 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899932.494389 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899932.495015 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605899932.496664 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899932.497440 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899932.500467 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899932.500800 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899932.502667 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899932.503901 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899932.506737 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.507002 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.507305 futex(0xdcfb2d70, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.507752 futex(0xdcfb2d74, FUTEX_WAIT_BITSET_PRIVATE, 34, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.508340 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.508611 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.510907 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.511315 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.512101 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 6, NULL, 0xffffffff) = 0
+1605899932.524401 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.524882 futex(0xdcfb2d74, FUTEX_WAIT_BITSET_PRIVATE, 38, NULL, 0xffffffff) = 0
+1605899932.546339 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.547267 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.548028 futex(0xdcfb2d70, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.548566 futex(0xdcfb2d74, FUTEX_WAIT_BITSET_PRIVATE, 42, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.549083 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899932.549984 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899932.550617 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.551041 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.551360 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 34, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.551827 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.552273 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.552705 futex(0xdcfb2e10, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.553109 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 38, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.553487 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899932.554119 getuid32()            = 10487
+1605899932.554503 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 1
+1605899932.554894 recvfrom(35, "nysv\0\0\0\0!\274\254\36\335\232\0\0\305\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.555249 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.555685 getuid32()            = 10487
+1605899932.556300 ioctl(8, BINDER_WRITE_READ, 0xffc9d6a8) = 0
+1605899932.557034 getuid32()            = 10487
+1605899932.557381 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.557787 getuid32()            = 10487
+1605899932.558154 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.558565 getuid32()            = 10487
+1605899932.558956 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.559431 getuid32()            = 10487
+1605899932.559779 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.561089 getuid32()            = 10487
+1605899932.561396 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.561745 getuid32()            = 10487
+1605899932.561973 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.562448 getuid32()            = 10487
+1605899932.562771 ioctl(8, BINDER_WRITE_READ, 0xffc9d6c8) = 0
+1605899932.563201 getuid32()            = 10487
+1605899932.563556 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.563835 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.564457 epoll_ctl(26, EPOLL_CTL_ADD, 48, {EPOLLIN, {u32=48, u64=48}}) = 0
+1605899932.564761 sendto(48, "\2\0\0\0\370\313\311\377\1\0\0\0\235cB\346\0\326v\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605899932.565154 sendto(48, "\2\0\0\0\370\313\311\377\2\0\0\0\235cB\346@\30\206\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605899932.565817 sendto(48, "\2\0\0\0\370\313\311\377\3\0\0\0\235cB\346@\30\206\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605899932.566107 sendto(48, "\2\0\0\0\370\313\311\377\4\0\0\0\235cB\346\200Z\225\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605899932.566352 sendto(48, "\2\0\0\0\370\313\311\377\5\0\0\0\235cB\346\200Z\225\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605899932.566638 sendto(48, "\2\0\0\0\370\313\311\377\6\0\0\0\235cB\346\200Z\225\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605899932.567796 sendto(48, "\2\0\0\0\370\313\311\377\7\0\0\0\235cB\346\300\234\244\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605899932.568065 sendto(48, "\2\0\0\0\370\313\311\377\10\0\0\0\235cB\346\300\234\244\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605899932.568353 sendto(48, "\2\0\0\0\370\313\311\377\t\0\0\0\235cB\346\300\234\244\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605899932.568693 sendto(48, "\2\0\0\0\370\313\311\377\n\0\0\0\235cB\346@!\303\34\335\232\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605899932.569007 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.569290 recvfrom(35, 0xffc9d2f8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.569538 ioctl(8, BINDER_WRITE_READ, 0xffc9da08) = 0
+1605899932.569778 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.570168 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.570289 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.570644 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.570813 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.571020 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.571399 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 10, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.571684 getuid32()            = 10487
+1605899932.571983 epoll_pwait(26, [{EPOLLIN, {u32=48, u64=48}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2
+1605899932.572404 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.572638 recvfrom(48, "\3\0\0\0\1\0\0\0\1\0\0\0\0S\213\346", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.572939 recvfrom(48, "\3\0\0\0\1\0\0\0\2\0\0\0\0S\213\346", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.573252 recvfrom(48, "\3\0\0\0\1\0\0\0\3\0\0\0\0S\213\346", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.573448 recvfrom(48, "\3\0\0\0\1\0\0\0\4\0\0\0\0S\213\346", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.573757 recvfrom(48, "\3\0\0\0\1\0\0\0\5\0\0\0\0S\213\346", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.573988 recvfrom(48, "\3\0\0\0\1\0\0\0\6\0\0\0\0S\213\346", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.574342 recvfrom(48, "\3\0\0\0\1\0\0\0\7\0\0\0\0S\213\346", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.574567 recvfrom(48, "\3\0\0\0\1\0\0\0\10\0\0\0\0S\213\346", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.574873 recvfrom(48, "\3\0\0\0\1\0\0\0\t\0\0\0\0S\213\346", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.575016 recvfrom(48, "\3\0\0\0\1\0\0\0\n\0\0\0\0S\213\346", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.575365 sendto(44, "\3\0\0\0\0 \251\346\2135\0\0\1\337b\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.575547 sendto(44, "\3\0\0\0\0 \251\346\2155\0\0\1\337b\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.575884 sendto(44, "\3\0\0\0\0 \251\346\2175\0\0\1\337b\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.576272 sendto(44, "\3\0\0\0\0 \251\346\2215\0\0\1\337b\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.576697 sendto(44, "\3\0\0\0\0 \251\346\2235\0\0\1\337b\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.577317 sendto(44, "\3\0\0\0\0 \251\346\2255\0\0\1\337b\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.578040 sendto(44, "\3\0\0\0\0 \251\346\2275\0\0\1\337b\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.578294 sendto(44, "\3\0\0\0\0 \251\346\2315\0\0\1\337b\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.578685 sendto(44, "\3\0\0\0\0 \251\346\2335\0\0\1\337b\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.578927 sendto(44, "\3\0\0\0\0 \251\346\2355\0\0\1\337b\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.579449 recvfrom(48, 0xffc9d330, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.579778 sendto(48, "\1\0\0\0\360\347\357\22\v\0\0\0\330\331\350\22\300\241\216#\335\232\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605899932.580225 sendto(48, "\1\0\0\0\360\347\357\22\f\0\0\0\330\331\350\22\300\241\216#\335\232\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605899932.580578 sendto(48, "\1\0\0\0\360\347\357\22\r\0\0\0\330\331\350\22\300\241\216#\335\232\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605899932.580813 sendto(48, "\1\0\0\0\360\347\357\22\16\0\0\0\330\331\350\22\300\241\216#\335\232\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605899932.581049 getuid32()            = 10487
+1605899932.581324 epoll_pwait(26, [{EPOLLIN, {u32=48, u64=48}}, {EPOLLIN, {u32=35, u64=35}}, {EPOLLIN, {u32=44, u64=44}}], 16, 0, NULL, 8) = 3
+1605899932.581772 recvfrom(48, "\3\0\0\0\6\0\0\0\v\0\0\0\0\0\0\0", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.581772 ioctl(8, BINDER_WRITE_READ, 0xffc9d408) = 0
+1605899932.581772 ioctl(8, BINDER_WRITE_READ, 0xffc9d408) = 0
+1605899932.581773 recvfrom(48, "\3\0\0\0\6\0\0\0\f\0\0\0\0\0\0\0", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.581773 recvfrom(48, "\3\0\0\0\6\0\0\0\r\0\0\0\0\0\0\0", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.581773 recvfrom(48, "\3\0\0\0\6\0\0\0\16\0\0\0\0\0\0\0", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.586180 recvfrom(48, 0xffc9d330, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.586390 recvfrom(35, "nysv\0\0\0\0@k\245#\335\232\0\0\312\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.586666 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.586917 recvfrom(44, "\1\0\0\0\0\0\0\0\2375\0\0\0\0\0\0\200c\322\34\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.587168 sendto(48, "\1\0\0\0ZOW\346\17\0\0\0\214\266y\315\200c\322\34\335\232\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605899932.587444 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.587869 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.588281 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.588720 recvfrom(35, 0xffc9c788, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.588842 ioctl(8, BINDER_WRITE_READ, 0xffc9ce98) = 0
+1605899932.589037 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.589289 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.589568 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.589897 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.590096 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 14, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.590383 getuid32()            = 10487
+1605899932.590576 epoll_pwait(26, [{EPOLLIN, {u32=48, u64=48}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2
+1605899932.591006 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.591257 recvfrom(48, "\3\0\0\0\6\0\0\0\17\0\0\0\0\0\0\0", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.591625 sendto(44, "\3\0\0\0\0 \251\346\2375\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.592038 recvfrom(48, 0xffc9d330, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.592593 epoll_pwait(26, [{EPOLLIN, {u32=44, u64=44}}], 16, -1, NULL, 8) = 1
+1605899932.592767 recvfrom(44, "\1\0\0\0\0\0\0\0\2415\0\0\0\0\0\0\300\252\313#\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.592958 sendto(48, "\1\0\0\0ZOW\346\20\0\0\0\224\345y\315\300\252\313#\335\232\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605899932.593154 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.593962 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.594399 epoll_pwait(26, [{EPOLLIN, {u32=48, u64=48}}, {EPOLLIN, {u32=35, u64=35}}, {EPOLLIN, {u32=25, u64=25}}], 16, 2499, NULL, 8) = 3
+1605899932.594679 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.595038 recvfrom(48, "\3\0\0\0\6\0\0\0\20\0\0\0\0\0\0\0", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605899932.595780 ioctl(8, BINDER_WRITE_READ, 0xffc9c0e8) = 0
+1605899932.596104 ioctl(8, BINDER_WRITE_READ, 0xffc9c0e8) = 0
+1605899932.596454 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.596684 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.597094 futex(0xcc56def0, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.597458 futex(0xcc56def4, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.597752 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.598022 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.598290 futex(0xcc56def0, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.598688 futex(0xcc56def4, FUTEX_WAIT_BITSET_PRIVATE, 6, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.599132 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.599300 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.599542 futex(0xcc56def0, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.599744 futex(0xcc56def4, FUTEX_WAIT_BITSET_PRIVATE, 10, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.600143 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.600483 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.600781 ioctl(8, BINDER_WRITE_READ, 0xffc9c158) = 0
+1605899932.601435 ioctl(8, BINDER_WRITE_READ, 0xffc9c158) = 0
+1605899932.602697 dup(53)               = 54
+1605899932.602909 fcntl64(54, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+1605899932.603128 close(53)             = 0
+1605899932.603365 epoll_ctl(26, EPOLL_CTL_ADD, 54, {EPOLLIN, {u32=54, u64=54}}) = 0
+1605899932.603632 ioctl(8, BINDER_WRITE_READ, 0xffc9c0d8) = 0
+1605899932.603891 ioctl(8, BINDER_WRITE_READ, 0xffc9c0d8) = 0
+1605899932.604201 getuid32()            = 10487
+1605899932.604438 getuid32()            = 10487
+1605899932.604568 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.604749 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.605059 ioctl(40, ASHMEM_GET_SIZE, 0) = 84
+1605899932.605248 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.605500 fstat64(40, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605899932.605713 ioctl(40, ASHMEM_PIN, 0xffc9c640) = 0
+1605899932.605960 ioctl(8, BINDER_WRITE_READ, 0xffc9c578) = 0
+1605899932.606335 sendto(44, "\3\0\0\0\273\243b\346\2415\0\0\1O\212\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.606609 recvfrom(48, 0xffc9d330, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.606839 recvfrom(35, "nysv\0\0\0\0\212\363\243$\335\232\0\0\313\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.607099 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.607510 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.607719 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.607966 recvfrom(54, "\1\0\0\0\0\0\0\0\2435\0\0\0\0\0\0\300\305\202$\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.608298 getuid32()            = 10487
+1605899932.608587 writev(3, [{iov_base="\3}Z\234\26\270_C\304@$", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=217}], 4) = 256
+1605899932.608841 sendto(54, "\3\0\0\0\310\334D\345\2435\0\0\0\24\206\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.610600 recvfrom(54, "\1\0\0\0\0\0\0\0\2455\0\0\0\0\0\0\200\236*%\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.612164 getuid32()            = 10487
+1605899932.612588 writev(3, [{iov_base="\3}Z\234\26\270_\24\304s$", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.612986 getuid32()            = 10487
+1605899932.613421 writev(3, [{iov_base="\3}Z\234\26\270_V\353\206$", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.613946 getuid32()            = 10487
+1605899932.614113 writev(3, [{iov_base="\3}Z\234\26\270_\f)\226$", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.614547 getuid32()            = 10487
+1605899932.614771 writev(3, [{iov_base="\3}Z\234\26\270_\3\263\237$", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.615247 getuid32()            = 10487
+1605899932.615438 writev(3, [{iov_base="\3}Z\234\26\270_\25\324\247$", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.615692 getuid32()            = 10487
+1605899932.615831 writev(3, [{iov_base="\3}Z\234\26\270_\245\330\261$", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.616268 getuid32()            = 10487
+1605899932.616476 writev(3, [{iov_base="\3}Z\234\26\270_p\353\270$", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.616787 sendto(54, "\3\0\0\0\0\0\0\0\2455\0\0\1\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.617314 recvfrom(54, "\1\0\0\0\0\0\0\0\2555\0\0\0\0\0\0\0005\303%\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.617686 getuid32()            = 10487
+1605899932.618080 writev(3, [{iov_base="\3}Z\234\26\270_^\\\320$", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Dropping event due to no window "..., iov_len=217}], 4) = 256
+1605899932.618347 sendto(54, "\3\0\0\0\310\334D\345\2555\0\0\0\24\206\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.619125 recvfrom(54, "\1\0\0\0\0\0\0\0\2575\0\0\0\0\0\0@\200\17&\335\232\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605899932.621268 getuid32()            = 10487
+1605899932.621874 writev(3, [{iov_base="\3}Z\234\26\270_\327:\364$", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.625737 getuid32()            = 10487
+1605899932.634853 writev(3, [{iov_base="\3}Z\234\26\270_ dG%", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.635102 getuid32()            = 10487
+1605899932.635351 writev(3, [{iov_base="\3}Z\234\26\270_V\330\331%", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.635601 getuid32()            = 10487
+1605899932.635864 writev(3, [{iov_base="\3}Z\234\26\270_\313\341\341%", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.636868 getuid32()            = 10487
+1605899932.637099 writev(3, [{iov_base="\3}Z\234\26\270_\356'\365%", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.637326 getuid32()            = 10487
+1605899932.637563 writev(3, [{iov_base="\3}Z\234\26\270_\177*\374%", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.637827 getuid32()            = 10487
+1605899932.638104 writev(3, [{iov_base="\3}Z\234\26\270_\3\305\3&", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.638366 getuid32()            = 10487
+1605899932.638604 writev(3, [{iov_base="\3}Z\234\26\270_x\2\f&", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.638836 getuid32()            = 10487
+1605899932.639120 writev(3, [{iov_base="\3}Z\234\26\270_\23-\23&", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[MainActivity]\0", iov_len=27}, {iov_base="Cancelling event due to no windo"..., iov_len=218}], 4) = 257
+1605899932.639332 sendto(54, "\3\0\0\0\0\0\0\0\2575\0\0\0\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.639719 recvfrom(54, "\2\0\0\0\210\31\v\351\2615\0\0\300\23\n\351\200\302\36&\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.639893 recvfrom(54, "\2\0\0\0\210\31\v\351\2635\0\0\300\23\n\351\300\4.&\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.640132 recvfrom(54, "\2\0\0\0\210\31\v\351\2655\0\0\300\23\n\351\300\4.&\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.640333 recvfrom(54, "\2\0\0\0\210\31\v\351\2675\0\0\300\23\n\351@\211L&\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.640493 recvfrom(54, "\2\0\0\0\210\31\v\351\2715\0\0\300\23\n\351@\211L&\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.640834 recvfrom(54, "\2\0\0\0\210\31\v\351\2735\0\0\300\23\n\351@\211L&\335\232\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.641027 recvfrom(54, 0xcb6cce10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.641248 recvfrom(35, 0xffc9ce68, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.641490 ioctl(8, BINDER_WRITE_READ, 0xffc9d578) = 0
+1605899932.641729 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.642099 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.642360 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.642583 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.642755 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.643072 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.645278 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 18, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.645857 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.646734 futex(0xcc56def4, FUTEX_WAIT_BITSET_PRIVATE, 14, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.647272 ioctl(8, BINDER_WRITE_READ, 0xffc9d9a8) = 0
+1605899932.647611 ioctl(8, BINDER_WRITE_READ, 0xffc9d9a8) = 0
+1605899932.652309 ioctl(8, BINDER_WRITE_READ, 0xffc9d7d8) = 0
+1605899932.652531 ioctl(8, BINDER_WRITE_READ, 0xffc9d7d8) = 0
+1605899932.652813 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.653184 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.653415 ioctl(8, BINDER_WRITE_READ, 0xffc9d978) = 0
+1605899932.654243 ioctl(8, BINDER_WRITE_READ, 0xffc9d978) = 0
+1605899932.658860 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.659189 ioctl(8, BINDER_WRITE_READ, 0xffc9d938) = 0
+1605899932.659709 ioctl(8, BINDER_WRITE_READ, 0xffc9d938) = 0
+1605899932.660117 getuid32()            = 10487
+1605899932.661141 ioctl(8, BINDER_WRITE_READ, 0xffc9d938) = 0
+1605899932.661410 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.661646 getuid32()            = 10487
+1605899932.661809 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}, {EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=44, u64=44}}], 16, 0, NULL, 8) = 3
+1605899932.662148 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605899932.662426 recvfrom(35, "nysv\0\0\0\0\246\205\237'\335\232\0\0\316\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.662834 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.663141 recvfrom(44, "\2\0\0\0\210\31\v\351\2515\0\0\300\23\n\351\200\260\244%\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.663509 ioctl(8, BINDER_WRITE_READ, 0xffc9d478) = 0
+1605899932.664606 ioctl(8, BINDER_WRITE_READ, 0xffc9d478) = 0
+1605899932.664947 sendto(44, "\3\0\0\0\0@0D\2515\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.665404 recvfrom(44, "\2\0\0\0\210\31\v\351\2535\0\0\300\23\n\351\300\362\263%\335\232\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605899932.665829 sendto(44, "\3\0\0\0\0@0D\2535\0\0\0g\311r", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.666229 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.666629 futex(0xcc56def4, FUTEX_WAIT_BITSET_PRIVATE, 18, NULL, 0xffffffff) = 0
+1605899932.718484 getuid32()            = 10487
+1605899932.719055 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.719235 getuid32()            = 10487
+1605899932.719383 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.719566 recvfrom(54, 0xcb6cce10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.719806 sendto(54, "\3\0\0\0\1\0\0\0\2615\0\0\1\276\210\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.720912 sendto(54, "\3\0\0\0\1\0\0\0\2635\0\0\1\276\210\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.721145 sendto(54, "\3\0\0\0\1\0\0\0\2655\0\0\1\276\210\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.721376 sendto(54, "\3\0\0\0\1\0\0\0\2675\0\0\1\276\210\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.721636 sendto(54, "\3\0\0\0\1\0\0\0\2715\0\0\1\276\210\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.721961 sendto(54, "\3\0\0\0\1\0\0\0\2735\0\0\1\276\210\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605899932.722677 recvfrom(54, 0xcb6cce10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.723108 recvfrom(35, 0xffc9d2f8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.723377 ioctl(8, BINDER_WRITE_READ, 0xffc9da08) = 0
+1605899932.723909 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.724180 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.724864 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.725386 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.725675 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.725991 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.726371 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.727592 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 22, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.727811 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.728036 futex(0xcc56def4, FUTEX_WAIT_BITSET_PRIVATE, 22, NULL, 0xffffffff) = 0
+1605899932.750046 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.750332 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.750972 futex(0xcc56def0, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.751530 futex(0xcc56def4, FUTEX_WAIT_BITSET_PRIVATE, 26, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.751856 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899932.752571 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899932.753692 getuid32()            = 10487
+1605899932.754184 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 2
+1605899932.754582 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.755014 recvfrom(35, "nysv\0\0\0\0\350\23\230,\335\232\0\0\323\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.755296 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.755838 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.756178 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.756416 getuid32()            = 10487
+1605899932.756660 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.757035 recvfrom(54, 0xcb6cce10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.757341 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.757947 recvfrom(35, 0xffc9c788, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.758181 ioctl(8, BINDER_WRITE_READ, 0xffc9ce98) = 0
+1605899932.758450 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.758886 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.759181 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.759423 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.759803 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.763582 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 26, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.763893 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.764194 futex(0xcc56def4, FUTEX_WAIT_BITSET_PRIVATE, 30, NULL, 0xffffffff) = 0
+1605899932.768881 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.769368 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.770590 futex(0xcc56def0, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.770875 futex(0xcc56def4, FUTEX_WAIT_BITSET_PRIVATE, 34, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.771293 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899932.771804 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899932.772200 getuid32()            = 10487
+1605899932.772448 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 1
+1605899932.772715 recvfrom(35, "nysv\0\0\0\0\262\343\224.\335\232\0\0\325\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.773004 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.773301 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.773597 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.773986 recvfrom(35, 0xffc9c788, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.774484 ioctl(8, BINDER_WRITE_READ, 0xffc9ce98) = 0
+1605899932.774816 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.775074 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.775298 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.775565 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.775879 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.777914 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 30, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.778222 getuid32()            = 10487
+1605899932.778501 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}, {EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 2
+1605899932.778785 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.779568 recvfrom(35, "nysv\0\0\0\0\3343\223/\335\232\0\0\326\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.780329 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.781067 getuid32()            = 10487
+1605899932.781469 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.781848 futex(0xe6aefe00, FUTEX_WAKE, 1) = 1
+1605899932.782036 futex(0xe6aefde0, FUTEX_WAKE, 1) = 1
+1605899932.782354 getuid32()            = 10487
+1605899932.782492 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.782896 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.783146 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.789069 ioctl(8, BINDER_WRITE_READ, 0xffc9d8c8) = 0
+1605899932.789947 ioctl(8, BINDER_WRITE_READ, 0xffc9d8c8) = 0
+1605899932.790358 recvfrom(35, 0xffc9c088, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.790505 ioctl(8, BINDER_WRITE_READ, 0xffc9c798) = 0
+1605899932.790686 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.791003 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.793192 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.794224 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.795074 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.795432 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 34, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.795786 getuid32()            = 10487
+1605899932.796138 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 2
+1605899932.796461 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.796790 recvfrom(35, "nysv\0\0\0\0\6\204\2210\335\232\0\0\327\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.797191 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.797435 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.798086 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.798635 recvfrom(35, 0xffc9c788, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.798975 ioctl(8, BINDER_WRITE_READ, 0xffc9ce98) = 0
+1605899932.799396 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.799576 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.799748 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.800054 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.800216 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 38, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.800476 getuid32()            = 10487
+1605899932.800700 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+1605899932.800895 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.801221 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+1605899932.811160 recvfrom(35, "nysv\0\0\0\0000\324\2171\335\232\0\0\330\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.811427 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.811807 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.812149 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.812647 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.813042 recvfrom(35, 0xffc9c788, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.813350 ioctl(8, BINDER_WRITE_READ, 0xffc9ce98) = 0
+1605899932.813690 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.814026 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.814340 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.814710 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.815111 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.815465 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 42, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.815880 getuid32()            = 10487
+1605899932.816242 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+1605899932.816654 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605899932.817043 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+1605899932.827147 recvfrom(35, "nysv\0\0\0\0Z$\2162\335\232\0\0\331\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.827496 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.827844 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.828119 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.828435 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.828814 recvfrom(35, 0xffc9c788, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.829222 ioctl(8, BINDER_WRITE_READ, 0xffc9ce98) = 0
+1605899932.829643 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.830002 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.830394 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.830722 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.831160 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.832421 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 46, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.832831 getuid32()            = 10487
+1605899932.833206 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+1605899932.833538 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605899932.833967 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+1605899932.844782 recvfrom(35, "nysv\0\0\0\0\257\200\2143\335\232\0\0\332\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.845081 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.845306 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.845768 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.846039 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.846500 recvfrom(35, 0xffc9c788, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.846886 ioctl(8, BINDER_WRITE_READ, 0xffc9ce98) = 0
+1605899932.847260 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.847589 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.847887 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.848214 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.848542 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.849292 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 50, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.849609 getuid32()            = 10487
+1605899932.849875 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+1605899932.850273 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605899932.850654 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+1605899932.861822 recvfrom(35, "nysv\0\0\0\0\371\337\2124\335\232\0\0\333\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.862564 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.863102 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.863559 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.864217 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.864739 recvfrom(35, 0xffc9c788, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.865050 ioctl(8, BINDER_WRITE_READ, 0xffc9ce98) = 0
+1605899932.865352 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.865767 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.866213 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.866539 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.866960 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.867797 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 54, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.868320 getuid32()            = 10487
+1605899932.868689 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+1605899932.869165 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605899932.869756 getuid32()            = 10487
+1605899932.870400 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.870926 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+1605899932.877543 recvfrom(35, "nysv\0\0\0\0#0\2115\335\232\0\0\334\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.878667 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.879360 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.880337 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.881149 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.882054 recvfrom(35, 0xffc9c788, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.882757 ioctl(8, BINDER_WRITE_READ, 0xffc9ce98) = 0
+1605899932.883432 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.884203 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.884805 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.885573 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.886322 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.887262 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 58, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.888218 getuid32()            = 10487
+1605899932.888893 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+1605899932.889599 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605899932.890073 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+1605899932.893881 recvfrom(35, "nysv\0\0\0\0M\200\2076\335\232\0\0\335\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.894309 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.894872 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.895888 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.896615 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.899359 recvfrom(35, 0xffc9c8d8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.899797 ioctl(8, BINDER_WRITE_READ, 0xffc9cfe8) = 0
+1605899932.900423 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.900898 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.901462 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 62, NULL, 0xffffffff) = 0
+1605899932.905028 getuid32()            = 10487
+1605899932.905384 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+1605899932.905727 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605899932.906068 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+1605899932.910418 recvfrom(35, "nysv\0\0\0\0w\320\2057\335\232\0\0\336\265\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899932.910652 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.910964 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.911507 recvfrom(44, 0xdcf83a10, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899932.912153 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.912632 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899932.913000 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.913255 futex(0xdcfb2cfc, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899932.914273 futex(0xdcfb2d00, FUTEX_WAIT_BITSET_PRIVATE, 66, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899932.914678 getuid32()            = 10487
+1605899932.915278 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+1605899932.915937 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605899932.916467 ioctl(8, BINDER_WRITE_READ, 0xffc9dc08) = 0
+1605899932.919077 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899932.919519 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1
+1605899933.794955 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.795839 recvfrom(35, 0xffc9cfe8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899933.796625 ioctl(8, BINDER_WRITE_READ, 0xffc9d6f8) = 0
+1605899933.797153 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.797707 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.798358 ioctl(8, BINDER_WRITE_READ, 0xffc9da98) = 0
+1605899933.798999 ioctl(8, BINDER_WRITE_READ, 0xffc9da98) = 0
+1605899933.799684 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.800333 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.801121 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 42, NULL, 0xffffffff) = 0
+1605899933.802069 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.802456 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.803061 futex(0xdcfb2e14, FUTEX_WAIT_BITSET_PRIVATE, 46, NULL, 0xffffffff) = 0
+1605899933.807914 epoll_ctl(26, EPOLL_CTL_DEL, 47, NULL) = 0
+1605899933.808387 ioctl(8, BINDER_WRITE_READ, 0xffc9dad8) = 0
+1605899933.808802 ioctl(8, BINDER_WRITE_READ, 0xffc9dad8) = 0
+1605899933.809689 close(47)             = 0
+1605899933.810116 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.810281 getuid32()            = 10487
+1605899933.810510 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=35, u64=35}}], 16, 0, NULL, 8) = 2
+1605899933.810829 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.811113 recvfrom(35, "nysv\0\0\0\0000h)m\335\232\0\0\24\266\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899933.811601 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899933.812000 ioctl(8, BINDER_WRITE_READ, 0xffc9db58) = 0
+1605899933.812331 ioctl(8, BINDER_WRITE_READ, 0xffc9db58) = 0
+1605899933.812738 ioctl(8, BINDER_WRITE_READ, 0xffc9da98) = 0
+1605899933.812964 ioctl(8, BINDER_WRITE_READ, 0xffc9da98) = 0
+1605899933.813331 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.813656 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.813875 futex(0xcc56df90, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.814306 futex(0xcc56df94, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899933.814560 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.814920 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.815207 futex(0xcc56df90, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.815639 futex(0xcc56df94, FUTEX_WAIT_BITSET_PRIVATE, 6, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899933.816132 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.816576 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.816872 futex(0xcc56df90, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.817425 futex(0xcc56df94, FUTEX_WAIT_BITSET_PRIVATE, 10, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899933.817990 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.818385 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.818956 ioctl(8, BINDER_WRITE_READ, 0xffc9db08) = 0
+1605899933.820199 ioctl(8, BINDER_WRITE_READ, 0xffc9db08) = 0
+1605899933.823669 dup(47)               = 50
+1605899933.823885 fcntl64(50, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+1605899933.824246 close(47)             = 0
+1605899933.824529 epoll_ctl(26, EPOLL_CTL_ADD, 50, {EPOLLIN, {u32=50, u64=50}}) = 0
+1605899933.824804 ioctl(8, BINDER_WRITE_READ, 0xffc9da88) = 0
+1605899933.825133 ioctl(8, BINDER_WRITE_READ, 0xffc9da88) = 0
+1605899933.825401 getuid32()            = 10487
+1605899933.825806 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899933.826168 recvfrom(50, 0xcc511010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899933.826765 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.826929 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.827389 futex(0xcc56df90, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.827566 futex(0xcc56df94, FUTEX_WAIT_BITSET_PRIVATE, 14, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899933.827831 ioctl(8, BINDER_WRITE_READ, 0xffc9d9a8) = 0
+1605899933.828747 ioctl(8, BINDER_WRITE_READ, 0xffc9d9a8) = 0
+1605899933.830636 ioctl(8, BINDER_WRITE_READ, 0xffc9d7d8) = 0
+1605899933.830923 ioctl(8, BINDER_WRITE_READ, 0xffc9d7d8) = 0
+1605899933.831243 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.831525 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.831928 ioctl(8, BINDER_WRITE_READ, 0xffc9d978) = 0
+1605899933.832347 ioctl(8, BINDER_WRITE_READ, 0xffc9d978) = 0
+1605899933.912783 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.913163 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.913577 ioctl(8, BINDER_WRITE_READ, 0xffc9d938) = 0
+1605899933.913934 ioctl(8, BINDER_WRITE_READ, 0xffc9d938) = 0
+1605899933.914302 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.914619 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.915103 getuid32()            = 10487
+1605899933.915454 ioctl(8, BINDER_WRITE_READ, 0xffc9cf88) = 0
+1605899933.915768 recvfrom(35, 0xffc9d1c8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899933.916084 ioctl(8, BINDER_WRITE_READ, 0xffc9d8d8) = 0
+1605899933.916459 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.916814 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.917069 getuid32()            = 10487
+1605899933.917307 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899933.917617 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.917933 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.918167 futex(0xcc56df90, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.918494 futex(0xcc56df94, FUTEX_WAIT_BITSET_PRIVATE, 18, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899933.918730 getuid32()            = 10487
+1605899933.919092 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899933.919437 getuid32()            = 10487
+1605899933.919703 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899933.920457 epoll_pwait(26, [{EPOLLIN, {u32=35, u64=35}}], 16, -1, NULL, 8) = 1
+1605899933.930570 recvfrom(35, "nysv\0\0\0\0\301\222\36t\335\232\0\0\30\266\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605899933.930894 recvfrom(35, 0xffc9d318, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899933.931319 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.931748 recvfrom(50, 0xcc511010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605899933.932137 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.932718 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.933070 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.933554 futex(0xcc56df90, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.933830 futex(0xcc56df94, FUTEX_WAIT_BITSET_PRIVATE, 22, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899933.934349 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.934569 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.935132 futex(0xcc56df20, FUTEX_WAIT_BITSET_PRIVATE, 2, NULL, 0xffffffff) = 0
+1605899933.954981 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.955484 futex(0xcc56df94, FUTEX_WAIT_BITSET_PRIVATE, 26, NULL, 0xffffffff) = 0
+1605899933.957952 write(34, "\1\0\0\0\0\0\0\0", 8) = 8
+1605899933.958554 futex(0xe6ab24e8, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.958831 futex(0xcc56df90, FUTEX_WAKE_PRIVATE, 1) = 1
+1605899933.959753 futex(0xcc56df94, FUTEX_WAIT_BITSET_PRIVATE, 30, NULL, 0xffffffff) = -1 EAGAIN (Try again)
+1605899933.960051 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899933.960461 ioctl(8, BINDER_WRITE_READ, 0xffc9d9f8) = 0
+1605899933.960799 getuid32()            = 10487
+1605899933.961364 epoll_pwait(26, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+1605899933.961779 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605899933.962594 ioctl(8, BINDER_WRITE_READ, 0xffc9de18) = 0
+1605899933.963079 epoll_pwait(26, [], 16, 52, NULL, 8) = 0
+1605899934.016416 getuid32()            = 10487
+1605899934.016919 ioctl(8, BINDER_WRITE_READ, 0xffc9d6a8) = 0
+1605899934.017407 getuid32()            = 10487
+1605899934.018474 epoll_pwait(26, [], 16, 0, NULL, 8) = 0
+1605899934.019136 epoll_pwait(26, ^Cstrace: Process 23165 detached
+

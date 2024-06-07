@@ -1,0 +1,157 @@
+1607106151.923407 select(10, [5 9], [], [], {7, 693176}) = 1 (in [9], left {5, 608314})
+1607106154.008583 gettimeofday({1607106154, 8634}, NULL) = 0
+1607106154.008753 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106154.009331 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106154.009810 gettimeofday({1607106154, 9846}, NULL) = 0
+1607106154.009954 select(10, [5 9], [], [], {5, 606575}) = 1 (in [9], left {2, 602217})
+1607106157.014955 gettimeofday({1607106157, 15013}, NULL) = 0
+1607106157.015152 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106157.015981 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106157.016507 gettimeofday({1607106157, 16535}, NULL) = 0
+1607106157.016863 select(10, [5 9], [], [], {2, 599886}) = 0 (Timeout)
+1607106159.620337 gettimeofday({1607106159, 620396}, NULL) = 0
+1607106159.620505 gettimeofday({1607106159, 620571}, NULL) = 0
+1607106159.621467 gettimeofday({1607106159, 621551}, NULL) = 0
+1607106159.622469 gettimeofday({1607106159, 622551}, NULL) = 0
+1607106159.622725 select(10, [5 9], [], [], {9, 999000}) = 1 (in [9], left {9, 603823})
+1607106160.018944 gettimeofday({1607106160, 18995}, NULL) = 0
+1607106160.019112 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106160.019881 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106160.020164 gettimeofday({1607106160, 20462}, NULL) = 0
+1607106160.020695 select(10, [5 9], [], [], {9, 601089}) = 1 (in [9], left {6, 597658})
+1607106163.024648 gettimeofday({1607106163, 24722}, NULL) = 0
+1607106163.024845 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106163.025791 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106163.026409 gettimeofday({1607106163, 26460}, NULL) = 0
+1607106163.026557 select(10, [5 9], [], [], {6, 595091}) = 1 (in [9], left {3, 592234})
+1607106166.030275 gettimeofday({1607106166, 30411}, NULL) = 0
+1607106166.031342 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106166.031783 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106166.032082 gettimeofday({1607106166, 32126}, NULL) = 0
+1607106166.032344 select(10, [5 9], [], [], {3, 589425}) = 1 (in [9], left {0, 585882})
+1607106169.036502 gettimeofday({1607106169, 36563}, NULL) = 0
+1607106169.036682 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106169.037038 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106169.037311 gettimeofday({1607106169, 37353}, NULL) = 0
+1607106169.037525 select(10, [5 9], [], [], {0, 584198}) = 0 (Timeout)
+1607106169.621960 gettimeofday({1607106169, 621975}, NULL) = 0
+1607106169.622037 gettimeofday({1607106169, 622054}, NULL) = 0
+1607106169.622195 gettimeofday({1607106169, 622218}, NULL) = 0
+1607106169.622295 gettimeofday({1607106169, 622333}, NULL) = 0
+1607106169.622414 select(10, [5 9], [], [], {9, 999885}) = 1 (in [9], left {7, 580982})
+1607106172.041927 gettimeofday({1607106172, 42025}, NULL) = 0
+1607106172.042234 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106172.042938 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106172.043257 gettimeofday({1607106172, 43300}, NULL) = 0
+1607106172.043450 select(10, [5 9], [], [], {7, 578918}) = 1 (in [9], left {4, 573685})
+1607106175.049096 gettimeofday({1607106175, 49204}, NULL) = 0
+1607106175.049330 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106175.050183 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106175.050763 gettimeofday({1607106175, 50800}, NULL) = 0
+1607106175.050906 select(10, [5 9], [], [], {4, 571418}) = 1 (in [9], left {1, 568510})
+1607106178.054540 gettimeofday({1607106178, 54615}, NULL) = 0
+1607106178.054776 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106178.055170 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106178.055365 gettimeofday({1607106178, 55398}, NULL) = 0
+1607106178.055473 select(10, [5 9], [], [], {1, 566820}) = 0 (Timeout)
+1607106179.624696 gettimeofday({1607106179, 624733}, NULL) = 0
+1607106179.624821 gettimeofday({1607106179, 624853}, NULL) = 0
+1607106179.624929 gettimeofday({1607106179, 624976}, NULL) = 0
+1607106179.625096 gettimeofday({1607106179, 625130}, NULL) = 0
+1607106179.625280 select(10, [5 9], [], [], {9, 999846}) = 1 (in [9], left {8, 567530})
+1607106181.057783 gettimeofday({1607106181, 57804}, NULL) = 0
+1607106181.057880 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106181.058034 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106181.058144 gettimeofday({1607106181, 58160}, NULL) = 0
+1607106181.058198 select(10, [5 9], [], [], {8, 566816}) = 1 (in [9], left {5, 564870})
+1607106184.060344 gettimeofday({1607106184, 60381}, NULL) = 0
+1607106184.060530 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106184.060870 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106184.061108 gettimeofday({1607106184, 61150}, NULL) = 0
+1607106184.061248 select(10, [5 9], [], [], {5, 563826}) = 1 (in [9], left {2, 560530})
+1607106187.065440 gettimeofday({1607106187, 65497}, NULL) = 0
+1607106187.065712 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106187.066660 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106187.067001 gettimeofday({1607106187, 67204}, NULL) = 0
+1607106187.067583 select(10, [5 9], [], [], {2, 557772}) = 0 (Timeout)
+1607106189.628555 gettimeofday({1607106189, 628637}, NULL) = 0
+1607106189.628764 gettimeofday({1607106189, 628830}, NULL) = 0
+1607106189.629485 gettimeofday({1607106189, 629557}, NULL) = 0
+1607106189.630198 gettimeofday({1607106189, 630254}, NULL) = 0
+1607106189.630388 select(10, [5 9], [], [], {9, 999303}) = 1 (in [9], left {9, 558485})
+1607106190.071627 gettimeofday({1607106190, 71658}, NULL) = 0
+1607106190.071770 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106190.072215 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106190.072524 gettimeofday({1607106190, 72571}, NULL) = 0
+1607106190.072784 select(10, [5 9], [], [], {9, 556986}) = 1 (in [9], left {6, 554961})
+1607106193.075388 gettimeofday({1607106193, 75449}, NULL) = 0
+1607106193.075570 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106193.075922 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106193.076162 gettimeofday({1607106193, 76203}, NULL) = 0
+1607106193.076299 select(10, [5 9], [], [], {6, 553354}) = 1 (in [9], left {3, 550538})
+1607106196.079392 gettimeofday({1607106196, 79441}, NULL) = 0
+1607106196.079559 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106196.080666 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106196.080921 gettimeofday({1607106196, 80955}, NULL) = 0
+1607106196.081078 select(10, [5 9], [], [], {3, 548602}) = 1 (in [9], left {0, 545296})
+1607106199.084541 gettimeofday({1607106199, 84561}, NULL) = 0
+1607106199.084630 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106199.084779 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106199.084955 gettimeofday({1607106199, 84976}, NULL) = 0
+1607106199.085021 select(10, [5 9], [], [], {0, 544581}) = 0 (Timeout)
+1607106199.630567 gettimeofday({1607106199, 630614}, NULL) = 0
+1607106199.630781 gettimeofday({1607106199, 630825}, NULL) = 0
+1607106199.630923 gettimeofday({1607106199, 630964}, NULL) = 0
+1607106199.631054 gettimeofday({1607106199, 631109}, NULL) = 0
+1607106199.631189 select(10, [5 9], [], [], {9, 999855}) = 1 (in [9], left {7, 545076})
+1607106202.086258 gettimeofday({1607106202, 86406}, NULL) = 0
+1607106202.086657 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106202.087101 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106202.087440 gettimeofday({1607106202, 87480}, NULL) = 0
+1607106202.087577 select(10, [5 9], [], [], {7, 543484}) = 1 (in [9], left {4, 540022})
+1607106205.091312 gettimeofday({1607106205, 91359}, NULL) = 0
+1607106205.091525 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106205.091900 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106205.092133 gettimeofday({1607106205, 92204}, NULL) = 0
+1607106205.092352 select(10, [5 9], [], [], {4, 538760}) = 1 (in [9], left {1, 535495})
+1607106208.095827 gettimeofday({1607106208, 95846}, NULL) = 0
+1607106208.095901 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106208.096037 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106208.096125 gettimeofday({1607106208, 96138}, NULL) = 0
+1607106208.096169 select(10, [5 9], [], [], {1, 534826}) = 0 (Timeout)
+1607106209.632955 gettimeofday({1607106209, 633011}, NULL) = 0
+1607106209.633135 gettimeofday({1607106209, 633192}, NULL) = 0
+1607106209.633313 gettimeofday({1607106209, 633369}, NULL) = 0
+1607106209.633532 gettimeofday({1607106209, 633564}, NULL) = 0
+1607106209.633762 select(10, [5 9], [], [], {9, 999805}) = 1 (in [9], left {8, 534212})
+1607106211.099502 gettimeofday({1607106211, 99519}, NULL) = 0
+1607106211.099580 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106211.099686 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106211.099761 gettimeofday({1607106211, 99774}, NULL) = 0
+1607106211.099804 select(10, [5 9], [], [], {8, 533595}) = 1 (in [9], left {5, 530385})
+1607106214.103134 gettimeofday({1607106214, 103150}, NULL) = 0
+1607106214.103189 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106214.103303 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106214.103381 gettimeofday({1607106214, 103394}, NULL) = 0
+1607106214.103425 select(10, [5 9], [], [], {5, 529975}) = 1 (in [9], left {2, 526611})
+1607106217.107023 gettimeofday({1607106217, 107072}, NULL) = 0
+1607106217.107253 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106217.107630 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106217.107895 gettimeofday({1607106217, 107949}, NULL) = 0
+1607106217.108021 select(10, [5 9], [], [], {2, 525420}) = 0 (Timeout)
+1607106219.636493 gettimeofday({1607106219, 636542}, NULL) = 0
+1607106219.636664 gettimeofday({1607106219, 636737}, NULL) = 0
+1607106219.636840 gettimeofday({1607106219, 636912}, NULL) = 0
+1607106219.637049 gettimeofday({1607106219, 637151}, NULL) = 0
+1607106219.637342 select(10, [5 9], [], [], {9, 999761}) = 1 (in [9], left {9, 527601})
+1607106220.109829 gettimeofday({1607106220, 109844}, NULL) = 0
+1607106220.109882 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106220.109987 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106220.110093 gettimeofday({1607106220, 110106}, NULL) = 0
+1607106220.110139 select(10, [5 9], [], [], {9, 526806}) = 1 (in [9], left {6, 523392})
+1607106223.113825 gettimeofday({1607106223, 113917}, NULL) = 0
+1607106223.114030 recvfrom(9, "SIGNAL_POLL", 4095, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, [41]) = 11
+1607106223.114322 sendto(9, "RSSI=-55\nLINKSPEED=0\nNOISE=0\nFRE"..., 41, 0, {sa_family=AF_UNIX, path="/data/misc/wifi/sockets/wpa_ctrl_366-3"}, 41) = 41
+1607106223.114524 gettimeofday({1607106223, 114561}, NULL) = 0
+1607106223.114650 select(10, [5 9], [], [], {6, 522351}^C <unfinished ...>
+

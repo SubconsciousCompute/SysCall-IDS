@@ -1,0 +1,1313 @@
+strace: Process 1954 attached
+1605643123.705041 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1
+1605643191.220645 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.221030 getuid32()            = 10456
+1605643191.221281 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=30218924, ...}, 0) = 0
+1605643191.221903 fstatat64(AT_FDCWD, "/data/app/vbkoxh.cswnpr-RHanL2mSftks5PQTzpLGBg==/base.apk", {st_mode=S_IFREG|0644, st_size=1068986, ...}, 0) = 0
+1605643191.222774 fstatat64(AT_FDCWD, "/data/app/com.google.android.webview-253_E8ZBp0swrFGXW78Y3g==/base.apk", {st_mode=S_IFREG|0644, st_size=32860092, ...}, 0) = 0
+1605643191.224270 ioctl(8, BINDER_WRITE_READ, 0xff84cf08) = 0
+1605643191.224818 ioctl(8, BINDER_WRITE_READ, 0xff84cf08) = 0
+1605643191.226700 getuid32()            = 10456
+1605643191.227140 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=30218924, ...}, 0) = 0
+1605643191.227338 fstatat64(AT_FDCWD, "/data/app/vbkoxh.cswnpr-RHanL2mSftks5PQTzpLGBg==/base.apk", {st_mode=S_IFREG|0644, st_size=1068986, ...}, 0) = 0
+1605643191.227571 ioctl(8, BINDER_WRITE_READ, 0xff84ce28) = 0
+1605643191.227862 ioctl(8, BINDER_WRITE_READ, 0xff84ce28) = 0
+1605643191.228203 getuid32()            = 10456
+1605643191.228377 getuid32()            = 10456
+1605643191.228529 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.228703 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.228902 ioctl(31, ASHMEM_GET_SIZE, 0) = 84
+1605643191.229179 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.229347 fstat64(31, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.229517 ioctl(31, ASHMEM_PIN, 0xff84cfd0) = 0
+1605643191.229719 ioctl(8, BINDER_WRITE_READ, 0xff84cea8) = 0
+1605643191.230036 ioctl(8, BINDER_WRITE_READ, 0xff84cea8) = 0
+1605643191.230706 mmap2(NULL, 524288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xc9c86000
+1605643191.230960 madvise(0xc9c86000, 524288, MADV_MERGEABLE) = 0
+1605643191.231212 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xc9c86000, 524288, "libc_malloc") = 0
+1605643191.231450 munmap(0xc9c86000, 524288) = 0
+1605643191.231700 mmap2(NULL, 1044480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_NORESERVE, -1, 0) = 0xc9c07000
+1605643191.231940 madvise(0xc9c07000, 1044480, MADV_MERGEABLE) = 0
+1605643191.232198 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xc9c07000, 1044480, "libc_malloc") = 0
+1605643191.232432 munmap(0xc9c07000, 495616) = 0
+1605643191.232862 munmap(0xc9d00000, 24576) = 0
+1605643191.233478 ioctl(8, BINDER_WRITE_READ, 0xff84c3f8) = 0
+1605643191.234777 ioctl(8, BINDER_WRITE_READ, 0xff84c3f8) = 0
+1605643191.235098 ioctl(8, BINDER_WRITE_READ, 0xff84c478) = 0
+1605643191.236517 ioctl(8, BINDER_WRITE_READ, 0xff84c478) = 0
+1605643191.237162 mprotect(0x73605000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.238104 getuid32()            = 10456
+1605643191.239738 ioctl(8, BINDER_WRITE_READ, 0xff84bc08) = 0
+1605643191.240197 ioctl(8, BINDER_WRITE_READ, 0xff84bc08) = 0
+1605643191.240483 ioctl(8, BINDER_WRITE_READ, 0xff84bc48) = 0
+1605643191.240755 ioctl(8, BINDER_WRITE_READ, 0xff84bc48) = 0
+1605643191.241242 ioctl(8, BINDER_WRITE_READ, 0xff84bc28) = 0
+1605643191.241452 ioctl(8, BINDER_WRITE_READ, 0xff84bc28) = 0
+1605643191.241686 ioctl(8, BINDER_WRITE_READ, 0xff84bbc8) = 0
+1605643191.242137 ioctl(8, BINDER_WRITE_READ, 0xff84bbc8) = 0
+1605643191.242479 getuid32()            = 10456
+1605643191.242651 getuid32()            = 10456
+1605643191.242886 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=30218924, ...}, 0) = 0
+1605643191.243134 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=30218924, ...}, 0) = 0
+1605643191.243349 fstatat64(AT_FDCWD, "/data/app/com.google.android.webview-253_E8ZBp0swrFGXW78Y3g==/base.apk", {st_mode=S_IFREG|0644, st_size=32860092, ...}, 0) = 0
+1605643191.243683 fstatat64(AT_FDCWD, "/data/app/com.google.android.webview-253_E8ZBp0swrFGXW78Y3g==/base.apk", {st_mode=S_IFREG|0644, st_size=32860092, ...}, 0) = 0
+1605643191.243906 fstatat64(AT_FDCWD, "/system/framework/framework-res.apk", {st_mode=S_IFREG|0644, st_size=30218924, ...}, 0) = 0
+1605643191.244090 fstatat64(AT_FDCWD, "/data/app/com.google.android.webview-253_E8ZBp0swrFGXW78Y3g==/base.apk", {st_mode=S_IFREG|0644, st_size=32860092, ...}, 0) = 0
+1605643191.244379 ioctl(8, BINDER_WRITE_READ, 0xff84b9c8) = 0
+1605643191.244586 ioctl(8, BINDER_WRITE_READ, 0xff84b9c8) = 0
+1605643191.247352 ioctl(8, BINDER_WRITE_READ, 0xff84b9c8) = 0
+1605643191.247666 ioctl(8, BINDER_WRITE_READ, 0xff84b9c8) = 0
+1605643191.248142 getuid32()            = 10456
+1605643191.248412 writev(3, [{iov_base="\0\242\7\267+\264_\352\273\311\16", iov_len=11}, {iov_base="\4", iov_len=1}, {iov_base="WebViewFactory\0", iov_len=15}, {iov_base="Loading com.google.android.webvi"..., iov_len=73}], 4) = 100
+1605643191.248726 fstatat64(AT_FDCWD, "/data/app/com.google.android.webview-253_E8ZBp0swrFGXW78Y3g==/base.apk", {st_mode=S_IFREG|0644, st_size=32860092, ...}, 0) = 0
+1605643191.249029 ioctl(8, BINDER_WRITE_READ, 0xff84bbe8) = 0
+1605643191.249258 ioctl(8, BINDER_WRITE_READ, 0xff84bbc8) = 0
+1605643191.249573 ioctl(8, BINDER_WRITE_READ, 0xff84bbc8) = 0
+1605643191.249788 getuid32()            = 10456
+1605643191.250017 faccessat(AT_FDCWD, "/data/app/com.google.android.webview-253_E8ZBp0swrFGXW78Y3g==/lib/arm/libwebviewchromium.so", F_OK) = 0
+1605643191.250311 openat(AT_FDCWD, "/data/misc/shared_relro/libwebviewchromium32.relro", O_RDONLY|O_LARGEFILE) = -1 ENOENT (No such file or directory)
+1605643191.250819 getuid32()            = 10456
+1605643191.251124 writev(3, [{iov_base="\0\242\7\267+\264_bf\362\16", iov_len=11}, {iov_base="\6", iov_len=1}, {iov_base="webviewchromiumloader\0", iov_len=22}, {iov_base="Failed to open relro file /data/"..., iov_len=104}], 4) = 138
+1605643191.251554 getuid32()            = 10456
+1605643191.252258 writev(3, [{iov_base="\0\242\7\267+\264_\260\374\374\16", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="WebViewFactory\0", iov_len=15}, {iov_base="failed to load with relro file, "..., iov_len=51}], 4) = 78
+1605643191.252814 fstatat64(AT_FDCWD, "/data/local/tmp/webview-command-line", 0xff84a5b8, 0) = -1 ENOENT (No such file or directory)
+1605643191.253477 ioctl(8, BINDER_WRITE_READ, 0xff84a918) = 0
+1605643191.253787 ioctl(8, BINDER_WRITE_READ, 0xff84a918) = 0
+1605643191.254025 ioctl(8, BINDER_WRITE_READ, 0xff84a958) = 0
+1605643191.254327 ioctl(8, BINDER_WRITE_READ, 0xff84a958) = 0
+1605643191.254667 openat(AT_FDCWD, "/data/app/com.google.android.webview-253_E8ZBp0swrFGXW78Y3g==/lib/arm/libwebviewchromium.so", O_RDONLY|O_LARGEFILE) = 38
+1605643191.255545 getsockopt(38, SOL_SOCKET, SO_ERROR, 0xff84a774, 0xff84a770) = -1 ENOTSOCK (Socket operation on non-socket)
+1605643191.256003 close(38)             = 0
+1605643191.256508 prctl(PR_GET_DUMPABLE) = 1 (SUID_DUMP_USER)
+1605643191.256846 mprotect(0xe5221000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.257173 mprotect(0xe62b8000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.257491 mprotect(0xe7a51000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.257837 mprotect(0xe7887000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.258189 mprotect(0xe7a50000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.258766 mprotect(0xe7ab1000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.259123 mprotect(0xe7b31000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.259444 mprotect(0xe73e9000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.259683 mprotect(0xe74d8000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.260134 mprotect(0xe752f000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.260568 mprotect(0xe75e3000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.260956 mprotect(0xe764c000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.261372 mprotect(0xe770f000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.261644 mprotect(0xe775b000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.261845 mprotect(0xe7845000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.262639 mprotect(0xe7886000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.263127 mprotect(0xe79e0000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.263421 mprotect(0xe7a4f000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.265116 mprotect(0xe7ae6000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.265487 mprotect(0xe5113000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.265920 mprotect(0xe7710000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.266258 mprotect(0xe7980000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.266624 mprotect(0xe7372000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.266928 mprotect(0xe737c000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.267634 mprotect(0xe73ae000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.268131 mprotect(0xe73ca000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.268518 mprotect(0xe74a3000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.268916 mprotect(0xe7529000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.269458 mprotect(0xe75c7000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.269879 mprotect(0xe76b9000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.270153 mprotect(0xe7b2e000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.270629 mprotect(0xe79da000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.271013 mprotect(0xe72ab000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.271348 openat(AT_FDCWD, "/data/app/com.google.android.webview-253_E8ZBp0swrFGXW78Y3g==/lib/arm/libwebviewchromium.so", O_RDONLY|O_LARGEFILE|O_CLOEXEC) = 38
+1605643191.272004 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe4c50000
+1605643191.272357 madvise(0xe4c50000, 8192, MADV_MERGEABLE) = 0
+1605643191.272821 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xe4c50000, 8192, "linker_alloc_lob") = 0
+1605643191.273102 mmap2(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, 0, 0) = 0xe4c3e000
+1605643191.273487 madvise(0xe4c3e000, 8192, MADV_MERGEABLE) = 0
+1605643191.273747 prctl(PR_SET_VMA, PR_SET_VMA_ANON_NAME, 0xe4c3e000, 8192, "linker_alloc_lob") = 0
+1605643191.274011 readlinkat(AT_FDCWD, "/proc/self/fd/38", "/data/app/com.google.android.web"..., 4096) = 91
+1605643191.274292 munmap(0xe4c3e000, 8192) = 0
+1605643191.274550 munmap(0xe4c50000, 8192) = 0
+1605643191.275393 fstat64(38, {st_mode=S_IFREG|0755, st_size=40753408, ...}) = 0
+1605643191.275911 fstatfs64(38, 84, {f_type=EXT2_SUPER_MAGIC, f_bsize=4096, f_blocks=3265613, f_bfree=3049907, f_bavail=3045811, f_files=838832, f_ffree=835580, f_namelen=255}) = 0
+1605643191.276714 pread64(38, "\177ELF\1\1\1\0\0\0\0\0\0\0\0\0\3\0(\0\1\0\0\0\0\0\0\0004\0\0\0"..., 52, 0) = 52
+1605643191.277145 close(38)             = 0
+1605643191.277639 mprotect(0xe5221000, 4096, PROT_READ) = 0
+1605643191.278017 mprotect(0xe62b8000, 4096, PROT_READ) = 0
+1605643191.278452 mprotect(0xe7a51000, 4096, PROT_READ) = 0
+1605643191.278850 mprotect(0xe7887000, 4096, PROT_READ) = 0
+1605643191.279314 mprotect(0xe7a50000, 4096, PROT_READ) = 0
+1605643191.279632 mprotect(0xe7ab1000, 4096, PROT_READ) = 0
+1605643191.280087 mprotect(0xe7b31000, 4096, PROT_READ) = 0
+1605643191.280725 mprotect(0xe73e9000, 4096, PROT_READ) = 0
+1605643191.280977 mprotect(0xe74d8000, 4096, PROT_READ) = 0
+1605643191.281177 mprotect(0xe752f000, 4096, PROT_READ) = 0
+1605643191.281538 mprotect(0xe75e3000, 4096, PROT_READ) = 0
+1605643191.281775 mprotect(0xe764c000, 4096, PROT_READ) = 0
+1605643191.282118 mprotect(0xe770f000, 4096, PROT_READ) = 0
+1605643191.282437 mprotect(0xe775b000, 4096, PROT_READ) = 0
+1605643191.282767 mprotect(0xe7845000, 4096, PROT_READ) = 0
+1605643191.283080 mprotect(0xe7886000, 4096, PROT_READ) = 0
+1605643191.283313 mprotect(0xe79e0000, 4096, PROT_READ) = 0
+1605643191.283722 mprotect(0xe7a4f000, 4096, PROT_READ) = 0
+1605643191.284318 mprotect(0xe7ae6000, 4096, PROT_READ) = 0
+1605643191.284571 mprotect(0xe5113000, 4096, PROT_READ) = 0
+1605643191.284871 mprotect(0xe7710000, 4096, PROT_READ) = 0
+1605643191.285252 mprotect(0xe7980000, 4096, PROT_READ) = 0
+1605643191.285722 mprotect(0xe7372000, 4096, PROT_READ) = 0
+1605643191.286190 mprotect(0xe737c000, 4096, PROT_READ) = 0
+1605643191.286766 mprotect(0xe73ae000, 4096, PROT_READ) = 0
+1605643191.287196 mprotect(0xe73ca000, 4096, PROT_READ) = 0
+1605643191.287396 mprotect(0xe74a3000, 4096, PROT_READ) = 0
+1605643191.287613 mprotect(0xe7529000, 4096, PROT_READ) = 0
+1605643191.287976 mprotect(0xe75c7000, 4096, PROT_READ) = 0
+1605643191.288691 mprotect(0xe76b9000, 4096, PROT_READ) = 0
+1605643191.289099 mprotect(0xe7b2e000, 4096, PROT_READ) = 0
+1605643191.289472 mprotect(0xe79da000, 4096, PROT_READ) = 0
+1605643191.290053 mprotect(0xe72ab000, 4096, PROT_READ) = 0
+1605643191.290651 getuid32()            = 10456
+1605643191.290949 writev(3, [{iov_base="\0\242\7\267+\264_$\4R\21", iov_len=11}, {iov_base="\6", iov_len=1}, {iov_base="cr_LibraryLoader\0", iov_len=17}, {iov_base="Unable to load library: webviewc"..., iov_len=40}], 4) = 69
+1605643191.292169 getuid32()            = 10456
+1605643191.292658 writev(3, [{iov_base="\0\242\7\267+\264_\361Qf\21", iov_len=11}, {iov_base="\6", iov_len=1}, {iov_base="WebViewFactory\0", iov_len=15}, {iov_base="error instantiating provider\njav"..., iov_len=3856}], 4) = 3883
+1605643191.294061 getuid32()            = 10456
+1605643191.294630 writev(3, [{iov_base="\0\242\7\267+\264_V%\206\21", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="java.lang.reflect.InvocationTarg"..., iov_len=44}], 4) = 67
+1605643191.295557 getuid32()            = 10456
+1605643191.296069 writev(3, [{iov_base="\0\242\7\267+\264_\333\370\234\21", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat java.lang.reflect.Method.inv"..., iov_len=51}], 4) = 74
+1605643191.296749 getuid32()            = 10456
+1605643191.297213 writev(3, [{iov_base="\0\242\7\267+\264_\\\343\256\21", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat vbkoxh.cswnpr.vmbatqef.onCre"..., iov_len=56}], 4) = 79
+1605643191.298015 getuid32()            = 10456
+1605643191.298667 writev(3, [{iov_base="\0\242\7\267+\264_ga\300\21", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.Activity.perform"..., iov_len=59}], 4) = 82
+1605643191.299587 getuid32()            = 10456
+1605643191.304907 writev(3, [{iov_base="\0\242\7\267+\264_#\247\327\21", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.Instrumentation."..., iov_len=80}], 4) = 103
+1605643191.305926 getuid32()            = 10456
+1605643191.306691 writev(3, [{iov_base="\0\242\7\267+\264_%h;\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.ActivityThread.p"..., iov_len=79}], 4) = 102
+1605643191.307271 getuid32()            = 10456
+1605643191.307745 writev(3, [{iov_base="\0\242\7\267+\264_\221\270M\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.ActivityThread.h"..., iov_len=78}], 4) = 101
+1605643191.308762 getuid32()            = 10456
+1605643191.309224 writev(3, [{iov_base="\0\242\7\267+\264_\343\273f\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.ActivityThread.-"..., iov_len=57}], 4) = 80
+1605643191.309921 getuid32()            = 10456
+1605643191.310333 writev(3, [{iov_base="\0\242\7\267+\264_\357{u\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.ActivityThread$H"..., iov_len=73}], 4) = 96
+1605643191.310739 getuid32()            = 10456
+1605643191.311169 writev(3, [{iov_base="\0\242\7\267+\264_H\311\202\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.os.Handler.dispatchM"..., iov_len=57}], 4) = 80
+1605643191.311525 getuid32()            = 10456
+1605643191.311786 writev(3, [{iov_base="\0\242\7\267+\264_\272\254\220\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.os.Looper.loop(Loope"..., iov_len=44}], 4) = 67
+1605643191.312318 getuid32()            = 10456
+1605643191.312575 writev(3, [{iov_base="\0\242\7\267+\264_\333\242\234\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.ActivityThread.m"..., iov_len=62}], 4) = 85
+1605643191.312915 getuid32()            = 10456
+1605643191.313199 writev(3, [{iov_base="\0\242\7\267+\264_\366\361\245\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat java.lang.reflect.Method.inv"..., iov_len=51}], 4) = 74
+1605643191.313511 getuid32()            = 10456
+1605643191.313687 writev(3, [{iov_base="\0\242\7\267+\264_4\352\256\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.android.internal.os.Zygo"..., iov_len=76}], 4) = 99
+1605643191.313980 getuid32()            = 10456
+1605643191.314317 writev(3, [{iov_base="\0\242\7\267+\264_\n5\266\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.android.internal.os.Zygo"..., iov_len=65}], 4) = 88
+1605643191.314726 getuid32()            = 10456
+1605643191.315025 writev(3, [{iov_base="\0\242\7\267+\264_.\211\301\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="Caused by: android.view.InflateE"..., iov_len=124}], 4) = 147
+1605643191.315441 getuid32()            = 10456
+1605643191.315815 writev(3, [{iov_base="\0\242\7\267+\264_\231\375\312\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="Caused by: android.view.InflateE"..., iov_len=99}], 4) = 122
+1605643191.316643 getuid32()            = 10456
+1605643191.318333 writev(3, [{iov_base="\0\242\7\267+\264_\305\202\336\22", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="Caused by: java.lang.reflect.Inv"..., iov_len=55}], 4) = 78
+1605643191.318967 getuid32()            = 10456
+1605643191.319433 writev(3, [{iov_base="\0\242\7\267+\264_0&\2\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat java.lang.reflect.Constructo"..., iov_len=62}], 4) = 85
+1605643191.319942 getuid32()            = 10456
+1605643191.320283 writev(3, [{iov_base="\0\242\7\267+\264_\257V\21\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat java.lang.reflect.Constructo"..., iov_len=68}], 4) = 91
+1605643191.320602 getuid32()            = 10456
+1605643191.321107 writev(3, [{iov_base="\0\242\7\267+\264_\234\"\33\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.view.LayoutInflater."..., iov_len=68}], 4) = 91
+1605643191.321392 getuid32()            = 10456
+1605643191.322017 writev(3, [{iov_base="\0\242\7\267+\264_iN'\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.android.internal.policy."..., iov_len=94}], 4) = 117
+1605643191.322278 getuid32()            = 10456
+1605643191.322597 writev(3, [{iov_base="\0\242\7\267+\264_\276\3324\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.view.LayoutInflater."..., iov_len=70}], 4) = 93
+1605643191.322855 getuid32()            = 10456
+1605643191.323095 writev(3, [{iov_base="\0\242\7\267+\264_|\251=\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.view.LayoutInflater."..., iov_len=75}], 4) = 98
+1605643191.323498 getuid32()            = 10456
+1605643191.323861 writev(3, [{iov_base="\0\242\7\267+\264_\277CF\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.view.LayoutInflater."..., iov_len=75}], 4) = 98
+1605643191.324195 getuid32()            = 10456
+1605643191.324602 writev(3, [{iov_base="\0\242\7\267+\264_\222 R\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.view.LayoutInflater."..., iov_len=65}], 4) = 88
+1605643191.325129 getuid32()            = 10456
+1605643191.326637 writev(3, [{iov_base="\0\242\7\267+\264_\211\300^\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.view.LayoutInflater."..., iov_len=65}], 4) = 88
+1605643191.326915 getuid32()            = 10456
+1605643191.327234 writev(3, [{iov_base="\0\242\7\267+\264_\350\227{\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.view.LayoutInflater."..., iov_len=65}], 4) = 88
+1605643191.327650 getuid32()            = 10456
+1605643191.327909 writev(3, [{iov_base="\0\242\7\267+\264_\"\261\206\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.android.internal.policy."..., iov_len=81}], 4) = 104
+1605643191.328309 getuid32()            = 10456
+1605643191.328558 writev(3, [{iov_base="\0\242\7\267+\264_\323\362\220\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.Activity.setCont"..., iov_len=60}], 4) = 83
+1605643191.329113 getuid32()            = 10456
+1605643191.329316 writev(3, [{iov_base="\0\242\7\267+\264_\326\v\235\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat java.lang.reflect.Method.inv"..., iov_len=51}], 4) = 74
+1605643191.329645 getuid32()            = 10456
+1605643191.329864 writev(3, [{iov_base="\0\242\7\267+\264_!L\245\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat vbkoxh.cswnpr.vmbatqef.onCre"..., iov_len=56}], 4) = 79
+1605643191.330147 getuid32()            = 10456
+1605643191.330386 writev(3, [{iov_base="\0\242\7\267+\264_\360\33\255\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.Activity.perform"..., iov_len=59}], 4) = 82
+1605643191.331097 getuid32()            = 10456
+1605643191.331428 writev(3, [{iov_base="\0\242\7\267+\264_\376\214\272\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.Instrumentation."..., iov_len=80}], 4) = 103
+1605643191.331677 getuid32()            = 10456
+1605643191.331936 writev(3, [{iov_base="\0\242\7\267+\264_\357_\304\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.ActivityThread.p"..., iov_len=79}], 4) = 102
+1605643191.332207 getuid32()            = 10456
+1605643191.332510 writev(3, [{iov_base="\0\242\7\267+\264_\331a\314\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.ActivityThread.h"..., iov_len=78}], 4) = 101
+1605643191.332729 getuid32()            = 10456
+1605643191.333045 writev(3, [{iov_base="\0\242\7\267+\264_@v\324\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.ActivityThread.-"..., iov_len=57}], 4) = 80
+1605643191.333354 getuid32()            = 10456
+1605643191.333538 writev(3, [{iov_base="\0\242\7\267+\264_\372~\335\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.ActivityThread$H"..., iov_len=73}], 4) = 96
+1605643191.334061 getuid32()            = 10456
+1605643191.334265 writev(3, [{iov_base="\0\242\7\267+\264_\217\241\350\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.os.Handler.dispatchM"..., iov_len=57}], 4) = 80
+1605643191.334606 getuid32()            = 10456
+1605643191.335148 writev(3, [{iov_base="\0\242\7\267+\264_\206\345\360\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.os.Looper.loop(Loope"..., iov_len=44}], 4) = 67
+1605643191.335574 getuid32()            = 10456
+1605643191.336044 writev(3, [{iov_base="\0\242\7\267+\264_\204?\377\23", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.app.ActivityThread.m"..., iov_len=62}], 4) = 85
+1605643191.336748 getuid32()            = 10456
+1605643191.337183 writev(3, [{iov_base="\0\242\7\267+\264_{4\20\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat java.lang.reflect.Method.inv"..., iov_len=51}], 4) = 74
+1605643191.337653 getuid32()            = 10456
+1605643191.337918 writev(3, [{iov_base="\0\242\7\267+\264_\225\3\37\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.android.internal.os.Zygo"..., iov_len=76}], 4) = 99
+1605643191.338910 getuid32()            = 10456
+1605643191.339671 writev(3, [{iov_base="\0\242\7\267+\264_\374G(\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.android.internal.os.Zygo"..., iov_len=65}], 4) = 88
+1605643191.340385 getuid32()            = 10456
+1605643191.341229 writev(3, [{iov_base="\0\242\7\267+\264_\27\25I\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="Caused by: android.util.AndroidR"..., iov_len=93}], 4) = 116
+1605643191.341619 getuid32()            = 10456
+1605643191.341923 writev(3, [{iov_base="\0\242\7\267+\264_\210\300[\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.webkit.WebViewFactor"..., iov_len=71}], 4) = 94
+1605643191.342288 getuid32()            = 10456
+1605643191.342484 writev(3, [{iov_base="\0\242\7\267+\264_\354Af\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.webkit.WebView.getFa"..., iov_len=57}], 4) = 80
+1605643191.343079 getuid32()            = 10456
+1605643191.343401 writev(3, [{iov_base="\0\242\7\267+\264_M<r\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.webkit.WebView.ensur"..., iov_len=68}], 4) = 91
+1605643191.343678 getuid32()            = 10456
+1605643191.343917 writev(3, [{iov_base="\0\242\7\267+\264_H&{\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.webkit.WebView.setOv"..., iov_len=64}], 4) = 87
+1605643191.344295 getuid32()            = 10456
+1605643191.344633 writev(3, [{iov_base="\0\242\7\267+\264_D\270\204\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.view.View.<init>(Vie"..., iov_len=45}], 4) = 68
+1605643191.344985 getuid32()            = 10456
+1605643191.345315 writev(3, [{iov_base="\0\242\7\267+\264_JK\217\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.view.View.<init>(Vie"..., iov_len=45}], 4) = 68
+1605643191.345615 getuid32()            = 10456
+1605643191.345861 writev(3, [{iov_base="\0\242\7\267+\264_\325\346\227\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.view.ViewGroup.<init"..., iov_len=54}], 4) = 77
+1605643191.346261 getuid32()            = 10456
+1605643191.346584 writev(3, [{iov_base="\0\242\7\267+\264_\340,\242\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.widget.AbsoluteLayou"..., iov_len=65}], 4) = 88
+1605643191.346911 getuid32()            = 10456
+1605643191.347186 writev(3, [{iov_base="\0\242\7\267+\264_\206\17\255\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.webkit.WebView.<init"..., iov_len=52}], 4) = 75
+1605643191.347476 getuid32()            = 10456
+1605643191.347714 writev(3, [{iov_base="\0\242\7\267+\264_\261&\265\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.webkit.WebView.<init"..., iov_len=52}], 4) = 75
+1605643191.348244 getuid32()            = 10456
+1605643191.348495 writev(3, [{iov_base="\0\242\7\267+\264_%\24\301\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.webkit.WebView.<init"..., iov_len=52}], 4) = 75
+1605643191.348709 getuid32()            = 10456
+1605643191.349125 writev(3, [{iov_base="\0\242\7\267+\264_f\233\310\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.webkit.WebView.<init"..., iov_len=52}], 4) = 75
+1605643191.349413 getuid32()            = 10456
+1605643191.349882 writev(3, [{iov_base="\0\242\7\267+\264_}\336\322\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\t... 26 more\0", iov_len=13}], 4) = 36
+1605643191.350664 getuid32()            = 10456
+1605643191.351004 writev(3, [{iov_base="\0\242\7\267+\264_e\6\342\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="Caused by: java.lang.reflect.Inv"..., iov_len=55}], 4) = 78
+1605643191.351407 getuid32()            = 10456
+1605643191.351821 writev(3, [{iov_base="\0\242\7\267+\264_\256\236\361\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat java.lang.reflect.Method.inv"..., iov_len=51}], 4) = 74
+1605643191.352216 getuid32()            = 10456
+1605643191.352636 writev(3, [{iov_base="\0\242\7\267+\264_v\212\375\24", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat android.webkit.WebViewFactor"..., iov_len=71}], 4) = 94
+1605643191.352899 getuid32()            = 10456
+1605643191.353214 writev(3, [{iov_base="\0\242\7\267+\264_f8\10\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\t... 37 more\0", iov_len=13}], 4) = 36
+1605643191.353508 getuid32()            = 10456
+1605643191.353759 writev(3, [{iov_base="\0\242\7\267+\264_\333\253\21\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="Caused by: java.lang.RuntimeExce"..., iov_len=59}], 4) = 82
+1605643191.354092 getuid32()            = 10456
+1605643191.354383 writev(3, [{iov_base="\0\242\7\267+\264_^>\32\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.android.webview.chromium"..., iov_len=115}], 4) = 138
+1605643191.354734 getuid32()            = 10456
+1605643191.354975 writev(3, [{iov_base="\0\242\7\267+\264_Bm$\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.android.webview.chromium"..., iov_len=111}], 4) = 134
+1605643191.355216 getuid32()            = 10456
+1605643191.355459 writev(3, [{iov_base="\0\242\7\267+\264_\241\240+\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.android.webview.chromium"..., iov_len=118}], 4) = 141
+1605643191.355723 getuid32()            = 10456
+1605643191.355931 writev(3, [{iov_base="\0\242\7\267+\264_\17\3752\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.android.webview.chromium"..., iov_len=118}], 4) = 141
+1605643191.356216 getuid32()            = 10456
+1605643191.356515 writev(3, [{iov_base="\0\242\7\267+\264_\200}:\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\t... 39 more\0", iov_len=13}], 4) = 36
+1605643191.357327 getuid32()            = 10456
+1605643191.357601 writev(3, [{iov_base="\0\242\7\267+\264_\353zH\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="Caused by: org.chromium.base.lib"..., iov_len=65}], 4) = 88
+1605643191.358077 getuid32()            = 10456
+1605643191.358363 writev(3, [{iov_base="\0\242\7\267+\264_-\tW\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.chromium.base.library_lo"..., iov_len=92}], 4) = 115
+1605643191.358691 getuid32()            = 10456
+1605643191.359387 writev(3, [{iov_base="\0\242\7\267+\264_\374\5`\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.chromium.base.library_lo"..., iov_len=108}], 4) = 131
+1605643191.360103 getuid32()            = 10456
+1605643191.360548 writev(3, [{iov_base="\0\242\7\267+\264_\367\5v\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat com.android.webview.chromium"..., iov_len=115}], 4) = 138
+1605643191.361188 getuid32()            = 10456
+1605643191.361501 writev(3, [{iov_base="\0\242\7\267+\264_j\263\203\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\t... 42 more\0", iov_len=13}], 4) = 36
+1605643191.362372 getuid32()            = 10456
+1605643191.362831 writev(3, [{iov_base="\0\242\7\267+\264_1?\226\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="Caused by: java.lang.Unsatisfied"..., iov_len=181}], 4) = 204
+1605643191.363318 getuid32()            = 10456
+1605643191.363783 writev(3, [{iov_base="\0\242\7\267+\264_C\307\245\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat java.lang.Runtime.loadLibrar"..., iov_len=54}], 4) = 77
+1605643191.364211 getuid32()            = 10456
+1605643191.364526 writev(3, [{iov_base="\0\242\7\267+\264_\17\270\264\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat java.lang.System.loadLibrary"..., iov_len=51}], 4) = 74
+1605643191.364997 getuid32()            = 10456
+1605643191.365296 writev(3, [{iov_base="\0\242\7\267+\264_V\343\276\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\tat org.chromium.base.library_lo"..., iov_len=92}], 4) = 115
+1605643191.365585 getuid32()            = 10456
+1605643191.365841 writev(3, [{iov_base="\0\242\7\267+\264_\365\272\311\25", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="System.err\0", iov_len=11}, {iov_base="\t... 44 more\0", iov_len=13}], 4) = 36
+1605643191.366252 ioctl(8, BINDER_WRITE_READ, 0xff84cf08) = 0
+1605643191.366488 ioctl(8, BINDER_WRITE_READ, 0xff84cf08) = 0
+1605643191.366712 ioctl(8, BINDER_WRITE_READ, 0xff84cee8) = 0
+1605643191.367057 ioctl(8, BINDER_WRITE_READ, 0xff84cee8) = 0
+1605643191.367648 ioctl(8, BINDER_WRITE_READ, 0xff84cfe8) = 0
+1605643191.368194 ioctl(8, BINDER_WRITE_READ, 0xff84cfe8) = 0
+1605643191.368644 ioctl(8, BINDER_WRITE_READ, 0xff84cec8) = 0
+1605643191.368994 ioctl(8, BINDER_WRITE_READ, 0xff84cec8) = 0
+1605643191.369525 getuid32()            = 10456
+1605643191.370045 getuid32()            = 10456
+1605643191.370679 writev(3, [{iov_base="\2\242\7\267+\264_\177L\r\26", iov_len=11}, {iov_base="Fu\0\0", iov_len=4}, {iov_base="\3\3\0\0\0\0\0\2\26\0\0\0vbkoxh.cswnpr.vmbatq"..., iov_len=54}], 3) = 69
+1605643191.371268 ioctl(8, BINDER_WRITE_READ, 0xff84ce58) = 0
+1605643191.372142 ioctl(8, BINDER_WRITE_READ, 0xff84ce58) = 0
+1605643191.372583 recvfrom(34, 0xff84c608, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.373070 ioctl(8, BINDER_WRITE_READ, 0xff84cd18) = 0
+1605643191.373422 ioctl(8, BINDER_WRITE_READ, 0xff84cec8) = 0
+1605643191.374345 ioctl(8, BINDER_WRITE_READ, 0xff84cec8) = 0
+1605643191.374708 dup(38)               = 42
+1605643191.375093 fcntl64(42, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+1605643191.375314 close(38)             = 0
+1605643191.375628 epoll_ctl(29, EPOLL_CTL_ADD, 42, {EPOLLIN, {u32=42, u64=42}}) = 0
+1605643191.376013 ioctl(8, BINDER_WRITE_READ, 0xff84ce48) = 0
+1605643191.376369 ioctl(8, BINDER_WRITE_READ, 0xff84ce48) = 0
+1605643191.376609 ioctl(8, BINDER_WRITE_READ, 0xff84cfd8) = 0
+1605643191.376943 ioctl(8, BINDER_WRITE_READ, 0xff84cfd8) = 0
+1605643191.377187 getuid32()            = 10456
+1605643191.377503 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.377896 getuid32()            = 10456
+1605643191.378108 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.378426 getuid32()            = 10456
+1605643191.378673 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.378908 ioctl(8, BINDER_WRITE_READ, 0xff84d268) = 0
+1605643191.379109 epoll_pwait(29, [{EPOLLIN, {u32=34, u64=34}}], 16, -1, NULL, 8) = 1
+1605643191.384585 recvfrom(34, "nysv\0\0\0\0\3519ud<\0\0\0]\2\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605643191.385462 recvfrom(34, 0xff84c768, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.385955 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.386317 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.387288 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.388231 getuid32()            = 10456
+1605643191.388769 ioctl(8, BINDER_WRITE_READ, 0xff84c348) = 0
+1605643191.389375 ioctl(8, BINDER_WRITE_READ, 0xff84cdf8) = 0
+1605643191.389879 ioctl(8, BINDER_WRITE_READ, 0xff84cdf8) = 0
+1605643191.398904 ioctl(8, BINDER_WRITE_READ, 0xff84cc28) = 0
+1605643191.399395 ioctl(8, BINDER_WRITE_READ, 0xff84cc28) = 0
+1605643191.399817 getuid32()            = 10456
+1605643191.399818 ioctl(8, BINDER_WRITE_READ, 0xff84cd88) = 0
+1605643191.399818 recvfrom(34, 0xff84c618, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.399818 ioctl(8, BINDER_WRITE_READ, 0xff84cd28) = 0
+1605643191.399819 getuid32()            = 10456
+1605643191.399819 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=42, u64=42}}], 16, 0, NULL, 8) = 2
+1605643191.399819 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605643191.403969 recvfrom(42, "\1\0\0\0\0\0\0\0\372\1\0\0\0\0\0\0@\206\211Z<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.405465 getuid32()            = 10456
+1605643191.406044 writev(3, [{iov_base="\3\242\7\267+\264_\351\311'\30", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Dropping event due to no window "..., iov_len=213}], 4) = 248
+1605643191.406743 sendto(42, "\3\0\0\0\0\0\0\0\372\1\0\0\0\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.407187 recvfrom(42, "\1\0\0\0\0\0\0\0\374\1\0\0\0\0\0\0\300\237be<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.407496 getuid32()            = 10456
+1605643191.407823 writev(3, [{iov_base="\3\242\7\267+\264_y|I\30", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.409196 getuid32()            = 10456
+1605643191.410073 writev(3, [{iov_base="\3\242\7\267+\264_^\360`\30", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.411071 getuid32()            = 10456
+1605643191.411594 writev(3, [{iov_base="\3\242\7\267+\264_\334\224z\30", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.412213 getuid32()            = 10456
+1605643191.412445 writev(3, [{iov_base="\3\242\7\267+\264_1\300\215\30", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.412717 getuid32()            = 10456
+1605643191.413095 writev(3, [{iov_base="\3\242\7\267+\264__\237\230\30", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.413452 getuid32()            = 10456
+1605643191.413681 writev(3, [{iov_base="\3\242\7\267+\264_G\23\244\30", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.414266 ioctl(8, BINDER_WRITE_READ, 0xff84bc58) = 0
+1605643191.414748 ioctl(8, BINDER_WRITE_READ, 0xff84bc58) = 0
+1605643191.415111 ioctl(8, BINDER_WRITE_READ, 0xff84bf88) = 0
+1605643191.418135 ioctl(8, BINDER_WRITE_READ, 0xff84bf88) = 0
+1605643191.418665 sendto(42, "\3\0\0\0\220z<\343\374\1\0\0\1C\335\342", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.419166 recvfrom(42, "\2\0\0\0\210\211w\345\0\2\0\0\300\203v\345@6\373e<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.419598 sendto(42, "\3\0\0\0\0\0\0\0\0\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.420199 recvfrom(42, "\2\0\0\0\210\211w\345\2\2\0\0\300\203v\345\300\272\31f<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.420501 recvfrom(42, "\2\0\0\0\210\211w\345\4\2\0\0\300\203v\345\300\272\31f<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.421044 recvfrom(42, "\2\0\0\0\210\211w\345\6\2\0\0\300\203v\345\0\375(f<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.421501 recvfrom(42, "\2\0\0\0\210\211w\345\10\2\0\0\300\203v\345\0\375(f<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.421740 recvfrom(42, "\2\0\0\0\210\211w\345\n\2\0\0\300\203v\345\0\375(f<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.422335 recvfrom(42, "\2\0\0\0\210\211w\345\f\2\0\0\300\203v\345@?8f<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.422711 recvfrom(42, "\2\0\0\0\210\211w\345\16\2\0\0\300\203v\345@?8f<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.423076 recvfrom(42, "\2\0\0\0\210\211w\345\20\2\0\0\300\203v\345\200\201Gf<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.423600 recvfrom(42, "\2\0\0\0\210\211w\345\22\2\0\0\300\203v\345\300\303Vf<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.424243 sendto(42, "\3\0\0\0\0\0\0\0\2\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.424502 sendto(42, "\3\0\0\0\0\0\0\0\4\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.424815 sendto(42, "\3\0\0\0\0\0\0\0\6\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.425200 sendto(42, "\3\0\0\0\0\0\0\0\10\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.425450 sendto(42, "\3\0\0\0\0\0\0\0\n\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.425743 sendto(42, "\3\0\0\0\0\0\0\0\f\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.425977 sendto(42, "\3\0\0\0\0\0\0\0\16\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.426265 sendto(42, "\3\0\0\0\0\0\0\0\20\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.426630 sendto(42, "\3\0\0\0\0\0\0\0\22\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.426976 recvfrom(42, "\1\0\0\0\0\0\0\0\24\2\0\0\0\0\0\0\0\6ff<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.427258 getuid32()            = 10456
+1605643191.427530 writev(3, [{iov_base="\3\242\7\267+\264_i\276v\31", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Dropping event due to no window "..., iov_len=212}], 4) = 247
+1605643191.427939 sendto(42, "\3\0\0\0`\277\204\377\24\2\0\0\0\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.428313 recvfrom(42, "\1\0\0\0\0\0\0\0\26\2\0\0\0\0\0\0\200\234\376f<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.428618 getuid32()            = 10456
+1605643191.428902 writev(3, [{iov_base="\3\242\7\267+\264_P>\213\31", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 248
+1605643191.429280 getuid32()            = 10456
+1605643191.429563 writev(3, [{iov_base="\3\242\7\267+\264_Px\225\31", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 248
+1605643191.429927 getuid32()            = 10456
+1605643191.430285 writev(3, [{iov_base="\3\242\7\267+\264_S\347\236\31", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 248
+1605643191.430595 getuid32()            = 10456
+1605643191.430776 writev(3, [{iov_base="\3\242\7\267+\264_\35\215\251\31", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 248
+1605643191.431126 getuid32()            = 10456
+1605643191.431348 writev(3, [{iov_base="\3\242\7\267+\264_F\330\261\31", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 248
+1605643191.431677 getuid32()            = 10456
+1605643191.432047 writev(3, [{iov_base="\3\242\7\267+\264_\262\276\271\31", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 248
+1605643191.432368 getuid32()            = 10456
+1605643191.432552 writev(3, [{iov_base="\3\242\7\267+\264_\237M\304\31", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 248
+1605643191.432925 getuid32()            = 10456
+1605643191.433224 writev(3, [{iov_base="\3\242\7\267+\264_~\333\314\31", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 248
+1605643191.433572 getuid32()            = 10456
+1605643191.433963 writev(3, [{iov_base="\3\242\7\267+\264_\rH\326\31", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=213}], 4) = 248
+1605643191.434294 sendto(42, "\3\0\0\0\220z<\343\26\2\0\0\0C\335\342", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.435304 recvfrom(42, "\1\0\0\0\0\0\0\0\30\2\0\0\0\0\0\0\0!\35g<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.436052 getuid32()            = 10456
+1605643191.436428 writev(3, [{iov_base="\3\242\7\267+\264_\306\301\373\31", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Dropping event due to no window "..., iov_len=206}], 4) = 241
+1605643191.437119 sendto(42, "\3\0\0\0`\277\204\377\30\2\0\0\0\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.437425 recvfrom(42, "\1\0\0\0\0\0\0\0\32\2\0\0\0\0\0\0\300\360\207g<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.437725 getuid32()            = 10456
+1605643191.438181 writev(3, [{iov_base="\3\242\7\267+\264_\222\363\25\32", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=207}], 4) = 242
+1605643191.438425 getuid32()            = 10456
+1605643191.438959 writev(3, [{iov_base="\3\242\7\267+\264_\261\233!\32", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=207}], 4) = 242
+1605643191.440601 getuid32()            = 10456
+1605643191.441114 writev(3, [{iov_base="\3\242\7\267+\264_\211\0263\32", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=207}], 4) = 242
+1605643191.441371 getuid32()            = 10456
+1605643191.441581 writev(3, [{iov_base="\3\242\7\267+\264_!\330M\32", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=207}], 4) = 242
+1605643191.441951 getuid32()            = 10456
+1605643191.442250 writev(3, [{iov_base="\3\242\7\267+\264_$\342V\32", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=207}], 4) = 242
+1605643191.442748 getuid32()            = 10456
+1605643191.443113 writev(3, [{iov_base="\3\242\7\267+\264_\357\353a\32", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=207}], 4) = 242
+1605643191.443415 sendto(42, "\3\0\0\0\220z<\343\32\2\0\0\1C\335\342", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.443699 recvfrom(42, "\2\0\0\0\210\211w\345\36\2\0\0\300\203v\345\200\267\265g<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.444165 sendto(42, "\3\0\0\0\0\0\0\0\36\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.444378 recvfrom(42, "\2\0\0\0\210\211w\345 \2\0\0\300\203v\345\300\371\304g<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.444742 recvfrom(42, "\2\0\0\0\210\211w\345\"\2\0\0\300\203v\345\300\371\304g<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.445044 recvfrom(42, "\2\0\0\0\210\211w\345$\2\0\0\300\203v\345\0<\324g<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.445424 recvfrom(42, "\2\0\0\0\210\211w\345&\2\0\0\300\203v\345@~\343g<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.445726 recvfrom(42, "\2\0\0\0\210\211w\345(\2\0\0\300\203v\345\200\300\362g<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.446036 recvfrom(42, "\2\0\0\0\210\211w\345*\2\0\0\300\203v\345\200\300\362g<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.446437 recvfrom(42, "\2\0\0\0\210\211w\345,\2\0\0\300\203v\345\200\300\362g<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.446785 recvfrom(42, "\2\0\0\0\210\211w\345.\2\0\0\300\203v\345\300\2\2h<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.447037 recvfrom(42, "\2\0\0\0\210\211w\3450\2\0\0\300\203v\345\300\2\2h<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.447382 sendto(42, "\3\0\0\0\0\0\0\0 \2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.447778 sendto(42, "\3\0\0\0\0\0\0\0\"\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.448100 sendto(42, "\3\0\0\0\0\0\0\0$\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.448372 sendto(42, "\3\0\0\0\0\0\0\0&\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.448624 sendto(42, "\3\0\0\0\0\0\0\0(\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.448889 sendto(42, "\3\0\0\0\0\0\0\0*\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.449117 sendto(42, "\3\0\0\0\0\0\0\0,\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.449423 sendto(42, "\3\0\0\0\0\0\0\0.\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.449674 sendto(42, "\3\0\0\0\0\0\0\0000\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.449888 recvfrom(42, "\1\0\0\0\0\0\0\0002\2\0\0\0\0\0\0\0E\21h<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.450649 getuid32()            = 10456
+1605643191.451030 writev(3, [{iov_base="\3\242\7\267+\264_:\1\325\32", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Dropping event due to no window "..., iov_len=213}], 4) = 248
+1605643191.451799 sendto(42, "\3\0\0\0`\277\204\3772\2\0\0\0\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.452208 recvfrom(42, "\1\0\0\0\0\0\0\0004\2\0\0\0\0\0\0@\220]h<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.452988 getuid32()            = 10456
+1605643191.453663 writev(3, [{iov_base="\3\242\7\267+\264_i\312\371\32", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.454071 getuid32()            = 10456
+1605643191.454658 writev(3, [{iov_base="\3\242\7\267+\264_\21\272\16\33", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.455501 getuid32()            = 10456
+1605643191.455934 writev(3, [{iov_base="\3\242\7\267+\264_]O%\33", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.456451 getuid32()            = 10456
+1605643191.457003 writev(3, [{iov_base="\3\242\7\267+\264_\1\3232\33", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.457323 getuid32()            = 10456
+1605643191.457601 writev(3, [{iov_base="\3\242\7\267+\264_\34:A\33", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.458014 getuid32()            = 10456
+1605643191.458334 writev(3, [{iov_base="\3\242\7\267+\264_L\6K\33", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.458908 getuid32()            = 10456
+1605643191.459260 writev(3, [{iov_base="\3\242\7\267+\264_Z5Y\33", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.460126 getuid32()            = 10456
+1605643191.460617 writev(3, [{iov_base="\3\242\7\267+\264_p\313i\33", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.461168 getuid32()            = 10456
+1605643191.461420 writev(3, [{iov_base="\3\242\7\267+\264_*\33{\33", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.462104 sendto(42, "\3\0\0\0\220z<\3434\2\0\0\0C\335\342", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.462444 recvfrom(42, "\2\0\0\0\210\211w\3456\2\0\0\300\203v\345\0W\213h<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.462929 recvfrom(42, "\2\0\0\0\210\211w\3458\2\0\0\300\203v\345@\231\232h<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.463278 recvfrom(42, "\2\0\0\0\210\211w\345:\2\0\0\300\203v\345\200\333\251h<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.463555 recvfrom(42, "\2\0\0\0\210\211w\345<\2\0\0\300\203v\345\200\333\251h<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.464133 recvfrom(42, "\2\0\0\0\210\211w\345>\2\0\0\300\203v\345\300\35\271h<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.464381 recvfrom(42, "\2\0\0\0\210\211w\345@\2\0\0\300\203v\345\300\35\271h<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.464610 recvfrom(42, "\2\0\0\0\210\211w\345B\2\0\0\300\203v\345\0`\310h<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.464867 recvfrom(42, "\2\0\0\0\210\211w\345D\2\0\0\300\203v\345@\242\327h<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.465128 recvfrom(42, "\2\0\0\0\210\211w\345F\2\0\0\300\203v\345@\242\327h<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.465398 recvfrom(42, "\2\0\0\0\210\211w\345H\2\0\0\300\203v\345\200\344\346h<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.465698 recvfrom(42, "\2\0\0\0\210\211w\345L\2\0\0\300\203v\345\300&\366h<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.466084 sendto(42, "\3\0\0\0\0\0\0\0L\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.466422 recvfrom(42, "\2\0\0\0\210\211w\345N\2\0\0\300\203v\345\300&\366h<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.466709 sendto(42, "\3\0\0\0\0\0\0\0N\2\0\0\0\20\332\346", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.467450 recvfrom(42, "\2\0\0\0\210\211w\345P\2\0\0\300\203v\345\0i\5i<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.467798 recvfrom(42, "\2\0\0\0\210\211w\345R\2\0\0\300\203v\345\0i\5i<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.468053 recvfrom(42, "\2\0\0\0\210\211w\345T\2\0\0\300\203v\345@\253\24i<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.468591 recvfrom(42, "\2\0\0\0\210\211w\345V\2\0\0\300\203v\345@\253\24i<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.468998 recvfrom(42, "\2\0\0\0\210\211w\345X\2\0\0\300\203v\345@\253\24i<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.469383 recvfrom(42, "\2\0\0\0\210\211w\345Z\2\0\0\300\203v\345\200\355#i<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.469818 recvfrom(42, "\2\0\0\0\210\211w\345\\\2\0\0\300\203v\345\200\355#i<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.470044 recvfrom(42, "\2\0\0\0\210\211w\345^\2\0\0\300\203v\345\200\355#i<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.470659 recvfrom(42, "\2\0\0\0\210\211w\345`\2\0\0\300\203v\345\300/3i<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.472338 recvfrom(42, "\2\0\0\0\210\211w\345b\2\0\0\300\203v\345\300/3i<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.472851 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.473127 getuid32()            = 10456
+1605643191.473447 epoll_pwait(29, [{EPOLLIN, {u32=34, u64=34}}], 16, 0, NULL, 8) = 1
+1605643191.473852 recvfrom(34, "nysv\0\0\0\0\23\212se<\0\0\0^\2\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605643191.474157 recvfrom(34, 0xff84c768, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.474645 ioctl(8, BINDER_WRITE_READ, 0xff84cfc8) = 0
+1605643191.475707 ioctl(8, BINDER_WRITE_READ, 0xff84cfc8) = 0
+1605643191.475989 dup(38)               = 43
+1605643191.478070 fcntl64(43, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+1605643191.478351 close(38)             = 0
+1605643191.478604 getuid32()            = 10456
+1605643191.478930 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.479177 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.479449 epoll_ctl(29, EPOLL_CTL_ADD, 43, {EPOLLIN, {u32=43, u64=43}}) = 0
+1605643191.479855 sendto(43, "\2\0\0\0\350\3\0\0\1\0\0\0\0\0\0\0\0W\213h<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.480191 sendto(43, "\2\0\0\0\350\3\0\0\2\0\0\0\0\0\0\0@\231\232h<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.480439 sendto(43, "\2\0\0\0\350\3\0\0\3\0\0\0\0\0\0\0\200\333\251h<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.480656 sendto(43, "\2\0\0\0\350\3\0\0\4\0\0\0\0\0\0\0\200\333\251h<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.480894 sendto(43, "\2\0\0\0\350\3\0\0\5\0\0\0\0\0\0\0\300\35\271h<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.481136 sendto(43, "\2\0\0\0\350\3\0\0\6\0\0\0\0\0\0\0\300\35\271h<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.481435 sendto(43, "\2\0\0\0\350\3\0\0\7\0\0\0\0\0\0\0\0`\310h<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.481647 sendto(43, "\2\0\0\0\350\3\0\0\10\0\0\0\0\0\0\0@\242\327h<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.481915 sendto(43, "\2\0\0\0\350\3\0\0\t\0\0\0\0\0\0\0@\242\327h<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.482340 sendto(43, "\2\0\0\0\350\3\0\0\n\0\0\0\0\0\0\0\200\344\346h<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.482654 sendto(43, "\2\0\0\0\350\3\0\0\v\0\0\0\0\0\0\0\0i\5i<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.482937 sendto(43, "\2\0\0\0\350\3\0\0\f\0\0\0\0\0\0\0\0i\5i<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.483196 sendto(43, "\2\0\0\0\350\3\0\0\r\0\0\0\0\0\0\0@\253\24i<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.483510 sendto(43, "\2\0\0\0\350\3\0\0\16\0\0\0\0\0\0\0@\253\24i<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.484571 sendto(43, "\2\0\0\0\350\3\0\0\17\0\0\0\0\0\0\0@\253\24i<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.485051 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.485354 recvfrom(34, 0xff84c2b8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.485605 ioctl(8, BINDER_WRITE_READ, 0xff84c9c8) = 0
+1605643191.486045 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.486641 ioctl(8, BINDER_WRITE_READ, 0xff84ca18) = 0
+1605643191.487630 ioctl(8, BINDER_WRITE_READ, 0xff84ca18) = 0
+1605643191.487982 ioctl(8, BINDER_WRITE_READ, 0xff84c888) = 0
+1605643191.488543 ioctl(8, BINDER_WRITE_READ, 0xff84ca18) = 0
+1605643191.488858 ioctl(8, BINDER_WRITE_READ, 0xff84ca68) = 0
+1605643191.489215 ioctl(8, BINDER_WRITE_READ, 0xff84ca68) = 0
+1605643191.503050 ioctl(8, BINDER_WRITE_READ, 0xff84ca88) = 0
+1605643191.503413 ioctl(8, BINDER_WRITE_READ, 0xff84ca88) = 0
+1605643191.503859 fcntl64(38, F_DUPFD_CLOEXEC, 0) = 44
+1605643191.504246 dup(44)               = 45
+1605643191.504610 sendto(40, ")'\0\0\f\0\0\0M\0\0\0", 12, 0, NULL, 0) = 12
+1605643191.505348 recvfrom(40, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+1605643191.505968 mmap2(NULL, 13778944, PROT_READ|PROT_WRITE, MAP_SHARED, 45, 0) = 0xc895c000
+1605643191.506702 close(44)             = 0
+1605643191.507080 close(38)             = 0
+1605643191.507451 sendto(40, "&'\0\0\24\0\0\0M\0\0\0\0\0\0\0\1\0\0\0", 20, 0, NULL, 0) = 20
+1605643191.507775 recvfrom(40, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+1605643191.508155 sendto(40, "''\0\0(\0\0\0M\0\0\0\0\0\0\0\0\0\0\0\240\5\0\0X\t\0\0\10\31\0\0"..., 40, 0, NULL, 0) = 40
+1605643191.508452 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 13777920, 0, NULL, NULL) = 23168
+1605643191.522999 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 13754752, 0, NULL, NULL) = 34752
+1605643191.524240 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 13720000, 0, NULL, NULL) = 72400
+1605643191.525974 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 13647600, 0, NULL, NULL) = 36544
+1605643191.527013 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 13611056, 0, NULL, NULL) = 57576
+1605643191.527809 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 13553480, 0, NULL, NULL) = 198376
+1605643191.530190 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 13355104, 0, NULL, NULL) = 7240
+1605643191.531262 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 13347864, 0, NULL, NULL) = 7240
+1605643191.532341 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 13340624, 0, NULL, NULL) = 219264
+1605643191.533371 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 13121360, 0, NULL, NULL) = 139840
+1605643191.534669 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 12981520, 0, NULL, NULL) = 4344
+1605643191.536947 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 12977176, 0, NULL, NULL) = 219264
+1605643191.538849 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 12757912, 0, NULL, NULL) = 86264
+1605643191.540803 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 12671648, 0, NULL, NULL) = 211408
+1605643191.541881 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 12460240, 0, NULL, NULL) = 59368
+1605643191.542456 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 12400872, 0, NULL, NULL) = 5792
+1605643191.544369 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 12395080, 0, NULL, NULL) = 36544
+1605643191.546175 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 12358536, 0, NULL, NULL) = 219264
+1605643191.547730 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 12139272, 0, NULL, NULL) = 200312
+1605643191.550010 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 11938960, 0, NULL, NULL) = 179552
+1605643191.551362 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 11759408, 0, NULL, NULL) = 219264
+1605643191.553456 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 11540144, 0, NULL, NULL) = 99296
+1605643191.554867 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 11440848, 0, NULL, NULL) = 234504
+1605643191.556279 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 11206344, 0, NULL, NULL) = 8760
+1605643191.557215 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 11197584, 0, NULL, NULL) = 5792
+1605643191.558968 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 11191792, 0, NULL, NULL) = 69504
+1605643191.560704 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 11122288, 0, NULL, NULL) = 219264
+1605643191.561651 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 10903024, 0, NULL, NULL) = 71784
+1605643191.562200 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 10831240, 0, NULL, NULL) = 8688
+1605643191.563007 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 10822552, 0, NULL, NULL) = 231264
+1605643191.564204 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 10591288, 0, NULL, NULL) = 85848
+1605643191.564501 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 10505440, 0, NULL, NULL) = 118736
+1605643191.564964 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 10386704, 0, NULL, NULL) = 36544
+1605643191.569519 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 10350160, 0, NULL, NULL) = 228440
+1605643191.571722 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 10121720, 0, NULL, NULL) = 202720
+1605643191.572747 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 9919000, 0, NULL, NULL) = 36544
+1605643191.574252 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 9882456, 0, NULL, NULL) = 211336
+1605643191.575639 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 9671120, 0, NULL, NULL) = 77920
+1605643191.576424 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 9593200, 0, NULL, NULL) = 36544
+1605643191.577695 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 9556656, 0, NULL, NULL) = 211336
+1605643191.579034 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 9345320, 0, NULL, NULL) = 88056
+1605643191.579753 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 9257264, 0, NULL, NULL) = 4344
+1605643191.580758 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 9252920, 0, NULL, NULL) = 219264
+1605643191.581324 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 9033656, 0, NULL, NULL) = 230304
+1605643191.584453 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 8803352, 0, NULL, NULL) = 21032
+1605643191.585029 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 8782320, 0, NULL, NULL) = 20272
+1605643191.587253 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 8762048, 0, NULL, NULL) = 238848
+1605643191.589578 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 8523200, 0, NULL, NULL) = 230920
+1605643191.590874 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 8292280, 0, NULL, NULL) = 45720
+1605643191.592341 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 8246560, 0, NULL, NULL) = 218648
+1605643191.594875 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 8027912, 0, NULL, NULL) = 219264
+1605643191.596600 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 7808648, 0, NULL, NULL) = 134048
+1605643191.598508 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 7674600, 0, NULL, NULL) = 124528
+1605643191.599470 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 7550072, 0, NULL, NULL) = 36544
+1605643191.603252 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 7513528, 0, NULL, NULL) = 219264
+1605643191.604752 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 7294264, 0, NULL, NULL) = 145288
+1605643191.606873 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 7148976, 0, NULL, NULL) = 133560
+1605643191.607706 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 7015416, 0, NULL, NULL) = 236024
+1605643191.609646 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 6779392, 0, NULL, NULL) = 163280
+1605643191.610859 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 6616112, 0, NULL, NULL) = 20272
+1605643191.612927 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 6595840, 0, NULL, NULL) = 219264
+1605643191.614495 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 6376576, 0, NULL, NULL) = 73232
+1605643191.615954 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 6303344, 0, NULL, NULL) = 36544
+1605643191.619365 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 6266800, 0, NULL, NULL) = 219264
+1605643191.621235 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 6047536, 0, NULL, NULL) = 87368
+1605643191.622500 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 5960168, 0, NULL, NULL) = 219264
+1605643191.623891 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 5740904, 0, NULL, NULL) = 122464
+1605643191.625079 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 5618440, 0, NULL, NULL) = 109632
+1605643191.625959 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 5508808, 0, NULL, NULL) = 271120
+1605643191.627700 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 5237688, 0, NULL, NULL) = 234576
+1605643191.630528 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 5003112, 0, NULL, NULL) = 88400
+1605643191.632058 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 4914712, 0, NULL, NULL) = 219264
+1605643191.632758 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 4695448, 0, NULL, NULL) = 15312
+1605643191.633826 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 4680136, 0, NULL, NULL) = 219264
+1605643191.635149 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 4460872, 0, NULL, NULL) = 15312
+1605643191.635805 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 4445560, 0, NULL, NULL) = 219264
+1605643191.637023 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 4226296, 0, NULL, NULL) = 15312
+1605643191.639746 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 4210984, 0, NULL, NULL) = 219264
+1605643191.640520 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 3991720, 0, NULL, NULL) = 12416
+1605643191.641657 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 3979304, 0, NULL, NULL) = 36544
+1605643191.643929 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 3942760, 0, NULL, NULL) = 219264
+1605643191.645313 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 3723496, 0, NULL, NULL) = 59856
+1605643191.646479 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 3663640, 0, NULL, NULL) = 219264
+1605643191.647442 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 3444376, 0, NULL, NULL) = 15312
+1605643191.647967 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 3429064, 0, NULL, NULL) = 219264
+1605643191.649426 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 3209800, 0, NULL, NULL) = 15312
+1605643191.650336 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 3194488, 0, NULL, NULL) = 36544
+1605643191.655641 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 3157944, 0, NULL, NULL) = 219264
+1605643191.656447 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 2938680, 0, NULL, NULL) = 217688
+1605643191.657410 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 2720992, 0, NULL, NULL) = 230848
+1605643191.658644 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 2490144, 0, NULL, NULL) = 26896
+1605643191.658866 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 2463248, 0, NULL, NULL) = 219264
+1605643191.660889 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 2243984, 0, NULL, NULL) = 34136
+1605643191.661815 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 2209848, 0, NULL, NULL) = 36544
+1605643191.663788 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 2173304, 0, NULL, NULL) = 222648
+1605643191.664874 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 1950656, 0, NULL, NULL) = 47784
+1605643191.665714 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 1902872, 0, NULL, NULL) = 8688
+1605643191.668235 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 1894184, 0, NULL, NULL) = 219264
+1605643191.669298 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 1674920, 0, NULL, NULL) = 832
+1605643191.671072 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 1674088, 0, NULL, NULL) = 241744
+1605643191.672894 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 1432344, 0, NULL, NULL) = 49304
+1605643191.673817 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 1383040, 0, NULL, NULL) = 211336
+1605643191.675415 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 1171704, 0, NULL, NULL) = 49304
+1605643191.676206 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 1122400, 0, NULL, NULL) = 23168
+1605643191.677191 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 1099232, 0, NULL, NULL) = 219264
+1605643191.679957 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 879968, 0, NULL, NULL) = 18208
+1605643191.680646 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 861760, 0, NULL, NULL) = 239952
+1605643191.681808 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 621808, 0, NULL, NULL) = 1864
+1605643191.682564 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 619944, 0, NULL, NULL) = 18824
+1605643191.683968 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 601120, 0, NULL, NULL) = 219264
+1605643191.686056 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 381856, 0, NULL, NULL) = 92056
+1605643191.686579 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 289800, 0, NULL, NULL) = 209960
+1605643191.687869 recvfrom(40, "\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377\377"..., 79840, 0, NULL, NULL) = 79840
+1605643191.690145 sendto(40, "('\0\0(<\322\0M\0\0\0\0\0\0\0\0\0\0\0\240\5\0\0X\t\0\0\10\31\0\0"..., 36, 0, NULL, 0) = 36
+1605643191.690763 sendto(40, "\0<\322\0", 4, 0, NULL, 0) = 4
+1605643191.691005 sendto(40, "\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377\0\0\0\377"..., 13777920, 0, NULL, 0) = 13777920
+1605643191.713237 recvfrom(40, "\0\0\0\0", 4, 0, NULL, NULL) = 4
+1605643191.721706 ioctl(8, BINDER_WRITE_READ, 0xff84cad8) = 0
+1605643191.722305 ioctl(8, BINDER_WRITE_READ, 0xff84cad8) = 0
+1605643191.722665 futex(0xd4a6c714, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+1605643191.723059 ioctl(8, BINDER_WRITE_READ, 0xff84ce48) = 0
+1605643191.723917 ioctl(8, BINDER_WRITE_READ, 0xff84ce48) = 0
+1605643191.724871 getuid32()            = 10456
+1605643191.725154 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}, {EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=34, u64=34}}], 16, 0, NULL, 8) = 3
+1605643191.725487 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.725811 recvfrom(43, "\3\0\0\0\220z<\343\1\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.726138 recvfrom(43, "\3\0\0\0\220z<\343\2\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.727054 recvfrom(43, "\3\0\0\0\220z<\343\3\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.727349 recvfrom(43, "\3\0\0\0\220z<\343\4\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.727669 recvfrom(43, "\3\0\0\0\220z<\343\5\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.727933 recvfrom(43, "\3\0\0\0\220z<\343\6\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.728296 recvfrom(43, "\3\0\0\0\220z<\343\7\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.728672 recvfrom(43, "\3\0\0\0\220z<\343\10\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.728938 recvfrom(43, "\3\0\0\0\220z<\343\t\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.729212 recvfrom(43, "\3\0\0\0\220z<\343\n\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.729472 recvfrom(43, "\3\0\0\0\220z<\343\v\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.729817 recvfrom(43, "\3\0\0\0\220z<\343\f\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.730101 recvfrom(43, "\3\0\0\0\220z<\343\r\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.730407 recvfrom(43, "\3\0\0\0\220z<\343\16\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.731444 recvfrom(43, "\3\0\0\0\220z<\343\17\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.731892 sendto(42, "\3\0\0\0P\277\204\3776\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.732182 sendto(42, "\3\0\0\0P\277\204\3778\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.732504 sendto(42, "\3\0\0\0P\277\204\377:\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.732859 sendto(42, "\3\0\0\0P\277\204\377<\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.733192 sendto(42, "\3\0\0\0P\277\204\377>\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.733576 sendto(42, "\3\0\0\0P\277\204\377@\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.734094 sendto(42, "\3\0\0\0P\277\204\377B\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.734565 sendto(42, "\3\0\0\0P\277\204\377D\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.736436 sendto(42, "\3\0\0\0P\277\204\377F\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.736756 sendto(42, "\3\0\0\0P\277\204\377H\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.737445 sendto(42, "\3\0\0\0P\277\204\377P\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.737777 sendto(42, "\3\0\0\0P\277\204\377R\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.738159 sendto(42, "\3\0\0\0P\277\204\377T\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.738485 sendto(42, "\3\0\0\0P\277\204\377V\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.738819 sendto(42, "\3\0\0\0P\277\204\377X\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.739152 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.739465 recvfrom(34, "nysv\0\0\0\0\17kik<\0\0\0d\2\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605643191.740002 recvfrom(34, 0xff84c768, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.740471 getuid32()            = 10456
+1605643191.740732 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.740994 getuid32()            = 10456
+1605643191.741291 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.741653 getuid32()            = 10456
+1605643191.741980 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.742314 getuid32()            = 10456
+1605643191.742610 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.742990 getuid32()            = 10456
+1605643191.743340 ioctl(8, BINDER_WRITE_READ, 0xff84cb18) = 0
+1605643191.743658 getuid32()            = 10456
+1605643191.744055 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.744378 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.744722 sendto(43, "\1\0\0\0\274n\277\341\20\0\0\0\220z<\343\300\212,y<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.745018 sendto(43, "\1\0\0\0\274n\277\341\21\0\0\0\220z<\343\300\212,y<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.745363 sendto(43, "\1\0\0\0\274n\277\341\22\0\0\0\220z<\343\300\212,y<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.745714 sendto(43, "\1\0\0\0\274n\277\341\23\0\0\0\220z<\343\300\212,y<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.746042 sendto(43, "\1\0\0\0\274n\277\341\24\0\0\0\220z<\343\300\212,y<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.746364 sendto(43, "\1\0\0\0\274n\277\341\25\0\0\0\220z<\343\300\212,y<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.746852 sendto(43, "\1\0\0\0\274n\277\341\26\0\0\0\220z<\343\300\212,y<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.747179 sendto(43, "\1\0\0\0\274n\277\341\27\0\0\0\220z<\343\300\212,y<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.747568 sendto(43, "\1\0\0\0\274n\277\341\30\0\0\0\220z<\343\300\212,y<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.747927 sendto(43, "\2\0\0\0\0\0\0\0\31\0\0\0\312\357\6\343\200\355#i<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.748297 sendto(43, "\2\0\0\0\0\0\0\0\32\0\0\0\312\357\6\343\200\355#i<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.748566 sendto(43, "\2\0\0\0\0\0\0\0\33\0\0\0\312\357\6\343\200\355#i<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.748866 sendto(43, "\2\0\0\0\0\0\0\0\34\0\0\0\312\357\6\343\300/3i<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.749155 sendto(43, "\2\0\0\0\0\0\0\0\35\0\0\0\312\357\6\343\300/3i<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.749486 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.749776 recvfrom(34, 0xff84c748, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.750041 ioctl(8, BINDER_WRITE_READ, 0xff84ce58) = 0
+1605643191.750521 getuid32()            = 10456
+1605643191.751010 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}], 16, 0, NULL, 8) = 1
+1605643191.752470 recvfrom(43, "\3\0\0\0\350\357>\312\20\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.753181 ioctl(8, BINDER_WRITE_READ, 0xff84c858) = 0
+1605643191.753757 ioctl(8, BINDER_WRITE_READ, 0xff84c858) = 0
+1605643191.754508 recvfrom(43, "\3\0\0\0\350\357>\312\21\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.754898 recvfrom(43, "\3\0\0\0\350\357>\312\22\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.755492 recvfrom(43, "\3\0\0\0\350\357>\312\23\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.755885 recvfrom(43, "\3\0\0\0\350\357>\312\24\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.756324 recvfrom(43, "\3\0\0\0\350\357>\312\25\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.756683 recvfrom(43, "\3\0\0\0\350\357>\312\26\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.757052 recvfrom(43, "\3\0\0\0\350\357>\312\27\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.757399 recvfrom(43, "\3\0\0\0\350\357>\312\30\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.757677 recvfrom(43, "\3\0\0\0\220z<\343\31\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.757923 recvfrom(43, "\3\0\0\0\220z<\343\32\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.758117 recvfrom(43, "\3\0\0\0\220z<\343\33\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.758309 recvfrom(43, "\3\0\0\0\220z<\343\34\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.758494 recvfrom(43, "\3\0\0\0\220z<\343\35\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.758722 sendto(42, "\3\0\0\0P\277\204\377Z\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.758934 sendto(42, "\3\0\0\0P\277\204\377\\\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.759148 sendto(42, "\3\0\0\0P\277\204\377^\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.759367 sendto(42, "\3\0\0\0P\277\204\377`\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.759659 sendto(42, "\3\0\0\0P\277\204\377b\2\0\0\1\250J\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.760138 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.760449 sendto(43, "\1\0\0\0\340\306\204\377\36\0\0\0\220z<\343\200\207\310z<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.761328 sendto(43, "\1\0\0\0\340\306\204\377\37\0\0\0\220z<\343\200\207\310z<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.761606 sendto(43, "\1\0\0\0\340\306\204\377 \0\0\0\220z<\343\200\207\310z<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.761857 sendto(43, "\1\0\0\0\340\306\204\377!\0\0\0\220z<\343\200\207\310z<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.762128 sendto(43, "\1\0\0\0\340\306\204\377\"\0\0\0\220z<\343\200\207\310z<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.762400 sendto(43, "\1\0\0\0\340\306\204\377#\0\0\0\220z<\343\200\207\310z<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.762679 sendto(43, "\1\0\0\0\340\306\204\377$\0\0\0\220z<\343\200\207\310z<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.762968 sendto(43, "\1\0\0\0\340\306\204\377%\0\0\0\220z<\343\200\207\310z<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.763230 sendto(43, "\1\0\0\0\340\306\204\377&\0\0\0\220z<\343\200\207\310z<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.763515 getuid32()            = 10456
+1605643191.763685 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}, {EPOLLIN, {u32=42, u64=42}}], 16, 0, NULL, 8) = 2
+1605643191.763942 recvfrom(43, "\3\0\0\0\350\357>\312\36\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.764200 recvfrom(43, "\3\0\0\0\350\357>\312\37\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.764485 recvfrom(43, "\3\0\0\0\350\357>\312 \0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.764741 recvfrom(43, "\3\0\0\0\350\357>\312!\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.765037 recvfrom(43, "\3\0\0\0\350\357>\312\"\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.765300 recvfrom(43, "\3\0\0\0\350\357>\312#\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.765608 recvfrom(43, "\3\0\0\0\350\357>\312$\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.765859 recvfrom(43, "\3\0\0\0\350\357>\312%\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.766118 recvfrom(43, "\3\0\0\0\350\357>\312&\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.766365 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.766691 recvfrom(42, "\1\0\0\0\0\0\0\0d\2\0\0\0\0\0\0\300/3i<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.767746 sendto(43, "\1\0\0\0\32\267G\344'\0\0\0\20\300\204\377\300/3i<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.767747 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.767747 ioctl(8, BINDER_WRITE_READ, 0xff84d058) = 0
+1605643191.772484 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}, {EPOLLIN, {u32=34, u64=34}}], 16, 0, NULL, 8) = 2
+1605643191.772606 recvfrom(43, "\3\0\0\0\350\357>\312'\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.772744 sendto(42, "\3\0\0\0\300/3id\2\0\0\0\267G\344", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.773074 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.773321 recvfrom(34, "nysv\0\0\0\0<pO{<\0\0\0t\2\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605643191.773586 recvfrom(34, 0xff84c768, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.773720 recvfrom(42, "\1\0\0\0\0\0\0\0f\2\0\0\0\0\0\0\0\f\347z<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.773893 sendto(43, "\1\0\0\0\0\0\200?(\0\0\0\220z<\343\0\f\347z<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.774054 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.774360 getuid32()            = 10456
+1605643191.774634 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}], 16, 0, NULL, 8) = 1
+1605643191.774803 recvfrom(43, "\3\0\0\0\350\357>\312(\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.774977 sendto(42, "\3\0\0\0\300/3if\2\0\0\0\267G\344", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.775136 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.775275 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}], 16, -1, NULL, 8) = 1
+1605643191.775405 recvfrom(42, "\1\0\0\0\0\0\0\0h\2\0\0\0\0\0\0@i\255{<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.775592 sendto(43, "\1\0\0\0\32\267G\344)\0\0\0\20\300\204\377@i\255{<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.775821 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.775941 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.776156 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=43, u64=43}}], 16, 2499, NULL, 8) = 2
+1605643191.776287 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.776400 recvfrom(43, "\3\0\0\0\350\357>\312)\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.777012 pread64(30, "PK\3\4\24\0\10\0\10\0\245d-A\0\0\0\0\0\0\0\0\0\0\0\0\27\0\0\0", 30, 247948) = 30
+1605643191.777117 pread64(30, "res/layout/mainmenu.xml", 23, 247978) = 23
+1605643191.777257 mmap2(NULL, 2472, PROT_READ, MAP_SHARED, 30, 0x3c000) = 0xe514b000
+1605643191.777428 munmap(0xe514b000, 2472) = 0
+1605643191.778115 ioctl(8, BINDER_WRITE_READ, 0xff84c5f8) = 0
+1605643191.778252 ioctl(8, BINDER_WRITE_READ, 0xff84c5f8) = 0
+1605643191.778423 sendto(42, "\3\0\0\0\0\0\0\0h\2\0\0\1 I\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.778566 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.778693 ioctl(8, BINDER_WRITE_READ, 0xff84d268) = 0
+1605643191.778974 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}], 16, -1, NULL, 8) = 1
+1605643191.779107 recvfrom(42, "\1\0\0\0\0\0\0\0j\2\0\0\0\0\0\0\300\355\313{<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.779362 sendto(43, "\1\0\0\0E\206\375\342*\0\0\0\0 I\343\300\355\313{<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.779597 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.779760 recvfrom(42, "\2\0\0\0\210\211w\345n\2\0\0\300\203v\345\300\366\10|<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.779918 ioctl(8, BINDER_WRITE_READ, 0xff84c8c8) = 0
+1605643191.780361 ioctl(8, BINDER_WRITE_READ, 0xff84c8c8) = 0
+1605643191.780439 sendto(42, "\3\0\0\0\210\211w\345n\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.780582 recvfrom(42, "\2\0\0\0\210\211w\345p\2\0\0\300\203v\345\300\366\10|<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.780880 sendto(42, "\3\0\0\0\210\211w\345p\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.780994 recvfrom(42, "\2\0\0\0\210\211w\345r\2\0\0\300\203v\345\0009\30|<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.781107 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.781353 recvfrom(34, 0xff84c1e8, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.781541 ioctl(8, BINDER_WRITE_READ, 0xff84c8f8) = 0
+1605643191.782377 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}, {EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=43, u64=43}}], 16, 2498, NULL, 8) = 3
+1605643191.782546 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.782684 recvfrom(42, "\2\0\0\0\210\211w\345t\2\0\0\300\203v\345@{'|<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.782804 recvfrom(42, "\2\0\0\0\210\211w\345v\2\0\0\300\203v\345@{'|<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.782946 recvfrom(42, "\2\0\0\0\210\211w\345x\2\0\0\300\203v\345@{'|<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.783194 recvfrom(42, "\2\0\0\0\210\211w\345z\2\0\0\300\203v\345\200\2756|<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.783307 recvfrom(42, "\2\0\0\0\210\211w\345|\2\0\0\300\203v\345\200\2756|<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.783416 recvfrom(42, "\2\0\0\0\210\211w\345~\2\0\0\300\203v\345\200\2756|<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.783682 recvfrom(42, "\2\0\0\0\210\211w\345\200\2\0\0\300\203v\345\300\377E|<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.784658 recvfrom(42, "\2\0\0\0\210\211w\345\202\2\0\0\300\203v\345\300\377E|<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.784898 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.785134 recvfrom(43, "\3\0\0\0\350\357>\312*\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.785342 getuid32()            = 10456
+1605643191.785460 writev(3, [{iov_base="\2\242\7\267+\264_\211\0\317.", iov_len=11}, {iov_base="Q\303\0\0", iov_len=4}, {iov_base="\0\0\0\0\0", iov_len=5}], 3) = 20
+1605643191.786009 mprotect(0x73606000, 8192, PROT_READ|PROT_WRITE) = 0
+1605643191.786596 openat(AT_FDCWD, "/dev/ashmem", O_RDWR|O_LARGEFILE) = 38
+1605643191.786833 fstat64(38, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.787057 ioctl(38, ASHMEM_SET_NAME, 0xff84b5a0) = 0
+1605643191.787178 ioctl(38, _IOC(_IOC_WRITE, 0x77, 0x3, 0x4), 0x20000) = 0
+1605643191.787284 mmap2(NULL, 131072, PROT_READ|PROT_WRITE, MAP_PRIVATE, 38, 0) = 0xdbdad000
+1605643191.787459 close(38)             = 0
+1605643191.787782 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0$\0\0\0", 30, 28721950) = 30
+1605643191.787912 pread64(24, "res/layout-port/icon_menu_layout"..., 36, 28721980) = 36
+1605643191.788196 mmap2(NULL, 1160, PROT_READ, MAP_SHARED, 24, 0x1b64000) = 0xe514b000
+1605643191.788429 munmap(0xe514b000, 1160) = 0
+1605643191.788657 mprotect(0x73608000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.788819 futex(0xe34ec728, FUTEX_WAKE, 1) = 1
+1605643191.788890 futex(0xe34d9fd0, FUTEX_WAKE, 1) = 1
+1605643191.791895 mprotect(0x73609000, 4096, PROT_READ|PROT_WRITE) = 0
+1605643191.793148 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0*\0\0\0", 30, 28606582) = 30
+1605643191.793238 pread64(24, "res/drawable/item_background_hol"..., 42, 28606612) = 42
+1605643191.793352 mmap2(NULL, 510, PROT_READ, MAP_SHARED, 24, 0x1b48000) = 0xe514b000
+1605643191.793474 munmap(0xe514b000, 510) = 0
+1605643191.793619 pread64(24, "PK\3\4\n\0\0\10\0\0\0\0!:\314\360[X\354\0\0\0\354\0\0\0<\0\t\0", 30, 6654965) = 30
+1605643191.794190 pread64(24, "res/drawable-xhdpi-v4/list_selec"..., 60, 6654995) = 60
+1605643191.794291 mmap2(NULL, 3396, PROT_READ, MAP_SHARED, 24, 0x658000) = 0xe514b000
+1605643191.794424 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.794547 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.794626 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.794733 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.794814 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.795048 munmap(0xe514b000, 3396) = 0
+1605643191.795158 pread64(24, "PK\3\4\24\0\10\10\10\0\0\0!:\0\0\0\0\0\0\0\0\0\0\0\0>\0\0\0", 30, 28617813) = 30
+1605643191.795226 pread64(24, "res/drawable/list_selector_backg"..., 62, 28617843) = 62
+1605643191.795291 mmap2(NULL, 3450, PROT_READ, MAP_SHARED, 24, 0x1b4a000) = 0xe514b000
+1605643191.795398 munmap(0xe514b000, 3450) = 0
+1605643191.795513 pread64(24, "PK\3\4\n\0\0\10\0\0\0\0!:5\34\276q\324\0\0\0\324\0\0\0003\0\7\0", 30, 8727952) = 30
+1605643191.795818 pread64(24, "res/drawable-xxhdpi-v4/list_pres"..., 51, 8727982) = 51
+1605643191.795880 mmap2(NULL, 3772, PROT_READ, MAP_SHARED, 24, 0x852000) = 0xe514b000
+1605643191.795971 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.796125 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.796209 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.796298 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.796390 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.796516 munmap(0xe514b000, 3772) = 0
+1605643191.796618 pread64(24, "PK\3\4\n\0\0\10\0\0\0\0!:\n\n]\35\324\0\0\0\324\0\0\0007\0\6\0", 30, 8727345) = 30
+1605643191.796697 pread64(24, "res/drawable-xxhdpi-v4/list_long"..., 55, 8727375) = 55
+1605643191.796766 mmap2(NULL, 3168, PROT_READ, MAP_SHARED, 24, 0x852000) = 0xe514b000
+1605643191.796865 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.796945 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.796993 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.797070 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.797162 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.797278 munmap(0xe514b000, 3168) = 0
+1605643191.797406 pread64(24, "PK\3\4\n\0\0\10\0\0\0\0!:'\234\300\31\365\0\0\0\365\0\0\0.\0\t\0", 30, 8726707) = 30
+1605643191.797477 pread64(24, "res/drawable-xxhdpi-v4/list_focu"..., 46, 8726737) = 46
+1605643191.797820 mmap2(NULL, 2557, PROT_READ, MAP_SHARED, 24, 0x852000) = 0xe514b000
+1605643191.797885 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.797936 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.797982 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.798037 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.798089 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.798201 munmap(0xe514b000, 2557) = 0
+1605643191.798318 pread64(24, "PK\3\4\n\0\0\10\0\0\0\0!:<\203n\223\250\0\0\0\250\0\0\0003\0\10\0", 30, 5841219) = 30
+1605643191.798777 pread64(24, "res/drawable-xhdpi-v4/divider_ho"..., 51, 5841249) = 51
+1605643191.798883 mmap2(NULL, 580, PROT_READ, MAP_SHARED, 24, 0x592000) = 0xe514b000
+1605643191.798989 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.799075 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.799144 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.799279 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.799370 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.799478 munmap(0xe514b000, 580) = 0
+1605643191.799790 pread64(24, "PK\3\4\n\0\0\10\0\0\0\0!:<\203n\223\250\0\0\0\250\0\0\0001\0\6\0", 30, 5843439) = 30
+1605643191.799869 pread64(24, "res/drawable-xhdpi-v4/divider_ve"..., 49, 5843469) = 49
+1605643191.799933 mmap2(NULL, 2796, PROT_READ, MAP_SHARED, 24, 0x592000) = 0xe514b000
+1605643191.800056 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.800174 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.800319 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.800385 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.800460 rt_sigprocmask(SIG_BLOCK, [], [QUIT USR1 PIPE], 8) = 0
+1605643191.800602 munmap(0xe514b000, 2796) = 0
+1605643191.800729 getuid32()            = 10456
+1605643191.800793 getuid32()            = 10456
+1605643191.801880 ioctl(8, BINDER_WRITE_READ, 0xff84c578) = 0
+1605643191.802278 ioctl(8, BINDER_WRITE_READ, 0xff84c578) = 0
+1605643191.802694 fstat64(38, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.802916 fstat64(38, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.803290 ioctl(38, ASHMEM_GET_SIZE, 0) = 84
+1605643191.803616 fcntl64(38, F_DUPFD_CLOEXEC, 0) = 44
+1605643191.804103 close(38)             = 0
+1605643191.804463 dup(44)               = 38
+1605643191.804745 fstat64(38, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.805008 fstat64(38, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.805252 ioctl(38, ASHMEM_GET_SIZE, 0) = 84
+1605643191.805456 mmap2(NULL, 84, PROT_READ, MAP_SHARED, 38, 0) = 0xe514b000
+1605643191.805684 fstat64(38, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.805881 ioctl(38, ASHMEM_GET_SIZE, 0) = 84
+1605643191.806134 fstat64(44, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.806312 fstat64(44, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.806528 ioctl(44, ASHMEM_GET_SIZE, 0) = 84
+1605643191.807032 close(44)             = 0
+1605643191.807476 ioctl(8, BINDER_WRITE_READ, 0xff84c628) = 0
+1605643191.807951 ioctl(8, BINDER_WRITE_READ, 0xff84c628) = 0
+1605643191.808219 ioctl(8, BINDER_WRITE_READ, 0xff84c668) = 0
+1605643191.808522 sendto(42, "\3\0\0\0\0\0\0\0j\2\0\0\1\276\204\377", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.808752 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.814521 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}, {EPOLLIN, {u32=34, u64=34}}], 16, -1, NULL, 8) = 2
+1605643191.814917 recvfrom(42, "\2\0\0\0\210\211w\345\204\2\0\0\300\203v\345\0BU|<\0\0\0\0\0\0\0\4\0\1\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.815239 recvfrom(42, "\2\0\0\0\210\211w\345\210\2\0\0\300\203v\345\0K\222|<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.815623 sendto(42, "\3\0\0\0\0 I\343\210\2\0\0\0\334\332\341", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.816016 recvfrom(42, "\2\0\0\0\210\211w\345\212\2\0\0\300\203v\345\300\21\300|<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.816320 sendto(42, "\3\0\0\0\0 I\343\212\2\0\0\0\334\332\341", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.816620 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.816878 recvfrom(34, "nysv\0\0\0\0c\354M|<\0\0\0u\2\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605643191.817494 recvfrom(34, 0xff84c768, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.817716 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.818259 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.818763 sendto(43, "\2\0\0\0l\333\332\341+\0\0\0p\300\204\377\0009\30|<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.819006 sendto(43, "\2\0\0\0l\333\332\341,\0\0\0p\300\204\377@{'|<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.819353 sendto(43, "\2\0\0\0l\333\332\341-\0\0\0p\300\204\377@{'|<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.819586 sendto(43, "\2\0\0\0l\333\332\341.\0\0\0p\300\204\377@{'|<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.819908 sendto(43, "\2\0\0\0l\333\332\341/\0\0\0p\300\204\377\200\2756|<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.820413 sendto(43, "\2\0\0\0l\333\332\3410\0\0\0p\300\204\377\200\2756|<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.820684 sendto(43, "\2\0\0\0l\333\332\3411\0\0\0p\300\204\377\200\2756|<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.820953 sendto(43, "\2\0\0\0l\333\332\3412\0\0\0p\300\204\377\300\377E|<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.821247 sendto(43, "\2\0\0\0l\333\332\3413\0\0\0p\300\204\377\300\377E|<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.821505 sendto(43, "\2\0\0\0l\333\332\3414\0\0\0p\300\204\377\0BU|<\0\0\0\0\0\0\0\4\0\1\0"..., 224, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 224
+1605643191.821786 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.822150 recvfrom(34, 0xff84c748, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.822678 ioctl(8, BINDER_WRITE_READ, 0xff84ce58) = 0
+1605643191.823030 getuid32()            = 10456
+1605643191.823875 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=43, u64=43}}], 16, 0, NULL, 8) = 2
+1605643191.824243 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.824575 recvfrom(43, "\3\0\0\0\220z<\343+\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.824937 recvfrom(43, "\3\0\0\0\220z<\343,\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.825340 recvfrom(43, "\3\0\0\0\220z<\343-\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.825953 recvfrom(43, "\3\0\0\0\220z<\343.\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.826269 recvfrom(43, "\3\0\0\0\220z<\343/\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.826608 recvfrom(43, "\3\0\0\0\220z<\3430\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.826985 recvfrom(43, "\3\0\0\0\220z<\3431\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.827261 recvfrom(43, "\3\0\0\0\220z<\3432\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.827630 recvfrom(43, "\3\0\0\0\220z<\3433\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.827947 recvfrom(43, "\3\0\0\0\220z<\3434\0\0\0\0p\21\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.828294 sendto(42, "\3\0\0\0`\277\204\377r\2\0\0\1\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.828544 sendto(42, "\3\0\0\0`\277\204\377t\2\0\0\1\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.828822 sendto(42, "\3\0\0\0`\277\204\377v\2\0\0\1\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.829222 sendto(42, "\3\0\0\0`\277\204\377x\2\0\0\1\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.829487 sendto(42, "\3\0\0\0`\277\204\377z\2\0\0\1\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.829775 sendto(42, "\3\0\0\0`\277\204\377|\2\0\0\1\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.830116 sendto(42, "\3\0\0\0`\277\204\377~\2\0\0\1\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.830590 sendto(42, "\3\0\0\0`\277\204\377\200\2\0\0\1\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.830877 sendto(42, "\3\0\0\0`\277\204\377\202\2\0\0\1\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.831182 sendto(42, "\3\0\0\0`\277\204\377\204\2\0\0\1\200v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.831952 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.832432 sendto(43, "\1\0\0\0\300\340jp5\0\0\0\0\20\nE\0\245\364~<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.832740 sendto(43, "\1\0\0\0\300\340jp6\0\0\0\0\20\nE\0\245\364~<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.833001 sendto(43, "\1\0\0\0\300\340jp7\0\0\0\0\20\nE\0\245\364~<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.833348 sendto(43, "\1\0\0\0\300\340jp8\0\0\0\0\20\nE\0\245\364~<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.834145 sendto(43, "\1\0\0\0\300\340jp9\0\0\0\0\20\nE\0\245\364~<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.834919 sendto(43, "\1\0\0\0\300\340jp:\0\0\0\0\20\nE\0\245\364~<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.835353 sendto(43, "\1\0\0\0\300\340jp;\0\0\0\0\20\nE\0\245\364~<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.835656 sendto(43, "\1\0\0\0\300\340jp<\0\0\0\0\20\nE\0\245\364~<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.836054 getuid32()            = 10456
+1605643191.836327 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}, {EPOLLIN, {u32=42, u64=42}}, {EPOLLIN, {u32=34, u64=34}}], 16, 0, NULL, 8) = 3
+1605643191.836866 recvfrom(43, "\3\0\0\0\350\357>\3125\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.837150 ioctl(8, BINDER_WRITE_READ, 0xff84c858) = 0
+1605643191.837623 ioctl(8, BINDER_WRITE_READ, 0xff84c858) = 0
+1605643191.837930 recvfrom(43, "\3\0\0\0\350\357>\3126\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.838216 recvfrom(43, "\3\0\0\0\350\357>\3127\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.838504 recvfrom(43, "\3\0\0\0\350\357>\3128\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.838862 recvfrom(43, "\3\0\0\0\350\357>\3129\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.839244 recvfrom(43, "\3\0\0\0\350\357>\312:\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.839668 recvfrom(43, "\3\0\0\0\350\357>\312;\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.840213 recvfrom(43, "\3\0\0\0\350\357>\312<\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.840895 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.841335 recvfrom(42, "\1\0\0\0\0\0\0\0\214\2\0\0\0\0\0\0\0T\317|<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.841630 sendto(43, "\1\0\0\0\32\267G\344=\0\0\0\20\300\204\377\0T\317|<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.841969 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.842298 recvfrom(34, "nysv\0\0\0\0\357\10I\177<\0\0\0x\2\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605643191.842609 recvfrom(34, 0xff84c768, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.842901 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.843241 getuid32()            = 10456
+1605643191.843531 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}], 16, 0, NULL, 8) = 1
+1605643191.843868 recvfrom(43, "\3\0\0\0\350\357>\312=\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.844297 sendto(42, "\3\0\0\0\0T\317|\214\2\0\0\0\267G\344", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.844598 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.845023 ioctl(8, BINDER_WRITE_READ, 0xff84d268) = 0
+1605643191.845280 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}], 16, -1, NULL, 8) = 1
+1605643191.845542 recvfrom(42, "\1\0\0\0\0\0\0\0\216\2\0\0\0\0\0\0\300k\"\177<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.845824 sendto(43, "\1\0\0\0\32\267G\344>\0\0\0\20\300\204\377\300k\"\177<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.846147 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.846501 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.846747 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}, {EPOLLIN, {u32=25, u64=25}}], 16, 2500, NULL, 8) = 2
+1605643191.847116 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.847439 recvfrom(43, "\3\0\0\0\350\357>\312>\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.847784 sendto(42, "\3\0\0\0\300k\"\177\216\2\0\0\0\267G\344", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.847840 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.847840 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}], 16, -1, NULL, 8) = 1
+1605643191.847841 recvfrom(42, "\1\0\0\0\0\0\0\0\220\2\0\0\0\0\0\0\0\311\350\177<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.847841 sendto(43, "\1\0\0\0\32\267G\344?\0\0\0\20\300\204\377\0\311\350\177<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.847841 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.847842 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.852793 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}, {EPOLLIN, {u32=25, u64=25}}], 16, 2495, NULL, 8) = 2
+1605643191.854085 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.854765 recvfrom(43, "\3\0\0\0\350\357>\312?\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.855309 sendto(42, "\3\0\0\0\0\311\350\177\220\2\0\0\0\267G\344", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.855772 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.856347 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}], 16, -1, NULL, 8) = 1
+1605643191.856725 recvfrom(42, "\1\0\0\0\0\0\0\0\222\2\0\0\0\0\0\0\300\217\26\200<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.857016 sendto(43, "\1\0\0\0\32\267G\344@\0\0\0\20\300\204\377\300\217\26\200<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.857450 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.857764 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.858065 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}, {EPOLLIN, {u32=25, u64=25}}], 16, 2500, NULL, 8) = 2
+1605643191.858382 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.858619 recvfrom(43, "\3\0\0\0\350\357>\312@\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.858935 sendto(42, "\3\0\0\0\300\217\26\200\222\2\0\0\0\267G\344", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.859292 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.859627 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}], 16, -1, NULL, 8) = 1
+1605643191.859902 recvfrom(42, "\1\0\0\0\0\0\0\0\224\2\0\0\0\0\0\0\300\241\220\200<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.860213 sendto(43, "\1\0\0\0\32\267G\344A\0\0\0\20\300\204\377\300\241\220\200<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.860513 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.860778 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.861051 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}, {EPOLLIN, {u32=25, u64=25}}], 16, 2499, NULL, 8) = 2
+1605643191.861350 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.861618 recvfrom(43, "\3\0\0\0\350\357>\312A\0\0\0\0 I\343", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.861910 sendto(42, "\3\0\0\0\300\241\220\200\224\2\0\0\1\267G\344", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.862292 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.862633 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}], 16, -1, NULL, 8) = 1
+1605643191.862907 recvfrom(42, "\1\0\0\0\0\0\0\0\226\2\0\0\0\0\0\0\300\252\315\200<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.863215 sendto(43, "\1\0\0\0\32\267G\344B\0\0\0\20\300\204\377\300\252\315\200<\0\0\0\377\377\377\377\1\1\0\0"..., 64, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 64
+1605643191.863509 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.863939 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.864182 epoll_pwait(29, [{EPOLLIN, {u32=43, u64=43}}, {EPOLLIN, {u32=25, u64=25}}], 16, 2499, NULL, 8) = 2
+1605643191.864436 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.864683 recvfrom(43, "\3\0\0\0\350\357>\312B\0\0\0\0\313\204\377", 2264, MSG_DONTWAIT, NULL, NULL) = 16
+1605643191.864980 getuid32()            = 10456
+1605643191.865217 writev(3, [{iov_base="\2\242\7\267+\264_U\204\2153", iov_len=11}, {iov_base="Q\303\0\0", iov_len=4}, {iov_base="\0\0\0\0\0", iov_len=5}], 3) = 20
+1605643191.865691 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.866006 ioctl(8, BINDER_WRITE_READ, 0xff84c498) = 0
+1605643191.866352 ioctl(8, BINDER_WRITE_READ, 0xff84c498) = 0
+1605643191.866798 recvfrom(34, 0xff84bc48, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.867214 ioctl(8, BINDER_WRITE_READ, 0xff84c358) = 0
+1605643191.869349 ioctl(8, BINDER_WRITE_READ, 0xff84c508) = 0
+1605643191.869711 ioctl(8, BINDER_WRITE_READ, 0xff84c508) = 0
+1605643191.871561 dup(44)               = 46
+1605643191.871934 fcntl64(46, F_SETFL, O_RDONLY|O_NONBLOCK) = 0
+1605643191.872317 close(44)             = 0
+1605643191.872664 epoll_ctl(29, EPOLL_CTL_ADD, 46, {EPOLLIN, {u32=46, u64=46}}) = 0
+1605643191.873045 ioctl(8, BINDER_WRITE_READ, 0xff84c488) = 0
+1605643191.873587 ioctl(8, BINDER_WRITE_READ, 0xff84c488) = 0
+1605643191.874013 getuid32()            = 10456
+1605643191.874267 getuid32()            = 10456
+1605643191.874511 fstat64(38, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.874783 fstat64(38, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.875041 ioctl(38, ASHMEM_GET_SIZE, 0) = 84
+1605643191.875299 fstat64(38, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.875567 fstat64(38, {st_mode=S_IFCHR|0666, st_rdev=makedev(10, 61), ...}) = 0
+1605643191.875837 ioctl(38, ASHMEM_PIN, 0xff84c730) = 0
+1605643191.876118 ioctl(8, BINDER_WRITE_READ, 0xff84c668) = 0
+1605643191.876543 sendto(42, "\3\0\0\0\300\252\315\200\226\2\0\0\1\267G\344", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.877079 recvfrom(43, 0xff84c780, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.877924 getuid32()            = 10456
+1605643191.878346 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}, {EPOLLIN, {u32=46, u64=46}}], 16, 0, NULL, 8) = 2
+1605643191.878716 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.879115 recvfrom(46, "\1\0\0\0\0\0\0\0\230\2\0\0\0\0\0\0\200q\373\200<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.879439 getuid32()            = 10456
+1605643191.879714 writev(3, [{iov_base="\3\242\7\267+\264_\362Ej4", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Dropping event due to no window "..., iov_len=213}], 4) = 248
+1605643191.880451 sendto(46, "\3\0\0\0\20\277\204\377\230\2\0\0\0\241v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.880882 recvfrom(46, "\1\0\0\0\0\0\0\0\232\2\0\0\0\0\0\0\300\305\204\201<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.881289 getuid32()            = 10456
+1605643191.882508 writev(3, [{iov_base="\3\242\7\267+\264_\362w\2064", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.882928 getuid32()            = 10456
+1605643191.883517 writev(3, [{iov_base="\3\242\7\267+\264_\211\307\2364", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.886322 getuid32()            = 10456
+1605643191.886618 writev(3, [{iov_base="\3\242\7\267+\264_\242e\3174", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.887247 getuid32()            = 10456
+1605643191.887562 writev(3, [{iov_base="\3\242\7\267+\264_\\8\3414", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.888308 getuid32()            = 10456
+1605643191.888793 writev(3, [{iov_base="\3\242\7\267+\264_\307y\3614", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.889661 getuid32()            = 10456
+1605643191.890010 writev(3, [{iov_base="\3\242\7\267+\264_\262P\3774", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.890600 getuid32()            = 10456
+1605643191.891032 writev(3, [{iov_base="\3\242\7\267+\264_\22\277\0245", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.891305 getuid32()            = 10456
+1605643191.891500 writev(3, [{iov_base="\3\242\7\267+\264_Gr\0375", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.892255 getuid32()            = 10456
+1605643191.892584 writev(3, [{iov_base="\3\242\7\267+\264_\r\0-5", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=214}], 4) = 249
+1605643191.893038 sendto(46, "\3\0\0\0x7N\344\232\2\0\0\0\237J\344", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.893371 recvfrom(46, 0xc9c8a010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.893821 epoll_pwait(29, [{EPOLLIN, {u32=42, u64=42}}, {EPOLLIN, {u32=34, u64=34}}], 16, -1, NULL, 8) = 2
+1605643191.894139 recvfrom(42, "\2\0\0\0\210\211w\345\236\2\0\0\300\203v\345\200\236,\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.894731 ioctl(8, BINDER_WRITE_READ, 0xff84c8c8) = 0
+1605643191.895189 ioctl(8, BINDER_WRITE_READ, 0xff84c8c8) = 0
+1605643191.895507 sendto(42, "\3\0\0\0\210\211w\345\236\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.895944 recvfrom(42, "\2\0\0\0\210\211w\345\240\2\0\0\300\203v\345\300\340;\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.896262 recvfrom(42, "\2\0\0\0\210\211w\345\242\2\0\0\300\203v\345\0#K\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.896600 recvfrom(42, "\2\0\0\0\210\211w\345\244\2\0\0\300\203v\345@eZ\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.896874 recvfrom(42, "\2\0\0\0\210\211w\345\246\2\0\0\300\203v\345\200\247i\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.897124 recvfrom(42, "\2\0\0\0\210\211w\345\250\2\0\0\300\203v\345\300\351x\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.897377 recvfrom(42, "\2\0\0\0\210\211w\345\252\2\0\0\300\203v\345\300\351x\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.897608 recvfrom(42, "\2\0\0\0\210\211w\345\254\2\0\0\300\203v\345\0,\210\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.897836 recvfrom(42, "\2\0\0\0\210\211w\345\256\2\0\0\300\203v\345\0,\210\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.898100 sendto(42, "\3\0\0\0\210\211w\345\240\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.898339 sendto(42, "\3\0\0\0\210\211w\345\242\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.898605 sendto(42, "\3\0\0\0\210\211w\345\244\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.898929 sendto(42, "\3\0\0\0\210\211w\345\246\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.899217 sendto(42, "\3\0\0\0\210\211w\345\250\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.899450 sendto(42, "\3\0\0\0\210\211w\345\252\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.899860 sendto(42, "\3\0\0\0\210\211w\345\254\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.900876 sendto(42, "\3\0\0\0\210\211w\345\256\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.904207 recvfrom(42, "\2\0\0\0\210\211w\345\262\2\0\0\300\203v\345\200\260\246\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.904526 sendto(42, "\3\0\0\0\210\211w\345\262\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.904866 recvfrom(42, "\2\0\0\0\210\211w\345\264\2\0\0\300\203v\345\300\362\265\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.905315 recvfrom(42, "\2\0\0\0\210\211w\345\266\2\0\0\300\203v\345\300\362\265\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.905599 recvfrom(42, "\2\0\0\0\210\211w\345\270\2\0\0\300\203v\345\300\362\265\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.905921 recvfrom(42, "\2\0\0\0\210\211w\345\272\2\0\0\300\203v\345\0005\305\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.906276 sendto(42, "\3\0\0\0\210\211w\345\264\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.906622 sendto(42, "\3\0\0\0\210\211w\345\266\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.906973 sendto(42, "\3\0\0\0\210\211w\345\270\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.907292 sendto(42, "\3\0\0\0\210\211w\345\272\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.907665 recvfrom(42, "\2\0\0\0\210\211w\345\276\2\0\0\300\203v\345@w\324\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.908038 sendto(42, "\3\0\0\0\210\211w\345\276\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.908355 recvfrom(42, "\2\0\0\0\210\211w\345\300\2\0\0\300\203v\345@w\324\202<\0\0\0\0\0\0\0\2\20\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 224
+1605643191.908690 sendto(42, "\3\0\0\0\210\211w\345\300\2\0\0\0\203v\345", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.909013 recvfrom(42, 0xd9a07610, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.909286 recvfrom(34, "nysv\0\0\0\0\250GD\202<\0\0\0{\2\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605643191.909581 recvfrom(34, 0xff84c768, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.909911 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.910177 recvfrom(46, "\1\0\0\0\0\0\0\0\302\2\0\0\0\0\0\0\200\271\343\202<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.910537 getuid32()            = 10456
+1605643191.910791 writev(3, [{iov_base="\3\242\7\267+\264_T\366D6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Dropping event due to no window "..., iov_len=211}], 4) = 246
+1605643191.911161 sendto(46, "\3\0\0\0\0\0\0\0\302\2\0\0\0\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.911567 recvfrom(46, "\1\0\0\0\0\0\0\0\304\2\0\0\0\0\0\0\300\373\362\202<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.912137 getuid32()            = 10456
+1605643191.912419 writev(3, [{iov_base="\3\242\7\267+\264_n\20]6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=212}], 4) = 247
+1605643191.912872 getuid32()            = 10456
+1605643191.913182 writev(3, [{iov_base="\3\242\7\267+\264_\3525h6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=212}], 4) = 247
+1605643191.913703 getuid32()            = 10456
+1605643191.914008 writev(3, [{iov_base="\3\242\7\267+\264_l*u6", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=212}], 4) = 247
+1605643191.914419 getuid32()            = 10456
+1605643191.914668 writev(3, [{iov_base="\3\242\7\267+\264_\371%\2006", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=212}], 4) = 247
+1605643191.915002 getuid32()            = 10456
+1605643191.915301 writev(3, [{iov_base="\3\242\7\267+\264_\220\327\2106", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=212}], 4) = 247
+1605643191.915746 getuid32()            = 10456
+1605643191.916224 writev(3, [{iov_base="\3\242\7\267+\264_{\320\2236", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=212}], 4) = 247
+1605643191.916872 getuid32()            = 10456
+1605643191.918403 writev(3, [{iov_base="\3\242\7\267+\264_\254\33\2436", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=212}], 4) = 247
+1605643191.919263 getuid32()            = 10456
+1605643191.919877 writev(3, [{iov_base="\3\242\7\267+\264_,\212\3116", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=212}], 4) = 247
+1605643191.920910 getuid32()            = 10456
+1605643191.921285 writev(3, [{iov_base="\3\242\7\267+\264_\256\t\3436", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=212}], 4) = 247
+1605643191.921609 sendto(46, "\3\0\0\0\340\276\204\377\304\2\0\0\0000N\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.922039 recvfrom(46, "\1\0\0\0\0\0\0\0\306\2\0\0\0\0\0\0\300\37\347\203<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.922612 getuid32()            = 10456
+1605643191.923068 writev(3, [{iov_base="\3\242\7\267+\264_\356e\3736", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Dropping event due to no window "..., iov_len=209}], 4) = 244
+1605643191.923793 sendto(46, "\3\0\0\0\0\0\0\0\306\2\0\0\0\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.924613 recvfrom(46, "\1\0\0\0\0\0\0\0\310\2\0\0\0\0\0\0\200\370\216\204<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.925048 getuid32()            = 10456
+1605643191.925301 writev(3, [{iov_base="\3\242\7\267+\264_\375b\"7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.925708 getuid32()            = 10456
+1605643191.926043 writev(3, [{iov_base="\3\242\7\267+\264_\316A,7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.926349 getuid32()            = 10456
+1605643191.926588 writev(3, [{iov_base="\3\242\7\267+\264_QJ67", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.926917 getuid32()            = 10456
+1605643191.927211 writev(3, [{iov_base="\3\242\7\267+\264_=\314>7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.927714 getuid32()            = 10456
+1605643191.928104 writev(3, [{iov_base="\3\242\7\267+\264_Q\336H7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.928427 getuid32()            = 10456
+1605643191.928680 writev(3, [{iov_base="\3\242\7\267+\264_\276\tV7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.928988 getuid32()            = 10456
+1605643191.929280 writev(3, [{iov_base="\3\242\7\267+\264_v\234^7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.929575 getuid32()            = 10456
+1605643191.929820 writev(3, [{iov_base="\3\242\7\267+\264_M\226g7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.930144 getuid32()            = 10456
+1605643191.930448 writev(3, [{iov_base="\3\242\7\267+\264_4\20p7", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.930825 sendto(46, "\3\0\0\0\340\276\204\377\310\2\0\0\0000N\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.931424 recvfrom(46, "\1\0\0\0\0\0\0\0\312\2\0\0\0\0\0\0\0}\255\204<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.931777 getuid32()            = 10456
+1605643191.932070 writev(3, [{iov_base="\3\242\7\267+\264_w\375\2107", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Dropping event due to no window "..., iov_len=209}], 4) = 244
+1605643191.932632 sendto(46, "\3\0\0\0\0\0\0\0\312\2\0\0\0\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.933016 recvfrom(46, "\1\0\0\0\0\0\0\0\314\2\0\0\0\0\0\0\300L\30\205<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.934012 getuid32()            = 10456
+1605643191.934573 writev(3, [{iov_base="\3\242\7\267+\264_\312\7\2537", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.935050 getuid32()            = 10456
+1605643191.935418 writev(3, [{iov_base="\3\242\7\267+\264_~\367\2727", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.936236 getuid32()            = 10456
+1605643191.936653 writev(3, [{iov_base="\3\242\7\267+\264_C\363\3067", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.937209 getuid32()            = 10456
+1605643191.937455 writev(3, [{iov_base="\3\242\7\267+\264_\346\316\3337", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.937798 getuid32()            = 10456
+1605643191.938049 writev(3, [{iov_base="\3\242\7\267+\264_\16\341\3447", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.938388 getuid32()            = 10456
+1605643191.938676 writev(3, [{iov_base="\3\242\7\267+\264_\266\275\3557", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.939237 getuid32()            = 10456
+1605643191.939590 writev(3, [{iov_base="\3\242\7\267+\264_F\240\3717", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.940070 getuid32()            = 10456
+1605643191.940388 writev(3, [{iov_base="\3\242\7\267+\264_\271\311\0068", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.940776 getuid32()            = 10456
+1605643191.941079 writev(3, [{iov_base="\3\242\7\267+\264_K1\0228", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Cancelling event due to no windo"..., iov_len=210}], 4) = 245
+1605643191.941479 sendto(46, "\3\0\0\0\340\276\204\377\314\2\0\0\0000N\343", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.941916 recvfrom(46, "\1\0\0\0\0\0\0\0\316\2\0\0\0\0\0\0\0\217'\205<\0\0\0\377\377\377\377\1\1\0\0"..., 2264, MSG_DONTWAIT, NULL, NULL) = 64
+1605643191.942321 getuid32()            = 10456
+1605643191.943407 writev(3, [{iov_base="\3\242\7\267+\264_p\23(8", iov_len=11}, {iov_base="\5", iov_len=1}, {iov_base="ViewRootImpl[vmbatqef]\0", iov_len=23}, {iov_base="Dropping event due to no window "..., iov_len=203}], 4) = 238
+1605643191.946189 sendto(46, "\3\0\0\0\0\0\0\0\316\2\0\0\0\0\0\0", 16, MSG_DONTWAIT|MSG_NOSIGNAL, NULL, 0) = 16
+1605643191.947053 recvfrom(46, 0xc9c8a010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.948433 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.949183 ioctl(8, BINDER_WRITE_READ, 0xff84cdf8) = 0
+1605643191.950760 ioctl(8, BINDER_WRITE_READ, 0xff84cdf8) = 0
+1605643191.956256 ioctl(8, BINDER_WRITE_READ, 0xff84cc28) = 0
+1605643191.956905 ioctl(8, BINDER_WRITE_READ, 0xff84cc28) = 0
+1605643191.957391 getuid32()            = 10456
+1605643191.958121 ioctl(8, BINDER_WRITE_READ, 0xff84c398) = 0
+1605643191.959041 getuid32()            = 10456
+1605643191.959222 ioctl(8, BINDER_WRITE_READ, 0xff84cd88) = 0
+1605643191.960358 recvfrom(34, 0xff84c618, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.960584 ioctl(8, BINDER_WRITE_READ, 0xff84cd28) = 0
+1605643191.960815 getuid32()            = 10456
+1605643191.961047 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+1605643191.961290 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605643191.961516 getuid32()            = 10456
+1605643191.961710 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.961931 getuid32()            = 10456
+1605643191.962192 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.962442 getuid32()            = 10456
+1605643191.962636 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+1605643191.962867 epoll_pwait(29, [{EPOLLIN, {u32=34, u64=34}}], 16, -1, NULL, 8) = 1
+1605643191.967758 recvfrom(34, "nysv\0\0\0\0\227K<\207<\0\0\0\200\2\0\0\0\0\0\0", 2400, MSG_DONTWAIT, NULL, NULL) = 24
+1605643191.967839 recvfrom(34, 0xff84c768, 2400, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.968129 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.968232 recvfrom(46, 0xc9c8a010, 2264, MSG_DONTWAIT, NULL, NULL) = -1 EAGAIN (Try again)
+1605643191.968330 write(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.968547 ioctl(8, BINDER_WRITE_READ, 0xff84cdf8) = 0
+1605643191.968976 ioctl(8, BINDER_WRITE_READ, 0xff84cdf8) = 0
+1605643191.970850 ioctl(8, BINDER_WRITE_READ, 0xff84cc28) = 0
+1605643191.971027 ioctl(8, BINDER_WRITE_READ, 0xff84cc28) = 0
+1605643191.971150 ioctl(8, BINDER_WRITE_READ, 0xff84ce48) = 0
+1605643191.971268 ioctl(8, BINDER_WRITE_READ, 0xff84ce48) = 0
+1605643191.971620 getuid32()            = 10456
+1605643191.971727 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, 0, NULL, 8) = 1
+1605643191.972191 read(25, "\2\0\0\0\0\0\0\0", 8) = 8
+1605643191.972365 ioctl(8, BINDER_WRITE_READ, 0xff84d268) = 0
+1605643191.972497 epoll_pwait(29, [{EPOLLIN, {u32=25, u64=25}}], 16, -1, NULL, 8) = 1
+1605643191.973341 read(25, "\1\0\0\0\0\0\0\0", 8) = 8
+1605643191.973469 getuid32()            = 10456
+1605643191.973621 epoll_pwait(29, [], 16, 0, NULL, 8) = 0
+
