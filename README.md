@@ -1,13 +1,15 @@
 ## Syscall-IDS
 
-Intrusion Detection System (IDS) that identifies anomalies in system call traces by leveraging a combination of statistical methods and machine learning algorithms to distinguish between normal (clean) and potentially malicious (infected) process behaviors.
+Host-based Intrusion Detection System (HIDS) that identifies anomalies in system call traces by leveraging a combination of statistical methods and machine learning algorithms to distinguish between normal (clean) and potentially malicious (infected) process behaviors.
+
+View pipeline [here](https://github.com/Vismay-dev/SysCall-IDS/blob/main/notebooks/subcom_pipeline.ipynb).
 
 ### 🌟 Key Developments
 
 | Technique/Feature                   | Description                                                                     |
 |-------------------------------------|---------------------------------------------------------------------------------|
 | Feature Engineering                 | Convertion of syscall info into high-dimensional feature vectors.               |
-| Probabilistic Syscall Subclustering | GMMs or K-Means for granular syscall behavior understanding.                    |
+| Probabilistic Syscall Subclustering | Gaussian Mixture Models for granular syscall behavior understanding.                    |
 | Temporal Dependency Modeling        | Markov Chains capture transitions between syscall states as a function of time. |
 | Buffer Overflow Detection           | Gaussian interval of string argument lengths to catch overflow attempts.        |
 | Pathname Similarity Analysis        | SOMs to visualize and detect anomalies in syscall pathnames.                    |
