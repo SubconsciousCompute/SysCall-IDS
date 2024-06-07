@@ -2,7 +2,7 @@
 
 Host-based Intrusion Detection System (HIDS) that identifies anomalies in system call traces by leveraging a combination of statistical methods and machine learning algorithms to distinguish between normal (clean) and potentially malicious (infected) process behaviors.
 
-View pipeline <a href="https://github.com/Vismay-dev/SysCall-IDS/blob/main/notebooks/subcom_pipeline.ipynb" target="_blank">here</a>.
+View pipeline [here](https://github.com/Vismay-dev/SysCall-IDS/blob/main/notebooks/subcom_pipeline.ipynb).
 
 ### 🌟 Key Developments
 
@@ -17,14 +17,14 @@ View pipeline <a href="https://github.com/Vismay-dev/SysCall-IDS/blob/main/noteb
 
 ### 🎓 References:
 
-- <a href="https://maggi.cc/publication/frossi_hybridsyscalls_2009/frossi_hybridsyscalls_2009.pdf" target="_blank">Frossi et al. "Selecting and Improving System Call Models for Anomaly Detection"</a>
-- <a href="https://ieeexplore.ieee.org/document/9796248" target="_blank">Android Dataset</a>
+- [Frossi et al. "Selecting and Improving System Call Models for Anomaly Detection"](https://maggi.cc/publication/frossi_hybridsyscalls_2009/frossi_hybridsyscalls_2009.pdf)
+- [Android Dataset](https://ieeexplore.ieee.org/document/9796248)
 
 ### 🙏 Acknowledgments:
 
-- <a href="http://ids.cs.columbia.edu/sites/default/files/smt-syscall-discex01.pdf" target="_blank">Columbia CS Dept's Intrusion Detection Pipeline</a>
-- <a href="http://bactra.org/notebooks/prediction-process.html" target="_blank">Cosma Shalizi's Notes on Markov Chains and Prediction Processes</a>
+- [Cosma Shalizi's Notes on Markov Chains and Prediction Processes](http://bactra.org/notebooks/prediction-process.html)
+- [Columbia CS Dept's Intrusion Detection Pipeline](http://ids.cs.columbia.edu/sites/default/files/smt-syscall-discex01.pdf)
 
 ## 📝 License
 
-This project is licensed under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html" target="_blank">GNU Affero General Public License v3.0</a>.
+This project is licensed under [the GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
