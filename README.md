@@ -14,6 +14,7 @@ View pipeline [here](https://github.com/Vismay-dev/SysCall-IDS/blob/main/noteboo
 | Buffer Overflow Detection           | Gaussian interval of string argument lengths to catch overflow attempts.        |
 | Pathname Similarity Analysis        | SOMs to visualize and detect anomalies in syscall pathnames.                    |
 | DoS Attack Detection                | Markov Chain edge frequency analysis per-trace for DoS attempts.                |
+
 ### 🎓 References:
 
 - [Frossi et al. "Selecting and Improving System Call Models for
@@ -21,5 +22,10 @@ Anomaly Detection"](https://maggi.cc/publication/frossi_hybridsyscalls_2009/fros
 - [Android Dataset](https://ieeexplore.ieee.org/document/9796248)
 
 ### 🙏 Acknowledgments:
+
 - [Columbia CS Dept's Intrusion Detection Pipeline](http://ids.cs.columbia.edu/sites/default/files/smt-syscall-discex01.pdf)
 - [Cosma Shalizi's Notes on Markov Chains and Prediction Processes](http://bactra.org/notebooks/prediction-process.html)
+
+## 📝 License
+
+This project is licensed under the [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
