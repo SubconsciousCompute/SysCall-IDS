@@ -5,6 +5,10 @@ from sklearn.decomposition import PCA
 from sklearn.preprocessing import StandardScaler
 import joblib
 import numpy as np
+import warnings
+from sklearn.exceptions import ConvergenceWarning
+
+warnings.filterwarnings("ignore", category=ConvergenceWarning)
 
 syscall_to_cluster = {}
 init_called = False
