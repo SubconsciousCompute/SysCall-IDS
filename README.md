@@ -17,6 +17,7 @@ View pipeline [here](https://github.com/Vismay-dev/SysCall-IDS/blob/main/noteboo
 
 ### 🎓 References:
 
+- [Shamim et al. "Efficient Approach for Anomaly Detection in IoT Using System Calls"](https://www.mdpi.com/1424-8220/23/2/652)
 - [Frossi et al. "Selecting and Improving System Call Models for Anomaly Detection"](https://maggi.cc/publication/frossi_hybridsyscalls_2009/frossi_hybridsyscalls_2009.pdf)
 - [Android Dataset](https://ieeexplore.ieee.org/document/9796248)
 
