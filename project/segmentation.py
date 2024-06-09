@@ -12,14 +12,18 @@ def autocorrelation(states_numeric):
 def soe(states_numeric):
     states_numeric = states_numeric
     autocorr = autocorrelation(states_numeric)
-    window_length = min(31, len(autocorr) // 2 * 2 + 1)  # Ensure odd window length
     smoothed_autocorr = savgol_filter(autocorr, window_length=31, polyorder=2)
+    peaks = np.where(smoothed_autocorr > np.percentile(smoothed_autocorr, 90))[0]
 
-    height_threshold = np.percentile(smoothed_autocorr, 80)
-    peaks, _ = find_peaks(smoothed_autocorr, height=height_threshold, distance=100)
+    min_peak_distance = 10
+    filtered_peaks = []
+    prev_peak = peaks[0]
+    for peak in peaks:
+        if peak - prev_peak >= min_peak_distance:
+            filtered_peaks.append(peak)
+            prev_peak = peak
 
-    segments = [states_numeric[i:j] for i, j in zip(peaks[:-1], peaks[1:])]
-    segments = [seg for seg in segments if len(seg) > 1]
+    segments = list(filter(lambda x: len(x) != 1, [states_numeric[i:j] for i, j in zip(filtered_peaks[:-1], filtered_peaks[1:])]))
 
     return segments
 
