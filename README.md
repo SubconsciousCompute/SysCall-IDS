@@ -1,6 +1,6 @@
 ## Syscall-IDS
 
-Host-based Intrusion Detection System (HIDS) that identifies anomalies in system call traces by leveraging a combination of statistical methods and machine learning algorithms to distinguish between normal (clean) and potentially malicious (infected) process behaviors.
+Host-based Intrusion Detection System (HIDS) that identifies anomalies in system call traces by leveraging a combination of statistical and machine learning techniques to distinguish between normal (clean) and potentially malicious (infected) behaviors.
 
 View pipeline [here](https://github.com/Vismay-dev/SysCall-IDS/blob/main/notebooks/subcom_pipeline.ipynb).
 
