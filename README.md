@@ -12,7 +12,7 @@ View pipeline [here](https://github.com/Vismay-dev/SysCall-IDS/blob/main/noteboo
 | Probabilistic Syscall Subclustering | Gaussian Mixture Models for granular syscall behavior understanding.                 |
 | Temporal Dependency Modeling        | Markov Chains capture transitions between syscall states as a function of time.      |
 | Buffer Overflow Detection           | Gaussian interval of string argument lengths to catch overflow attempts.             |
-| Pathname Similarity Analysis        | SOMs to visualize and detect anomalies in syscall pathnames.                         |
+| Pathname Similarity Analysis        | Self-Organizing Maps to visualize and detect anomalies in syscall pathnames.                         |
 | DoS Attack Detection                | Markov Chain edge frequency analysis per-trace for DoS detection.                    |
 | Segmentation                        | Autocorrelation + Suffix Trees to segment traces and proces each segment seperately. |
 
