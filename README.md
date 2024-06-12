@@ -1,6 +1,6 @@
 ## Syscall-IDS
 
-Host-based Intrusion Detection System (HIDS) that identifies anomalies in system call traces by leveraging a combination of statistical methods and machine learning algorithms to distinguish between normal (clean) and potentially malicious (infected) process behaviors.
+Host-based Intrusion Detection System (HIDS) that identifies anomalies in system call traces by leveraging a combination of statistical and machine learning techniques to distinguish between normal (clean) and potentially malicious (infected) behaviors.
 
 View pipeline [here](https://github.com/Vismay-dev/SysCall-IDS/blob/main/notebooks/subcom_pipeline.ipynb).
 
@@ -9,12 +9,12 @@ View pipeline [here](https://github.com/Vismay-dev/SysCall-IDS/blob/main/noteboo
 | Technique/Feature                   | Description                                                                          |
 |-------------------------------------|--------------------------------------------------------------------------------------|
 | Feature Engineering                 | Conversion of syscall info into high-dimensional feature vectors.                    |
-| Probabilistic Syscall Subclustering | Gaussian Mixture Models for granular syscall behavior understanding.                 |
-| Temporal Dependency Modeling        | Markov Chains capture transitions between syscall states as a function of time.      |
+| Probabilistic Syscall Subclustering | Gaussian mixture models for granular syscall behavior understanding.                 |
+| Temporal Dependency Modeling        | Markov chains capture transitions between syscall states as a function of time.      |
 | Buffer Overflow Detection           | Gaussian interval of string argument lengths to catch overflow attempts.             |
-| Pathname Similarity Analysis        | SOMs to visualize and detect anomalies in syscall pathnames.                         |
-| DoS Attack Detection                | Markov Chain edge frequency analysis per-trace for DoS detection.                    |
-| Segmentation                        | Autocorrelation + Suffix Trees to segment traces and proces each segment seperately. |
+| Pathname Similarity Analysis        | Self-organizing maps to visualize and detect anomalies in syscall pathnames.                         |
+| DoS Attack Detection                | Markov chain edge frequency analysis per-trace for DoS detection.                    |
+| Segmentation                        | Autocorrelation + suffix trees to segment traces and proces each segment seperately. |
 
 ### 🎓 References:
 
