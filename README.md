@@ -16,6 +16,18 @@ View pipeline [here](https://github.com/Vismay-dev/SysCall-IDS/blob/main/noteboo
 | DoS Attack Detection                | Markov chain edge frequency analysis per-trace for DoS detection.                    |
 | Segmentation                        | Autocorrelation + suffix trees to segment traces and proces each segment seperately. |
 
+### 📊 Results
+
+Below are the confusion matrices showing the performance of the HIDS pipeline on the Twindroid dataset:
+
+a) **Average-Case Confusion Matrix:**
+
+<img src="results/average-case.png" alt="Confusion Matrix 1" width="400">
+
+b) **Best-Case Confusion Matrix:**
+
+<img src="results/best-case.png" alt="Confusion Matrix 1" width="400">
+
 ### 🎓 References:
 
 - [Liao et al. "Anomaly Detection of System Call Sequence Based on Dynamic
