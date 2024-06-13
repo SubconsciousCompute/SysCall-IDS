@@ -28,8 +28,8 @@ def init_cluster_mapping(padded_feature_vectors, method="GMM"):
     normalized_features = scaler.fit_transform(feature_vector_attributes)
     transformed_features = pca.fit_transform(normalized_features)
 
-    joblib.dump(pca, 'pca_model.pkl')
-    joblib.dump(scaler, 'scaler.pkl')
+    joblib.dump(pca, '../models/pca_model.pkl')
+    joblib.dump(scaler, '../models/scaler.pkl')
 
     print("=> Initializing cluster mapping")
 

@@ -12,8 +12,8 @@ scaler = None
 
 def initialize_pca():
     global pca, scaler
-    pca = joblib.load('pca_model.pkl')
-    scaler = joblib.load('scaler.pkl')
+    pca = joblib.load('../models/pca_model.pkl')
+    scaler = joblib.load('../models/scaler.pkl')
 
 
 def get_cluster_probability(feature_vector, syscall_to_cluster):
