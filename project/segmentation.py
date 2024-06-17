@@ -12,7 +12,7 @@ def autocorrelation(states_numeric):
 def soe(states_numeric):
     states_numeric = states_numeric
     autocorr = autocorrelation(states_numeric)
-    smoothed_autocorr = savgol_filter(autocorr, window_length=31, polyorder=2)
+    smoothed_autocorr = savgol_filter(autocorr, window_length=50, polyorder=2)
     peaks = np.where(smoothed_autocorr > np.percentile(smoothed_autocorr, 90))[0]
 
     min_peak_distance = 10
@@ -29,22 +29,6 @@ def soe(states_numeric):
 
 
 def process_segments(segments):
-    if len(segments) > 1:
-        from sklearn.cluster import AgglomerativeClustering
-
-        segment_lengths = np.array([len(seg) for seg in segments]).reshape(-1, 1)
-        clustering = AgglomerativeClustering(n_clusters=None, distance_threshold=5).fit(segment_lengths)
-
-        segment_groups = {}
-        for label, segment in zip(clustering.labels_, segments):
-            if label not in segment_groups:
-                segment_groups[label] = []
-            segment_groups[label].append(segment)
-
-        max_group_key = max(segment_groups, key=lambda k: len(segment_groups[k]))
-        segments_rep = segment_groups[max_group_key]
-        return longest_common_subsequence(segments_rep)
-
     segment_groups = {}
     length_range = 10
     for segment in segments:
@@ -56,45 +40,45 @@ def process_segments(segments):
 
     max_group_key = max(segment_groups, key=lambda k: len(segment_groups[k]))
     segments_rep = segment_groups[max_group_key]
-    return longest_common_subsequence(segments_rep)
+    return segments_rep
 
 
-def longest_common_subsequence(segments):
-    if not segments:
-        return []
-
-    def lcs_two(arr1, arr2):
-        m, n = len(arr1), len(arr2)
-        dp = [[0] * (n + 1) for _ in range(m + 1)]
-
-        for i in range(1, m + 1):
-            for j in range(1, n + 1):
-                if arr1[i - 1] == arr2[j - 1]:
-                    dp[i][j] = dp[i - 1][j - 1] + 1
-                else:
-                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
-
-        lcs = []
-        i, j = m, n
-        while i > 0 and j > 0:
-            if arr1[i - 1] == arr2[j - 1]:
-                lcs.append(arr1[i - 1])
-                i -= 1
-                j -= 1
-            elif dp[i - 1][j] > dp[i][j - 1]:
-                i -= 1
-            else:
-                j -= 1
-
-        return list(reversed(lcs))
-
-    def lcs_multiple(segments):
-        result = segments[0]
-        for i in range(1, len(segments)):
-            result = lcs_two(result, segments[i])
-        return result
-
-    return lcs_multiple(segments)
+# def longest_common_subsequence(segments):
+#     if not segments:
+#         return []
+#
+#     def lcs_two(arr1, arr2):
+#         m, n = len(arr1), len(arr2)
+#         dp = [[0] * (n + 1) for _ in range(m + 1)]
+#
+#         for i in range(1, m + 1):
+#             for j in range(1, n + 1):
+#                 if arr1[i - 1] == arr2[j - 1]:
+#                     dp[i][j] = dp[i - 1][j - 1] + 1
+#                 else:
+#                     dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+#
+#         lcs = []
+#         i, j = m, n
+#         while i > 0 and j > 0:
+#             if arr1[i - 1] == arr2[j - 1]:
+#                 lcs.append(arr1[i - 1])
+#                 i -= 1
+#                 j -= 1
+#             elif dp[i - 1][j] > dp[i][j - 1]:
+#                 i -= 1
+#             else:
+#                 j -= 1
+#
+#         return list(reversed(lcs))
+#
+#     def lcs_multiple(segments):
+#         result = segments[0]
+#         for i in range(1, len(segments)):
+#             result = lcs_two(result, segments[i])
+#         return result
+#
+#     return lcs_multiple(segments)
 
 
 def segment_sequence(sequence, start_of_execs):

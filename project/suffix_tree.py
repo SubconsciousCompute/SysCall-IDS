@@ -6,8 +6,9 @@ class SuffixTreeNode:
 
 class SuffixTree:
     def __init__(self, sequence):
-        self.sequence = list(sequence)
-        self.sequence.append("$")
+        self.sequence = sequence[:]
+        if len(sequence) > 0:
+            self.sequence.append("$")
         self.n = len(self.sequence)
         self.root = SuffixTreeNode()
         self.remainder = 1
@@ -16,14 +17,13 @@ class SuffixTree:
             "active_edge": None,
             "active_length": 0
         }
+        self.current_end = 0
         self.build_tree()
 
     def build_tree(self):
-        current_end = 0
-
         for i in range(self.n):
-            current_end = i + 1
-            self.update_edges(self.root, current_end)
+            self.current_end = i + 1
+            self.update_edges(self.root, self.current_end)
             last_new_node = None
 
             while self.remainder > 0:
@@ -33,7 +33,7 @@ class SuffixTree:
                         self.active_point["active_length"] += 1
                         break
                     else:
-                        self.root.edges[self.sequence[i]] = (i, current_end)
+                        self.root.edges[self.sequence[i]] = (i, self.current_end)
                         self.remainder -= 1
                 else:
                     if self.active_point["active_edge"] in self.active_point["active_node"].edges:
@@ -57,7 +57,7 @@ class SuffixTree:
                             split_pos = edge_start + self.active_point["active_length"]
 
                             split_node.edges[self.sequence[split_pos]] = (split_pos, edge_end)
-                            split_node.edges[self.sequence[i]] = (i, current_end)
+                            split_node.edges[self.sequence[i]] = (i, self.current_end)
 
                             self.active_point["active_node"].edges[self.active_point["active_edge"]] = (
                                 edge_start, split_pos, split_node)
@@ -137,9 +137,15 @@ class SuffixTree:
         return self.max_string
 
     def _find_longest_repeating_substring(self, node, prefix):
-        if len(node.edges) > 1 and len(prefix) > self.max_depth:
-            self.max_depth = len(prefix)
-            self.max_string = prefix[:]
+        if len(node.edges) > 1:
+            valid = True
+            for char in prefix:
+                if char[0] == "$":
+                    valid = False
+                    break
+            if valid and len(prefix) > self.max_depth:
+                self.max_depth = len(prefix)
+                self.max_string = prefix[:]
 
         for char, edge_info in node.edges.items():
             if len(edge_info) == 3:
