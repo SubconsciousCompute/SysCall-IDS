@@ -2,19 +2,21 @@
 
 Host-based Intrusion Detection System (HIDS) that identifies anomalies in system call traces by leveraging a combination of statistical and machine learning techniques to distinguish between normal (clean) and potentially malicious (infected) behaviors.
 
+This pipeline is currently run offline / post-hoc; it therefore serves to be a practical bound on accuracy and a guide for future research efforts.
+
 View pipeline [here](https://github.com/Vismay-dev/SysCall-IDS/blob/main/notebooks/subcom_pipeline.ipynb).
 
 ### 🌟 Key Developments
 
-| Technique/Feature                   | Description                                                                          |
-|-------------------------------------|--------------------------------------------------------------------------------------|
-| Feature Engineering                 | Conversion of syscall info into high-dimensional feature vectors.                    |
-| Probabilistic Syscall Subclustering | Gaussian mixture models for granular syscall behavior understanding.                 |
-| Temporal Dependency Modeling        | Markov chains capture transitions between syscall states as a function of time.      |
-| Buffer Overflow Detection           | Gaussian interval of string argument lengths to catch overflow attempts.             |
-| Pathname Similarity Analysis        | Self-organizing maps to visualize and detect anomalies in syscall pathnames.                         |
-| DoS Attack Detection                | Markov chain edge frequency analysis per-trace for DoS detection.                    |
-| Segmentation                        | Autocorrelation + suffix trees to segment traces and proces each segment seperately. |
+| Technique/Feature                   | Description                                                                       |
+|-------------------------------------|-----------------------------------------------------------------------------------|
+| Feature Engineering                 | Conversion of syscall info into high-dimensional feature vectors.                 |
+| Probabilistic Syscall Subclustering | Gaussian mixture models for granular syscall behavior understanding.              |
+| Temporal Dependency Modeling        | Markov chains capture transitions between syscall states as a function of time.   |
+| Buffer Overflow Detection           | Gaussian interval of string argument lengths to catch overflow attempts.          |
+| Pathname Similarity Analysis        | Self-organizing maps to visualize and detect anomalies in syscall pathnames.      |
+| DoS Attack Detection                | Markov chain edge frequency analysis per-trace for DoS detection.                 |
+| Segmentation                        | Suffix-tree based longest repeating substring is used as a segmentation sequence. |
 
 ### 📊 Results
 

@@ -140,7 +140,7 @@ class SuffixTree:
         if len(node.edges) > 1:
             valid = True
             for char in prefix:
-                if char[0] == "$":
+                if char == "$" or char[0] == "$":
                     valid = False
                     break
             if valid and len(prefix) > self.max_depth:
