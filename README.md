@@ -45,4 +45,4 @@ Features and Relaxed-SVM"](https://typeset.io/papers/anomaly-detection-of-system
 
 ## 📝 License
 
-This project is licensed under [the GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html).
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
