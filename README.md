@@ -4,7 +4,7 @@ Host-based Intrusion Detection System (HIDS) that identifies anomalies in system
 
 This pipeline is currently run offline / post-hoc; it therefore serves to be a practical bound on accuracy and a guide for future research efforts.
 
-View pipeline [here](https://github.com/Vismay-dev/SysCall-IDS/blob/main/notebooks/pipeline.ipynb).
+View pipeline [here](https://github.com/SubconsciousCompute/SysCall-IDS/blob/main/notebooks/pipeline.ipynb).
 
 ### 🌟 Key Developments
 
